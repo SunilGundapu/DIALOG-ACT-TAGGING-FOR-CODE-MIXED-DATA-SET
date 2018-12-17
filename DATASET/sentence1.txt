@@ -1,0 +1,497 @@
+A:	What can I help you with today?	Hello, edaina help kavala?	INFO_REQ
+B:	I need to check out this book.	ee  book issue cheyinchukovali anukuntunnanu.	STATEMENT
+A:	Do you have your library card?	mee library card unda?	INFO_REQ
+B:	I don't have one.	naku library card ledu.	STATEMENT
+A:	Would you like to apply for one right now?	library card ki apply chestara?	LISTNER_INF
+B:	That's fine.	Yeah. Chestanu.	SPEAKER_INF
+A:	I'm going to need you to fill out the application.	meeru ee application fill cheyyali.	LISTNER_INF
+B:	All right. All done.	Okay. Chesesanu.	STATEMENT
+A:	All right, now please sign the back of the card.	okay. Card venakala mee signature pettandi.	LISTNER_INF
+B:	Okay. I've signed it.	Okay. Sign chesesanu.	STATEMENT
+A:	That's all there is to it.	Anthe. Inkem avsaramledu.	STATEMENT
+B:	Great. Now can I check out this book?	Ippudu ee book ni issue cheskovacha?	INFO_REQ
+A:	May I help you?	Hi, edaina kavala ?	INFO_REQ
+B:	Could I check out this book?	nenu ee book ni issues cheskovacha?	INFO_REQ
+A:	Let me see your library card.	mee library card chupinchandi.	LISTNER_INF
+B:	I need to get one.	library card inka teesukoledu, teeskukovali.	STATEMENT
+A:	You can apply for one right now, if you'd like.	meeku kavalante ippudde apply cheyochu.	STATEMENT
+B:	Okay. Let me do that right now.	Okay. ippude chestanu.	LISTNER_INF
+A:	Could you fill out this application?	ee application fill cheyagalara?	LISTNER_INF
+B:	I'm finished. Here you go.	yea, chesesanu. Teeskondi.	LISTNER_INF
+A:	Could you please sign the back of the card?	card venaka sign cheyandi.	LISTNER_INF
+B:	All right.	sare.	EXP_PERF
+A:	That's it.	Anthe.	UNDERSTANDING
+B:	Now may I check this book out?	Ippudu ee book teeskovacha.	INFO_REQ
+A:	What do you need?	meeku em kavali?	INFO_REQ
+B:	I would like to check out a book.	nenu oka book issue cheyinchukovali anukutunnanu.	STATEMENT
+A:	I'm going to need your library card.	issue cheyadaniki mee library card kavalsuntundi.	STATEMENT
+B:	I don't have a library card.	naku library card ledu.	STATEMENT
+A:	Why don't you apply for one right now?	mari ippudu apply cheyochu kada?	INFO_REQ
+B:	Sure. That would be great.	Sure. apply chestanu.	SPEAKER_INF
+A:	Please fill out this application.	ee application fill chesi ivvandi.	LISTNER_INF
+B:	Okay. Here you go	okay. Teeskondi, fill chesesanu	STATEMENT
+A:	Now, sign your name on the back of the card.	ippudu card venakala sign cheyyandi.	LISTNER_INF
+B:	Here you go.	Sare. Sign chesesanu.	STATEMENT
+A:	Here's your library card.	idigondi mee library card.	STATEMENT
+B:	Thanks. Now I'd like to check out this book.	Thanks. ippudu ee book ni issue cheyyandi.	GREETING_EOC
+A:	What may I do for you?	Hello, nenu meeku ela help cheyagalanu?	SPEAKER_INF
+B:	I need to get a passport.	naku passport kavali.	STATEMENT
+A:	You will need to apply for one.	passport kavalante first apply cheyyali.	STATEMENT
+B:	When will I be able to do that?	eppudu apply cheyyali?	INFO_REQ
+A:	You can do it right now, if you'd like.	meeku problem lekapothe ippude apply cheyochu.	LISTNER_INF
+B:	That's fine.	yea, ippude apply chestanu.	SPEAKER_INF
+A:	Please fill out this application.	aithe ee application fill cheyyandi.	LISTNER_INF
+B:	Then what do I do?	application fill chesaka em cheyali?	INFO_REQ
+A:	I just need to take your picture.	mee photo okati teestanu.	SPEAKER_INF
+B:	How long will it take for my passport to be ready?	sare. Passport ready avvadaniki entha time padutundi?	INFO_REQ
+A:	You will get it in a few weeks.	oka two to three weeks lo vachestundi	STATEMENT
+B:	That's perfect	oh, avuna. Thanks!	UNDERSTANDING
+A:	How may I help you?	meeku nenu ela help cheygalanu?	SPEAKER_INF
+B:	I want to get a passport.	naku passport kavali.	STATEMENT
+A:	You need to apply for a passport.	meeru paasport kosam apply cheyali.	STATEMENT
+B:	When can I apply for it?	eppudu apply cheyochu?	INFO_REQ
+A:	You can apply right now.	ippude cheyochu.	STATEMENT
+B:	I'd like to do that.	yea, aithe ippude chestanu.	SPEAKER_INF
+A:	Fill this out, please.	aithe ee form fill cheyyandi.	LISTNER_INF
+B:	What's next?	deeni taravatha process enti?	INFO_REQ
+A:	I will need to take your passport picture.	meedi oka passport size picture teeyali.	STATEMENT
+B:	When will my passport be ready?	enni rojullo ready avtundi passport.	INFO_REQ
+A:	It will take about three weeks.	atleast oka 3 weeks padutundi	STATEMENT
+B:	That's great. Thank you.	sare aithe. Thanks.	EXP_PERF
+A:	What can I do for you?	meeku edaina help kavalante nanku cheppandi.	LISTNER_INF
+B:	I need a passport.	naku passport kavali.	STATEMENT
+A:	You can apply for one here.	ikkada apply cheyochu.	LISTNER_INF
+B:	When can I do that?	eppudu apply cheyochu.	INFO_REQ
+A:	If you like, you can apply right now.	meeku problem lekapothe, ippude cheyochu.	LISTNER_INF
+B:	That would be great.	oh avuna. aithe ippude aaply chestanu.	SPEAKER_INF
+A:	I'm going to need you to complete this application.	ee form fill cheyyandi.	LISTNER_INF
+B:	What else do I have to do?	form fill cheyadam kakunda inka em cheyyali.	INFO_REQ
+A:	Then I will take your picture for your passport.	form fill chesesaka mee photo okati teestanu.	SPEAKER_INF
+B:	How long will it take?	ee process antha ayyi passport ready avvadaniki enni days padutundi?	INFO_REQ
+A:	Your passport will be ready in a few weeks.	oka 2-3 weeks lo ready aipotundi.	STATEMENT
+B:	Thank you. That's perfect timing.	nice, antha fast ga aipotundante. Thanks.	EXP_PERF
+A:	What can I help you with today?	Hi, edaina help kavala?	INFO_REQ
+B:	When does the library close?	iroju library eppudu close chestaru?	LISTNER_INF
+A:	The library closes at six o'clock.	evening 6 ki close chestam.	SPEAKER_INF
+B:	Does it close at that time every day?	roju ade time ki close chestara?	LISTNER_INF
+A:	Not always.	mostly ade time ki close chestam.	SPEAKER_INF
+B:	Is the library open on Saturdays?	Saturdays kuda library open untunda?	INFO_REQ
+A:	Yes.	yea, open chese untundi.	STATEMENT
+B:	What time do you open and close on Saturday?	Saturday library timings enti?	INFO_REQ
+A:	The hours are from 9 am to 6:30 pm.	morning 9 nundi evening 6:30 varaku terichuntundi.	STATEMENT
+B:	Okay. Thank you very much.	Okay. Thanks.	EXP_PERF
+A:	Do you need anything else?	inkedaina kavala?	INFO_REQ
+B:	No, that's all. Thanks.	ledu. anthe, Thanks.	EXP_PERF
+A:	May I help you?	Hello, edaina help kavalante nannu adagochu.	SPEAKER_INF
+B:	What time will the library be closing?	library ye time ki close chestaru?	INFO_REQ
+A:	It closes at six.	evening 6 ki close chestam.	SPEAKER_INF
+B:	Does it always close at six?	prathi roju 6 ke close chestara?	INFO_REQ
+A:	No, not every day.	ledu, roju kadu.	STATEMENT
+B:	Will the library be open on Saturday?	Weekends lo kuda open chestara?	INFO_REQ
+A:	Absolutely.	yea, open chestam.	STATEMENT
+B:	What are your hours on Saturday?	Saturdays library timings enti?	INFO_REQ
+A:	Saturday's hours are from nine in the morning to six-thirty at night.	podunna 9:00 nundi sayantram 6:30 varaku open chese untundi.	STATEMENT
+B:	All right. Thank you.	sare.	EXP_PERF
+B:	That's it. Thank you.	prastutaniki anthe. Chala Thanks.	EXP_PERF
+A:	What can I do for you?	Hi, meeku edaina help kavala?	LISTNER_INF
+B:	I need to know what time the library closes.	library eppudu close avtahdo ani adagataniki vachanu.	SPEAKER_INF
+A:	The library will be closing at six.	six ki close chestam.	SPEAKER_INF
+B:	Does it close at six every day?	avuna, roju six ke close chesestara?	INFO_REQ
+A:	No, it doesn't.	ledu, iroju matram six ke close chestam	SPEAKER_INF
+B:	Are you guys open on Saturdays?	Saturdays general ga library terustara?	INFO_REQ
+A:	Yes, we're open on Saturdays.	yea, teriche untundi.	STATEMENT
+B:	What time does the library open and close on Saturday?	Sarurday ye time varaku open chesi untundi?	INFO_REQ
+A:	We open at 9 am and close at 6:30 pm.	morning 9 ki open chesi evening 6:30 ki close chestam.	SPEAKER_INF
+B:	That's cool.	oh cool.	EXP_PERF
+A:	Can I help you with anything else?	inkedaina adagali ante adagochu	LISTNER_INF
+B:	That's everything. Thanks.	as of now anthe. Thanks.	EXP_PERF
+A:	How are you doing today?	Hi, ela unnaru?	GREETING
+B:	Good. Thanks for asking.	Bagunnu. Meeru ela unnaru?	GREETING
+A:	What may I do for you?	nenu kuda bagunnanu. edaina help kavalante adagandi.	LISTNER_INF
+B:	I need help with something.	avunu koncham help kavali.	STATEMENT
+A:	What do you need help with?	deni gurincho cheppandi.	LISTNER_INF
+B:	I am looking for a newspaper article.	oka news paper article kosam vethukutunnanu	STATEMENT
+A:	Have you looked in the periodicals?	periodicals section lo chusara?	INFO_REQ
+B:	I didn't even think about that.	oh asalu aa section gurinche marchipoya.	STATEMENT
+A:	I can show you where they are.	aa section ekkadundo chupinchamantara?	SPEAKER_INF
+B:	That would be a lot of help.	yes please.	EXP_PERF
+A:	Follow me, please.	natho randi.	LISTNER_INF
+B:	Thank you so much.	Thank you so much	GREETING_EOC
+A:	How are you?	Ela unnaru?	GREETING
+B:	I'm great. Thanks.	Nenu bagunnau.	GREETING
+A:	Did you need something?	meeku edaina kavala?	INFO_REQ
+B:	I need your help.	naku mee help kavali.	STATEMENT
+A:	How may I help you?	nenu ye vidamga help cheyagalano cheppandi?	INFO_REQ
+B:	I need to find this newspaper article.	oka newspaper article kosam vetukutunnanu.	SPEAKER_INF
+A:	Have you checked the periodicals section yet?	periodicals section lo vethikara?	LISTNER_INF
+B:	I forgot about that section.	ayyo aa section gurinche marichipoya.	STATEMENT
+A:	If you'd like, I can show you where to find it.	meeku kavalante newspaper aa section lo ekkada dorukunthundo nenu chupinchagalanu.	SPEAKER_INF
+B:	Could you do that?	chupinchagalara please	LISTNER_INF
+A:	Follow me.	natho patu randi.	LISTNER_INF
+B:	Thank you for all your help.	help chesinanduku chala thanks.	EXP_PERF
+A:	How's it going?	Hi, ela unnaru?	GREETING
+B:	I'm fine. Thank you.	nenu chala bagunnanu.	GREETING
+A:	Do you need anything?	meeku edaina kavala?	INFO_REQ
+B:	I need you to help me.	naku mee help kavali.	STATEMENT
+A:	What can I do for you?	ye vishayma lo help kavali.	INFO_REQ
+B:	I am looking for an article in a newspaper.	oka newspaper article kosam two days nundi search chestunnanu kani dorakaledu.	STATEMENT
+A:	Did you check the periodicals?	Periodicals section lo kuda oksari search chesi chudandi.	LISTNER_INF
+B:	I didn't even bother to think of that.	Assalu aa section okati undi ani gurthe ledu.	SPEAKER_INF
+A:	I'll show you where to find your article.	article ekkada dorukutunda nenu meeku chupistanu.	SPEAKER_INF
+B:	I get lost in this library.	ee libary ki eppudu vachina confusion lo dari tappi pothanu.	SPEAKER_INF
+A:	It's right this way.	itu vaipu randi.	LISTNER_INF
+B:	Thanks a lot for your help.	help chesinanduku chala thanks	EXP_PERF
+A:	What can I do for you?	Hi, nenu edaina help cheyagalana?	SPEAKER_INF
+B:	I am trying to find this book.	oka book kosam vethukutunnanu.	SPEAKER_INF
+A:	What's the problem?	problem enti?	INFO_REQ
+B:	It doesn't seem like this library has it.	ee library lo lenettu undi.	STATEMENT
+A:	Have you checked the computer?	computer lo check chesara?	INFO_REQ
+B:	I have already.	yea check chesanu.	SPEAKER_INF
+A:	What did it say?	computer lo emani undi?	INFO_REQ
+B:	It says the book is on the shelf, but I didn't find it there.	system lo aithe aa book shelf numer 48 lo undi ani chupistundi kani akkada ledu.	STATEMENT
+A:	I can always borrow the book from another library.	meeku kavalante nenu inko library nundi ee book ni teppistanu.	SPEAKER_INF
+B:	You can do that?	oh teepinchagalara?	LISTNER_INF
+A:	I'll make the call and contact you when it gets in.	aa book raagane meeku call chesi inform chestanu.	SPEAKER_INF
+B:	That's fantastic. Thank you.	oh thats awesome. Thanks.	EXP_PERF
+A:	May I help you?.	meeku edaaina help kavalante nannu adagandi	SPEAKER_INF
+B:	I would like to find this book.	ee book kosam vethukutunnanu.	SPEAKER_INF
+A:	Is there a problem?	edaina problem ayyinda?	INFO_REQ
+B:	I don't think you guys have it.	mee daggara lenettu undi.	STATEMENT
+A:	You should look it up on our computer.	computer lo okasari check cheyyandi.	LISTNER_INF
+B:	I did that.	already check chesanu.	SPEAKER_INF
+A:	What came up?	aithe emani display chesindi?	INFO_REQ
+B:	It should be on the shelf, but I didn't see it.	shelf number 13 lo undali ani chupinchindi kani akkada ledu.	STATEMENT
+B:	I didn't know you could do that.	avuna? teppinchandi aithe.	LISTNER_INF
+A:	I will call you when I find it.	aithe nenu kanukkunaka meeku call chestanu.	SPEAKER_INF
+B:	I appreciate your help.	oh okay. Thank you so much.	EXP_PERF
+A:	Do you need help with something?	deni kosamina vethukutunnara?	LISTNER_INF
+B:	I'm looking for this book.	yea, ee book kosam vethukutunnanu.	SPEAKER_INF
+A:	Is there something wrong?	edaina problem face chestunnara?	LISTNER_INF
+B:	I don't see it on the shelf.	shelf lo ledu.	STATEMENT
+A:	Did you check the computer?	computer lo check chesara asalu undo ledo ani.	LISTNER_INF
+B:	I already looked.	yea already chusanu.	SPEAKER_INF
+A:	Did it say anything?	computer lo emani undi.	INFO_REQ
+B:	It said that the book is on the shelf, but it isn't.	ade shelf lo undi ani compute lo undi kani aa shelf lo book ledu.	STATEMENT
+A:	I'm sure I can get it from another library.	inko library undemo kanukomantara?	SPEAKER_INF
+B:	Could you do that?	meeru kanukogalara?	LISTNER_INF
+A:	I'll let you know when I get the book in.	aa book ni teepinchaka meeku call chestanu.	SPEAKER_INF
+B:	That's great. Thank you so much.	oh thanks then. see you.	EXP_PERF
+A:	What can I do for you today?	meeku nenu edaina help cheyagalana?	SPEAKER_INF
+B:	I need to return a book.	nenu oka book return cheydaniki library ki vachanu.	STATEMENT
+A:	Can I do anything else for you?	inkedaina information kavala?	INFO_REQ
+B:	I want to check these books out.	ee konni books kuda issue cheyinchukundam anukuntunnanu.	STATEMENT
+A:	Is that all?	anthena?	INFO_REQ
+B:	That's all.	Yea anthe	STATEMENT
+A:	May I see your library card, please?	mee library id card chupistara okasari	LISTNER_INF
+B:	It's right here.	one miunute, bag lone undi.	STATEMENT
+A:	Will that be all for today?	ippatiki anthena leda inka deni gurinchaina adagalanukuntunnara?	INFO_REQ
+B:	Yes. That's it.	anthe.	STATEMENT
+A:	These are due back in two weeks..	ee books oka 2 weeks lo return cheseyali.	STATEMENT
+B:	All right. Have a good night.	okay. Thanks.	GREETING_EOC
+A:	How may I help you?	meeku ela help cheygalanu?	SPEAKER_INF
+B:	I want to return this video.	ee video return cheyadaniki vachanu.	SPEAKER_INF
+A:	Is that all you need?	video return matramena leda inkedaina pani unda?	INFO_REQ
+B:	I also need to check these books out.	ee books kuda teeskundam anukuntunnanu.	SPEAKER_INF
+A:	Anything else?	inkedaina kavala?	INFO_REQ
+B:	That's everything.	ippatiki anthe.	STATEMENT
+A:	I need your library card.	books issue cheyadaniki naku mee library card kavali.	STATEMENT
+B:	I have it. Here you go.	card na daggare undi. Teeskondi.	LISTNER_INF
+A:	Do you need anything else?	inka deni gurinchania adagala?	INFO_REQ
+B:	That's everything.	prastutaniki inthe.	STATEMENT
+A:	Your books are due back two weeks from today.	inko two weeks lo meeru books tirigi iccheyali.	LISTNER_INF
+B:	Thank you. Good night.	Thank You. Bye	GREETING_EOC
+A:	May I help you?	Hi, meeku edaina kavala?	INFO_REQ
+B:	I would like to return this book.	ee book ni return cheyalanukuntunnanu.	STATEMENT
+A:	May I do anything else for you?	inkedaina help kavalante adagandi	STATEMENT
+B:	I would also like to check out these books.	ee konni books kuda issue cheskundam anukuntunnanu.	STATEMENT
+A:	Will that be all?	anthena	INFO_REQ
+B:	That's it.	yea, as of now anthe.	STATEMENT
+A:	Do you have your library card?	mee daggara library card unda?	INFO_REQ
+B:	Oh, yeah. Here you go.	oh yea. ikkade undi. teeskondi.	LISTNER_INF
+A:	Will that be all for today?	iroju ki inka anthena?	INFO_REQ
+B:	That'll be all.	ippatiki anthe	STATEMENT
+A:	Your books are due back in two weeks.	inko two weeks lo issue cheskunna books return cheseyali.	STATEMENT
+B:	Thanks. Have a good one.	Okay. Thanks	EXP_PERF
+A:	What can I do for you today?	eeroju nenu meekedaina help cheyala?	INFO_REQ
+B:	I need to return a book.	oka book venakki ivvadaniki vachanu.	STATEMENT
+A:	Can I do anything else for you?	inkedaina help kavalante cheppandi.	LISTNER_INF
+B:	I want to check this magazine out.	ee magazine ni issue cheskundam anukuntunnanu	SPEAKER_INF
+A:	We don't allow people to check out magazines.	ee library lo magazines ni issue cheyamu.	STATEMENT
+B:	Why not?	endukani issue cheyaru?	INFO_REQ
+A:	It's just a policy of ours.	ma library lo follow ayye policies lo adi okati.	STATEMENT
+B:	So what am I allowed to check out?	aithe ikkada em em issue cheskovachu?	INFO_REQ
+A:	You may check out books or videos.	books inka videos ni issues cheskovachu.	STATEMENT
+B:	I need to check out this magazine.	kani naku ee magazine kavali.	STATEMENT
+A:	You will have to just read it in the library.	meeru library lo ne chadavali.	STATEMENT
+B:	That doesn't make any sense.	ento mee vintha policy.	STATEMENT
+A:	How may I help you?	meeku ela help cheyagalanu	SPEAKER_INF
+B:	I want to return this video.	ee video return cheyadaniki vachanu.	SPEAKER_INF
+A:	Is that all you need?	inka evaina books kani videos kani kavala?	INFO_REQ
+B:	I also need to check this magazine out.	ee magazine ni kuda teeskundam anukuntunnanu.	SPEAKER_INF
+A:	You're not allowed to do that.	magazine ni issue cheydam kudaradu.	STATEMENT
+B:	I don't understand.	enduku? problem enti ?	INFO_REQ
+A:	It's our policy.	adi ma library policy.	STATEMENT
+B:	What can I check out?	nenu em em issue chesukovachu?	INFO_REQ
+A:	Only books or videos.	only books inka videos	STATEMENT
+B:	I need this magazine.	naku idi chala important.	STATEMENT
+A:	You will have to read it here.	Library lo ne kurchuni chadavali.	STATEMENT
+B:	That's weird.	adenti koncham weird ga undi ee policy.	STATEMENT
+A:	May I help you?	Hi, edaina help kavala?	INFO_REQ
+B:	I would like to return this book.	ee book return cheyalanukuntunnanu.	STATMENT
+A:	May I do anything else for you?	inkevaina library gurinchi telusukovalante nannu adgandi.	LISTNER_INF
+B:	I would also like to check out this magazine.	ee magzine ni kuda issue cheskundam ani vachanu.	SPEAKER_INF
+A:	I can't let you do that.	nenu adi issue cheyalenu.	SPEAKER_INF
+B:	Why is that?	avuna? enduku issue cheyaru?	INFO_REQ
+A:	Our policy doesn't allow anyone to check out the magazines.	library policy parakaram evariki kuda magazines issue cheyyam	STATEMENT
+B:	What things am I allowed to check out?	aithe mari evi issue cheskovachu?	INFO_REQ
+A:	You are only allowed to check out books or videos.	only videos inka books issue cheskovachu.	STATEMENT
+B:	I really need to check out this magazine.	kani ee magazine naku chala useful.	STATEMENT
+A:	I'm sorry, but that's our policy.	Sorry. issue cheyalenu. Ma policy ni follow avvali.	STATEMENT
+B:	That's stupid.	ento chala stupid ga undi ee policy.	STATEMENT
+A:	What can I do for you today?	Hi nenu meeku ela help cheyagalanu?	SPEAKER_INF
+B:	I need to return a book.	oka book return cheyyali.	STATEMENT
+A:	Can I do anything else for you?	idi kakunda inkedaina pani unda?	INFO_REQ
+B:	I would also like to check out this video.	ee video ni issue chesukovacha?	INFO_REQ
+A:	Is that all?	anthena,inka books kani videos kani emaina kavala?	INFO_REQ
+B:	Yes, just the video.	anthe aa okka video chalu.	STATEMENT
+A:	May I see your library card?	 mee library id card chupinchandi.	LISTNER_INF
+B:	Here you go.	teeskondi ide na card.	STATEMENT
+A:	You have to take care of this video.	ee video ni jagrathga return cheyali.	LISTNER_INF
+B:	Oh, I will.	oh, sure.	UNDERSTANDING
+A:	You will be fined if you damage it.	video ki edaina damge avthe fine padtundi	STATEMENT
+B:	I understand. Thank you very much.	okay. ardamaindi. Thanks.	UNDERSTANDING
+A:	May I help you?	nenu meeku edaina help cheyagalana?	SPEAKER_INF
+B:	I'm returning a book.	oka book return cheddam ani vachanu.	LISTNER_INF
+A:	Do you need anything else?	inkedaina kavala?	INFO_REQ
+B:	I also need to check out this video.	oka video ni kuda issue chesukundam anukuntunnanu.	STATEMENT
+A:	This is all you want to check out?	ee okka video ye na leda inkemanna issue cheskovalanukutunnara?	INFO_REQ
+B:	Just the video.	ledu. video matrame chalu.	STATEMENT
+A:	I'm going to need your library card.	video issue cheydaniki mee library cars kavalsuntundi.	STATEMENT
+B:	I have it right here.	yea. ikkade undi.	STATEMENT
+A:	You'll need to take care of the video.	video ni careful ga malli return cheyyali.	STATEMENT
+B:	I will.	sare.	UNDERSTANDING
+A:	We will fine you if you damage it.	video ki edaina damage aithe matram fine padutundi.	STATEMENT
+B:	I get it. Thank you.	Jagrathaga return chestanu. Thank you	EXP_PERF
+A:	How may I help you?	meeku edaina help kavala?	INFO_REQ
+B:	I would like to return this book.	ee book return cheyyalanukuntunnanu.	STATEMENT
+A:	Is that all you need?	anthena? inkedaina information kavala?	INFO_REQ
+B:	I also want to check out this video.	ee video kuda teeskundam anukuntunnanu.	STATEMENT
+A:	Is that all you would like to check out?	aa video okkatena lekapothe inka edaina issue cheskovalanukuntunnara?	LISTNER_INF
+B:	That's all I need.	yea, ippatiki aithe anthe chalu.	STATEMENT
+A:	Do you have your library card?	mee daggara mee library card unda?	INFO_REQ
+B:	Here it is.	yea, undi. Idigondi.	STATEMENT
+A:	Make sure to take proper care of this video.	video ni jagrathaga unchandi.	LISTNER_INF
+B:	That won't be a problem.	sure, adi probleme kadu.	UNDERSTANDING
+A:	If you damage the video, you will be fined.	video ki edaina damage aithe matram meeku fine padutundi.	STATEMENT
+B:	I won't damage it.	assalu damage kakunda care teeskuntanu.	SPEAKER_INF
+A:	How may I help you?	nenu meeku ela sahaayapadagalanu?	SPEAKER_INF
+B:	I need to check these books out.	nenu ee books check out cheyalanukuntunna.	STATEMENT
+A:	Do you have your library card?	mee daggara mee library card unda ?	INFO_REQ
+B:	Here it is.	idigo.	STATEMENT
+A:	It appears that you have late fees.	meeku late fees unnattundi.	STATEMENT
+B:	Really?	nijanga ?	EXP_PERF
+A:	Yes, really.	avnu.	EXP_PERF
+B:	How much do I owe?	nenu enthivvaali meeku?	INFO_REQ
+A:	You owe $24.50 in late fees.	meeru $24.50 late fees ivvaali.	STATEMENT
+B:	I don't have that much today.	naa daggara anni dabbulu levu eeroju.	STATEMENT
+A:	I'm sorry, but until you pay it, you won't be able to check out any more books.	I'm sorry, kani meeru pay chesevaraku, inka books check out cheyaleru.	STATEMENT
+B:	I'll pay it as soon as possible.	nenu veelainantha tondarga pay chesesthaanu.	SPEAKER_INF
+A:	What can I do for you?	nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I want to check out these books.	nenu ee books checkout cheyalanukuntunna.	STATEMENT
+A:	I need your library card.	naaku mee library card avasaram.	STATEMENT
+B:	I have it right here.	ikkade undi.	STATEMENT
+A:	It seems you have late fees.	meeku late fee unnattundi.	STATEMENT
+B:	Are you sure?	are you sure ? 	INFO_REQ
+A:	Yes, I'm sure.	ha i am sure.	UNDERSTANDING
+B:	How much?	entha?	INFO_REQ
+A:	Your late fees come to $24.50.	mee late fee $24.50 aindi.	STATEMENT
+B:	I don't have that right now.	naa daggara antha levu ippudu.	STATEMENT
+A:	You have to pay it off before you can check out more books.	meeru vere books checkout chese mundu adi pay cheyaali.	STATEMENT
+B:	I'll do that soon.	nenu tondarlone pay chesthaanu.	SPEAKER_INF
+A:	May I help you?	nenu meeku sahaayapadagalanaa?	SPEAKER_INF
+B:	I would like to check out these books.	nenu ee books check out cheyaalanukuntunna.	STATEMENT
+A:	May I see your library card, please?	nenu mee library card choodagalanaa, please?	INFO_REQ
+B:	Yes. Here you go.	yes, idi theeskondi.	LISTNER_INF
+A:	Apparently, you have unpaid late fees.	meeru late fees chellinchaalsi undi.	STATEMENT
+B:	I do?	chellinchaala?	SPEAKER_INF
+A:	You owe some money.	meeru konchem dabbulu runapadi unnaaru.	STATEMENT
+B:	Exactly how much do I owe?	khachchitanga entha runapadi unnaanaa?	INFO_REQ
+A:	You owe $24.50.	$24.50 runapadi unnaaru.	STATEMENT
+B:	I won't be able to pay that right now.	nenu adi ipudu pay cheyalenu.	STATEMENT
+A:	Until you pay it, you can't check out books.	adi pay chesevaraku meeru books checkout cheyaleru.	STATEMENT
+B:	I will pay it. Don't worry.	nenu pay chesthaanu. Don't worry.	GREETING_EOC
+A:	How may I help you?	nenu meeku ela sahaayapadagalanu?	SPEAKER_INF
+B:	I need to return these books.	nenu ee books return cheyaali.	STATEMENT
+A:	What happened to this one?	deeniki emaindi?	INFO_REQ
+B:	The cover came off.	cover oodipoindi.	STATEMENT
+A:	You're going to need to pay for the damage.	meeru ee damage ki pay cheyaalsi untundi.	STATEMENT
+B:	How much are you talking?	entha avtundi? 	INFO_REQ
+A:	It's going to be five dollars.	five dollars avtundi.	STATEMENT
+B:	That's not bad at all.	idi parledu.	UNDERSTANDING
+A:	It really isn't.	yeah, avnu.	UNDERSTANDING
+B:	Here you go.	idigo.	STATEMENT
+A:	Thank you very much.	thank you very much.	EXP_PERF
+B:	You're welcome. Have a nice day.	you're welcome. Have a nice day.	GREETING_EOC
+A:	What can I do for you?	nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I am returning these books.	nenu ee books return chestunnaanu.	STATEMENT
+A:	What did you do to this book?	em chesaaru ee bookni?	INFO_REQ
+B:	I accidentally ripped the cover.	nenu anukokunda cover chinchesaanu.	STATEMENT
+A:	You will need to pay for the damage.	meeru ee damage ki pay cheyaalsi untundi.	STATEMENT
+B:	How much do I need to pay?	nenu entha pay cheyaali?	INFO_REQ
+A:	I'm going to need five dollars.	naaku five dollars avasaram avthaayi.	STATEMENT
+B:	That's not too expensive.	idi mari ekkuva khareedu kaadu.	STATEMENT
+A:	It isn't.	avnu.	UNDERSTANDING
+B:	Here's the five dollars.	idigondi five dollars.	STATEMENT
+A:	Thank you.	Thank you.	EXP_PERF
+B:	No problem. Have a good one.	parledu. Have a good one.	GREETING_EOC
+A:	May I help you with something?	nenu meeku ela aina sahaayapadagalanaa?	SPEAKER_INF
+B:	I would like to return these books.	nenu ee books return cheyaalanukuntunnaanu.	STATEMENT
+A:	What happened to this book?	ee book ki emaindi?	INFO_REQ
+B:	I dropped it, and the cover tore off.	kindapadi, cover chirigipoindi.	STATEMENT
+A:	I'm going to have to charge you for the damage.	nenu ee damage ki mimmalni charge cheyabothunnaanu.	STATEMENT
+B:	How much?	entha?	INFO_REQ
+A:	It's only five dollars.	only five dollars.	STATEMENT
+B:	That's not too bad.	parledu.	UNDERSTANDING
+A:	I know it's not.	i know.	UNDERSTANDING
+B:	Here's the money for the book.	idigondi book ki dabbulu.	STATEMENT
+A:	Thank you for your payment.	thank you pay chesinanduku.	EXP_PERF
+B:	You are very welcome.	you are welcome.	GREETING_EOC
+A:	How may I help you?	nenu meeku ela sahaayapadagalanu?	SPEAKER_INF
+B:	I couldn't find the book I was looking for.	nenu vethukuthunna book dorakatledu.	STATEMENT
+A:	Have you checked the database?	meeru database check chesaara?	INFO_REQ
+B:	I checked.	check chesaanu.	STATEMENT
+A:	Was it on the shelf?	adi shelf lo undena?	INFO_REQ
+B:	It should have been, but it wasn't.	undaali kani ledu.	STATEMENT
+A:	Maybe someone took it.	evaraina theeskoni undochu.	STATEMENT
+B:	Will you be getting another copy anytime soon?	meeru tvaralo eppudaina inko copy thesthaara?	LISTNER_INF
+A:	I'm sure we will.	haa thappakunnda thesthaamu.	SPEAKER_INF
+B:	Would you be able to reserve it for me?	meeru daanni naakosam reserve cheyagalara?	LISTNER_INF
+A:	I sure will.	haa thappakunda.	SPEAKER_INF
+B:	Thank you very much.	thank you very much.	EXP_PERF
+A:	May I help you?	nenu meeku sahaayapadagalanaa?	SPEAKER_INF
+B:	I can't find the book I want.	naaku kaavalsina book dorakatledu.	STATEMENT
+A:	Why don't you try looking at the database?	database lo vethakadandi.	LISTNER_INF
+B:	I checked it already.	 nenu already check chesaanu.	STATEMENT
+A:	Do we have it available?	adi available unda ?	INFO_REQ
+B:	It wasn't there.	ledu.	STATEMENT
+A:	I guess it is lost.	adi poyi untadi.	STATEMENT
+B:	Will you be getting another copy?	meeru inko copy thesthara?	LISTNER_INF
+A:	Yes, we will.	yes, thesthaamu.	SPEAKER_INF
+B:	Could you reserve a copy for me?	naakosam oka copy reserve cheyagalara?	LISTNER_INF
+A:	I can do that.	cheyagalanu.	SPEAKER_INF
+B:	That's great. Thanks a lot.	great, thanks a lot.	EXP_PERF
+A:	What can I do for you?	nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I was looking for a book, but I couldn't find it.	nenu oka book vethukuthunnaanu, kani naaku adi dorakaledu.	STATEMENT
+A:	Did you check our database to see if it was on the shelf?	adi shelf lo undaa ani database check chesaaraa ? 	INFO_REQ
+B:	I already did.	adi already chesaanu.	STATEMENT
+A:	Is it on the shelf?	adi shelf lo unda ?	INFO_REQ
+B:	I didn't see it.	nenu daanini choodaledu.	STATEMENT
+A:	Apparently somebody took that book out of the library.	khachchithanga aa book ni evaro library nunchi theeskunnaaru.	STATEMENT
+B:	Will you ever get another copy?	meeru eppudaina inko copy thesthaara?	LISTNER_INF
+A:	We will definitely be getting another.	thappakunda inko copy thesthaamu.	SPEAKER_INF
+B:	Could you please reserve it for me?	dayachesi adi naaku reserve cheyagalara?	LISTNER_INF
+A:	That won't be a problem.	adi em problem kaadu.	STATEMENT
+B:	Thanks.I really appreciate that.	thanks.nijanga deenini abhinandisthunnaanu.	EXP_PERF
+B:	I need to return these books.	nenu ee books return cheyaali.	STATEMENT
+A:	Give them here.	ikkada ivvandi.	LISTNER_INF
+B:	Here they are.	idigondi.	UNDERSTANDING
+A:	It appears these books are two weeks late.	ee books rendu vaaraalu late unnaayi.	STATEMENT
+B:	I forgot they were due.	nenu due undani marchipoyaanu.	STATEMENT
+A:	You do realize you are going to have to pay late fees, right?	meeru late fees pay cheyaalsi untundani meeku telsu kada?	INFO_REQ
+B:	How much is the late fee?	late fee entha untundi?	INFO_REQ
+A:	The late fee is 25 cents a day.	rojuki 25 cents late fee.	STATEMENT
+B:	So I have to pay 25 cents for each day the books are late?	aithe nenu book late aina prathi rojuki 25 cents pay cheyaala?	SPEAKER_INF
+A:	It's 25 cents for each book.	adi 25 cents prathi book ki.	STATEMENT
+B:	That's a lot of money.	idi chaala ekkuva money.	STATEMENT
+A:	What can I do for you?	 nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I'm returning these books.	nenu ee books return chesthunnaanu.	STATEMENT
+A:	Let me have them.	vaatini naaku ivvandi.	LISTNER_INF
+B:	Here are all of them.	anni books ivi.	STATEMENT
+A:	These books are two weeks late.	ee books rendu vaaraalu late.	STATEMENT
+B:	I didn't have time to return them.	naaku return cheyadaaniki time lekunde.	STATEMENT
+A:	You're going to have to pay late fees.	meeru late fees pay cheyaalsi untundi.	STATEMENT
+B:	How much?	 entha?	INFO_REQ
+A:	25 cents a day.	rojuki 25 cents.	STATEMENT
+B:	25 cents a day?	  rojuki 25 cents aah?	INFO_REQ
+A:	That means 25 cents for each late book.	ante prathi late book ki 25 cents.	STATEMENT
+A:	May I help you with something?	nenu meeku denikaina sahaayapadagalanaa?	SPEAKER_INF
+A:	I'll take them.	nenu vaatini theeskuntaanu.	SPEAKER_INF
+A:	These books were due two weeks ago.	ee books rendu vaala kritham due unde.	STATEMENT
+B:	Yeah. I totally forgot they were due.	yeah. nenu marchipoyaanu due unnaayani.	UNDERSTANDING
+A:	You will need to pay late fees on these books.	meeru ee books paina late fee pay cheyaalsi untundi.	STATEMENT
+B:	How much are the late fees?	late fees entha?	INFO_REQ
+A:	The fee is 25 cents every day.	25 cents prathi roji ki.	STATEMENT
+B:	I have to pay 25 cents a day?	nenu oka rojuki 25 cents pay cheyaala?	SPEAKER_INF
+A:	And that's for each book that is late.	and late aina prathi book ki.	STATEMENT
+B:	That shouldn't be a problem.	adi em problem avvadu.	STATEMENT
+A:	What can I do for you today?	eeroju meekosam em cheyagalanu?	SPEAKER_INF
+B:	I would like to use a computer.	nenu computer upayoginchaalanukuntunnaanu.	STATEMENT
+A:	Do you have your library card?	mee daggara library card unda?	INFO_REQ
+B:	I sure do.	yeah, undi.	STATEMENT
+A:	There is a wait for the computers.	computers gurinchi wait cheyaalsi untundi.	STATEMENT
+B:	That's all right.	parledu.	UNDERSTANDING
+A:	You need to print your name on this list.	 mee peru ni ee list paina print cheyaali.	STATEMENT
+B:	Okay. Now what?	okay. ippudenti?	INFO_REQ
+A:	Once a computer is available, I will let you know.	Computer available avvagaane meeku theliyachesthaanu.	SPEAKER_INF
+B:	How am I supposed to log on to the computer?	computer lo ela log in avvaali?	INFO_REQ
+A:	All you do is type in the number on the back of your card.	mee card venakaala unna number ni type chesthe saripotundi.	STATEMENT
+B:	That's it? Thank you very much.	anthena? thank you very much.	GREETING_EOC
+A:	How may I help you?	nenu meeku ela sahayapadagalanu?	SPEAKER_INF
+B:	I need to get on the Internet.	nenu internet upayoginchaali.	STATEMENT
+A:	Do you have your library card with you?	mee daggara mee library card unda?	INFO_REQ
+B:	Yes, I have it.	yes, undi.	STATEMENT
+A:	You're going to have to wait for a computer.	meeru computer kosam wait cheyaalsi untundi.	STATEMENT
+B:	That's okay.	parledu.	UNDERSTANDING
+A:	Please put your name on this list.	dayachesi mee peru list lo raayandi.	LISTNER_INF
+B:	Then what do I need to do?	tarvata em cheyaali?	INFO_REQ
+A:	When there is a computer available, I will call you.	computer avalaible unnapudu nenu meeku call chesthaanu.	SPEAKER_INF
+B:	What do I do to log on to the computer?	computerloki login avvadaaniki naaku em avasaram?	INFO_REQ
+A:	Just type in the number on the back of your library card.	just mee library card venaakala unna number type cheyandi.	LISTNER_INF
+B:	Okay. Thanks for your help.	okay, thank you.	UNDERSTANDING
+A:	What do you need?	meeku em kaavaali?	INFO_REQ
+B:	I need to use the Internet.	nenu internet use cheyaali.	STATEMENT
+A:	You have your library card, right?	mee daggara library card undi kada?	INFO_REQ
+B:	Yes, I do.	yes, undi.	STATEMENT
+A:	There is a wait right now to use the computers.	computer use cheyadaaniki wait cheyaali.	STATEMENT
+B:	That's fine.	parledu.	UNDERSTANDING
+A:	Would you please write your name on this list?	ee list lo mee peru raasthaara?	LISTNER_INF
+B:	Then what?	tarvata em cheyaali?	INFO_REQ
+A:	I will call you when a computer is free.	computer free unnapudu meeku call chesthaanu.	SPEAKER_INF
+B:	How do I log on to the computer?	computer loki ela login avvaali?	INFO_REQ
+A:	Use the number on the back of your library card.	mee library card venakaala unna number ni use cheyandi.	LISTNER_INF
+B:	Thanks. I'll be sitting over there.	thank you. nenu akkada koorchoni untaanu.	EXP_PERF
+A:	How may I help you today?	nenu eeroju meeku ala sahaayapadagalanu?	SPEAKER_INF
+B:	I need to make some copies.	nenu deenivi konni copies cheyaali.	STATEMENT
+A:	The copier is right over there.	copier akkada undi.	STATEMENT
+B:	Does it cost to use it?	daanini use cheyadaaniki kharchu avtada?	INFO_REQ
+A:	We do charge to use the machine.	machine use cheyadaaniki charge chesthaamu.	SPEAKER_INF
+B:	How much does it cost?	entha cost avtundi?	INFO_REQ
+A:	We charge ten cents a copy.	ten cents oka copy ki.	STATEMENT
+B:	How many copies am I allowed to make?	enni copies cheyochu?	INFO_REQ
+A:	There is no limit to how many copies you can make.	enni copies cheyaali anna daanipaina em limit ledu.	STATEMENT
+B:	Would you mind showing me how to use it?	ela use cheyaalo choopisthaara?	LISTNER_INF
+A:	Please read the instructions on the copier.	copier paina unna instructions chadavandi.	LISTNER_INF
+B:	Oh, okay. Thanks.	oh ok. Thank you.	EXP_PERF
+A:	What can I do for you?	nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I would like to use the copy machine.	nenu copy machine use cheyaalanukuntunna.	STATEMENT
+A:	The machine is over there.	machine akkada undi.	STATEMENT
+B:	Do I have to pay to use the machine?	machine use cheyadaaniki emaina pay cheyaala?	INFO_REQ
+A:	Yes, you will have to pay to use it.	yes, daanini use cheyaalante meeru pay cheyaalsi untundi.	STATEMENT
+B:	How much?	entha?	INFO_REQ
+A:	It costs ten cents a copy.	oka copy ki ten cents.	STATEMENT
+B:	Am I limited to a certain number of copies?	nenu konni copies e theeskovaala?	INFO_REQ
+A:	You can copy as much as you'd like.	meeku kavalsinanni copy cheyochu.	STATEMENT
+B:	Could you show me how to use the copier?	copier ela use cheyaalo meeru choopinchagalaraa?	LISTNER_INF
+A:	The instructions for the copier are posted on it.	 copier kosam instructions daani paina post chesi unnaayi.	STATEMENT
+B:	That's fabulous. Thank you.	that's fabulous. thank you.	EXP_PERF
+A:	May I help you?	nenu meeku sahaayam cheyocha?	SPEAKER_INF
+B:	I need to copy some pages in my book.	nenu na booklo nunchi konni pages copy cheyaali.	STATEMENT
+A:	The copier is right over there, in the corner.	copier corner lo undi.	STATEMENT
+A:	You have to pay to use the copier.	meeru copier use cheyaali ante pay cheyaali.	STATEMENT
+B:	How much do you charge?	entha charge chesthaaru?	INFO_REQ
+A:	You need to pay ten cents for every copy.	parthi copy ki ten cents pay cheyaali.	STATEMENT
+B:	Is there a maximum number of copies I can make?	inninti kanna ekkuva copies cheyoddu ani emaina unda?	INFO_REQ
+A:	You can make as many copies as you want.	meeku kaavaalsinanni copies cheskovachu.	STATEMENT
+B:	I'm going to need you to show me how to use the machine.	naaku meeru machine ela use cheyaalo cheppaali.	LISTNER_INF
+A:	There are instructions posted on the copier.	copier paina instructions post chesi unnaayi.	STATEMENT
+B:	Thank you for your help.	help kosam thanks.	EXP_PERF

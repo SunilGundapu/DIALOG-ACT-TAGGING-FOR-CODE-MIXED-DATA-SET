@@ -1,0 +1,865 @@
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hello/@ nenu/G_PRP ramz./G_N 
+Nenu/G_N good./G_N 
+Glad/G_N to/PSP meet/G_V u./G_N 
+naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X 
+Yaa/@ first/G_J time./G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+Meeru/G_N intha/G_N pedha/G_J library/G_X ela/G_PRP maintain/G_X chestunnaru./G_N 
+Inka/@ chala/G_X mandi/G_J help/G_V chestaru./G_N 
+Meeku/G_N ikkada/G_N available/G_N books/G_N gurinchi/G_N edaina/G_N information/G_X kavala?/G_X 
+Author/@ wise/G_J books/G_X ela/G_X search/G_V cheyachu./G_X 
+Daniki/@ inka/G_X portal/G_N set/G_V up/G_PRT cheyaledu./G_N 
+Meeku/@ ye/G_PRP author/G_N ki/G_N sambandinchina/G_N books/G_N kavali?/G_V 
+Oliver/G_N twist./G_N 
+Oliver/@ Twist/G_N library/G_N lo/PSP undi./G_N 
+Issue/G_N cheyamantara?/G_N 
+Cheyandi./@ 
+mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X 
+201225012/@ 
+Oliver/@ Twist/G_N meeku/G_PRP issue/G_N ayipoyindi./G_N 
+Inka/G_N edaina/G_N information/G_V kavala?/G_X 
+Ledu/G_N andi./G_N 
+okay./@ 
+Thanks./@ 
+malli/G_N kaluddam./G_N 
+Ok/@ 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hi/@ sir/G_N 
+mee/G_PRP peru/G_N telusukovacha./G_N 
+Na/@ peru/G_N saujanya/G_N reddy./G_N 
+Meeru/G_N library/G_N lo/PSP unna/G_X books/G_N kani,/G_V library/G_N timings/# kani,/G_N library/G_N ki/PSP sambandinchi/G_X evaina/G_N questions/G_N unte/G_V nanu/G_N adagandi./G_N 
+Me/G_N library/G_N lo/PSP Karumanchi/G_N book/G_N unda?/G_N 
+yes/G_PRT undi./G_N 
+Nenu/G_N a/DT book/G_N issue/G_N cheskovacha?/G_N 
+Student/@ copies/G_N aithe/G_X prastutaniki/G_N available/G_J ga/G_N unnayi./G_N 
+check/G_N chesi/G_N cheptanu./G_X 
+Mee/G_PRP roll/G_N number/G_N cheptara./G_N 
+201325221/@ 
+meeru/@ last/G_J time/G_N teesukunna/G_X books/G_X inka/G_X return/G_N cheyaledu./G_N 
+aa/G_X books/G_N return/G_V chesake/G_N inko/G_N book/G_N issue/G_N cheskovacu./G_N 
+Oh/G_N avuna/G_N 
+mari/@ naku/G_N rendu/G_N books/G_N avasaram/G_X unte?/G_N 
+request/G_N pettali./G_N 
+meeru/G_N maximum/G_N 3/$ books/G_N ee/G_X teeskovachu./G_N 
+ohh/G_N ok./G_N 
+ekada/@ petali/G_N request?/G_N 
+evariki/G_N petali?/G_N 
+library/@ portal/G_N loki/G_N velli/G_N isuue/G_N requests/G_N section/G_N lo/PSP pettali./G_N 
+okay./@ 
+petanu./@ 
+sare/@ mee/G_PRP request/G_N accept/G_N avvagane/G_X naku/G_PRP notification/G_N vastundi./G_N 
+eppudu/G_N issue/G_N chestaru?/G_N 
+notification/@ raagane/G_PRT meeku/G_N book/G_N issue/G_N chesestanu./G_N 
+nenu/G_N book/G_N eppudu/G_PRP collect/G_V cheskovachu/G_N ?/G_X 
+meeru/@ inko/G_N 15/$ mins/G_N lo/PSP mee/G_PRP book/G_N collect/G_V cheskodaniki/G_N ravachu./G_N 
+tappakunda./@ 
+chala/G_X thanks/G_N 
+inkedina/@ information/G_N kavalante/G_N adagandi/G_X 
+oka/G_PRT vela/G_N late/G_J ga/G_N submit/G_V cheste/G_N penality/G_N entha/G_N untundi/G_V ?/G_X 
+day/G_N ki/G_N 5rs/G_X charge/G_N chestam./G_N 
+oh/@ okay./G_N 
+issue/G_N ni/G_N renew/G_N cheskovacha/G_N ?/G_X 
+ante/G_N reissue/G_N cheskovacha/G_X oka/G_PRT vela/G_N maku/G_N issue/G_N date/G_N ipoyaka/G_N kuda/G_X use/G_X cheyalsi/G_V avasaram/G_N unte?/G_N 
+yes/G_PRT cheskovachu./G_N 
+Return/G_N date/G_N ki/G_X mundu/G_N cheskunte/G_X fine/G_N padadu./G_N 
+okay/G_N sure./G_N 
+eni/@ sarlu/G_X varaku/G_V resissue/G_N cheskovachu?/G_N 
+edana/@ limit/G_N unda?/G_N 
+ledu/G_N 
+Okay/@ 
+thank/@ you./G_N 
+ipudu/G_N a/DT book/G_N teskovadaniki/G_N ravocha?/G_N 
+ravachu/@ 
+okay/@ thank/G_V you/G_PRP 🙂/G_V 
+inkedaina/G_N adagala/G_N ?/G_X 
+Ahaa/G_N Ledu/G_N 
+Sare/G_N aithe/G_N malli/G_N kaluddam./G_N 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+hi/G_N asklib./G_N 
+bavunna./@ 
+nuv/G_N ela/G_X unnav./G_X 
+nenu/G_PRP bagunna./G_N 
+mee/G_PRP peru/G_N ?/G_X 
+Monika/@ 
+nenu/G_PRP meeku/G_X ela/G_X help/G_X cheyagalanu?/G_N 
+Naku/@ Dsp/G_N textbook/G_V kavali./G_N 
+I/G_PRP need/G_V some/DT manchi/G_J books/G_N andi./G_N 
+DSP/G_N ante/G_N ?/G_X 
+Digital/@ Signal/G_N Processing./G_N 
+Okay./@ 
+Author/@ preference/G_N edaina/G_N unda?/G_N 
+andlo/G_N best/G_J books/G_N emunna/G_V naku/G_X kavali./G_N 
+can/G_V u/G_PRP help/G_V me?/G_N 
+Oppenham/G_N unda/G_N ?/G_X 
+yes/G_PRT sure./G_N 
+yes/G_PRT undi./G_N 
+Oppenhamm/@ chala/G_X manchi/G_J book./G_V 
+Chalaa/@ mandi/G_N refer/G_V chestaru./G_N 
+Issue/G_N cheyamantara?/G_N 
+cheyandi./@ 
+inko/G_N 2/$ books/G_N kuda/G_X suggest/G_N cheyandi/G_X 
+DIGITAL/@ SIGNAL/G_N PROCESSING:/# Principles,/G_N Algorithms/G_N and/CC Applications/G_N by/PSP Proakis/G_N and/CC Manolakis./G_N 
+idi/G_X kuda/G_N most/G_X referred./G_N 
+idi/G_N kuda/G_N issue/G_N cheyamantara?/G_N 
+cheyandi./@ 
+na/G_N friend/G_N ki/PSP novel/G_N book/G_N kavalandi./G_N 
+manchi/G_J love/G_V story/G_N okati/G_N suggest/G_X cheyandi./G_N 
+Author/@ preference/G_N edaina/G_N unda?/G_N 
+emo/@ naku/G_X tanu/G_X emi/G_N cheppaledu./G_N 
+prastutaniki/G_N Openhamm/G_N and/CC DSP/G_N by/PSP proakis/G_N ivvandi./G_N 
+mee/G_PRP roll/G_N num/G_N cheppandi./G_N 
+meeru/G_N enni/G_N issue/G_N cheskovalo/G_X chusi/G_N cheptanu/G_V 
+201225167/@ 
+okay./@ 
+meeru/G_N already/G_N oka/G_PRT book/G_N teeskunnaru./G_N 
+adi/G_X inka/G_X return/G_N cheyaledu./G_N 
+So/@ only/G_R 2/$ books/G_N issue/G_N cheyagalatanu./G_N 
+okay./@ 
+aite/G_PRT naku/G_N oka/G_PRT oppenham,oka/G_N love/G_V story/G_N book/G_N ichesyandi/G_X 
+love/G_V story/G_N ante/G_N chala/G_X unnayi./G_X 
+nenu/G_PRP recommendation/G_N lo/PSP koncham/G_N weak./G_N 
+fault/G_N in/PSP the/DT stars/G_N issue/G_N cheyamantara/G_N ?/G_X 
+vadu./@ 
+naKu/@ can/G_V love/G_V happen/G_N twice/G_N issue/G_N cheyagaltara/G_N 
+yes/G_PRT sure/G_N 
+mee/G_PRP roll/G_N number/G_N ki/G_X ee/G_N books/G_N issue/G_N chesesanu./G_N 
+thanks/G_N andi./G_N 
+welcome./@ 
+inkedaina?/@ 
+ledu./G_N anthe./G_N 
+bye!/@ malli/G_N kaluddam./G_N 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hello/@ assistant,/@ am/G_V fine/G_N 
+naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X 
+Avunu./@ 
+mee/G_PRP peru/G_N telusukovacha/G_N ?/G_X 
+Yes./@ 
+Naa/@ peru/G_N chetan./G_N 
+okay/G_N chetan./G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+Wat/G_N are/G_V the/DT latest/G_N books/G_N ?/G_X 
+ee/G_N topic/G_N meeda/G_N kavali/G_N ?/G_X 
+Preferably/@ sports,/G_N Lekapothe/# space/G_N related/G_N 
+sports/G_N meeda/G_N ante/G_N magazines/G_N unnayi./G_N 
+Space/G_N meeda/G_N ante/G_N science/G_X journals/G_N unnayi./G_N 
+What/G_N is/G_V the/DT latest/G_N magazine/G_N ?/G_X 
+Niku/G_N magazine/G_N lo/PSP emundo/G_N telsa/G_N ?/G_X 
+sportstart/G_N ani/G_N kothaga/G_N okati/G_N vachindi./G_N 
+Magazine/G_N lo/PSP emundo/G_N aa/G_X details/G_X naku/G_X telidu./G_N 
+I/G_PRP am/G_V sorry./G_N 
+Where/G_N in/PSP the/DT library/G_N ,/G_X is/G_V it/G_PRP located/G_V ?/G_X 
+Naaku/G_N cheppava/G_N plz./G_N 
+library/@ loki/G_N enter/G_V avvagane/G_X first/G_J shelf/G_N lo/PSP top/G_J row/G_N lo/PSP untundi/G_N 
+Ohh/G_N thankss/G_N 
+inkedaina/G_N adagalanukuntunnara/G_N ?/G_X 
+Nuvvu/@ inka/G_X emi/G_N cheyagaluthavu?/G_N 
+meekedaina/@ book/G_N kavalante/G_N issue/G_N cheyinchi/G_V ready/G_J ga/G_N pettgalugutanu/G_N 
+Ohh/G_N ok./G_N 
+Can/@ u/G_PRP check/G_V if/PSP a/DT book/G_N is/G_V available/G_N ?/G_X 
+thappakunda/@ 
+book/G_N peru/G_N ?/G_X 
+The/@ monk/G_N who/G_PRP sold/G_V his/DT ferrari./G_N 
+"The/@ monk/G_N who/G_PRP sold/G_V his/DT ferrari"/G_N availability/G_N lo/PSP undi./G_N 
+Issue/G_N cheyamantara/G_N ?/G_X 
+Yes/@ 
+mee/G_PRP roll/G_N number/G_N please/G_V 
+201201124/@ 
+okay./@ 
+Meeru/@ inko/G_N 5/$ mins/G_N lo/PSP vachi/G_N tesskelochu./G_N 
+Thanks./@ 
+Bye/@ 
+bye/@ 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+nenu/G_PRP bagunnanu./G_N 
+nuvu/G_N ?/G_X 
+nenu/G_PRP kuda/G_N bagunnanu./G_X 
+mee/G_PRP peru/G_N ?/G_X 
+akhil/@ 
+naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X 
+avunu/G_N first/G_J time/G_N eh./G_X 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu/G_N 
+library/@ related/@ questions/G_N ante/G_N ?/G_X 
+ante/G_N edaina/G_N book/G_N gurinchi/G_X kanukovalanna,/G_N leda/G_X issue/G_N cheyinchukovalanna/G_N 
+me/G_PRP dagara/G_N anni/G_N languages/G_N books/G_N untaya/G_N ?/G_X 
+technical/G_N vi/G_X kavalante/G_N english/G_N lo/PSP ekkuva/G_N unnayi./G_N 
+Literature/G_N lo/G_N telugu/G_N inka/G_N hindi/G_N kuda/G_X unnayi/G_X 
+naku/@ philosophy/G_N pusthakaalu/G_N kavali/G_N ./G_X 
+ye/G_PRP language/G_N lo/PSP kavali./G_N 
+telugu/G_N lo/G_N 
+author/@ preference/G_N edaina/G_N unda/G_N ?/G_X 
+yendamuri/G_N verendranath/G_N !/G_X 
+"mimalni/@ meeru/G_X gelavagalaru"/G_N ane/G_N book/G_N undi/G_N ./G_X 
+Issue/G_N cheyamantara/G_N ?/G_X 
+adhi/G_N okkate/G_N undha/G_N ?/G_X 
+vijayaniki/@ aidhu/G_N metlu/G_N ane/DT pusthakam/G_N ledha/G_X ?/G_X 
+adi/G_X okate/G_N copy/G_N undi./G_N 
+already/G_R okaru/G_N teeskunnaru./G_X 
+sare./@ 
+mimalni/G_N meeru/G_N gelavagalaru/G_N ane/G_X pusthakanni/G_X naku/G_X issue/G_N cheyandi/G_X 
+okay./@ 
+mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X 
+201325148/@ 
+okay./@ 
+book/G_N issue/G_N chesesanu./G_N 
+Inko/G_N 5/$ mins/G_N lo/PSP vachi/G_N meeru/G_X mee/G_PRP id/G_N card/G_N chupinchi/G_V book/G_N teesukelachu./G_V 
+inka/G_N edaina/G_N ?/G_X 
+yepati/@ lopu/G_N return/G_V cheyali/G_X ee/G_X book/G_N ni/G_N ?/G_X 
+ee/G_N roju/G_N date/G_N 26th/G_N November./G_N 
+Time/@ 6:45PM/G_N ayindi./G_N 
+10th/@ December/G_N 7PM/G_X kalla/G_N return/G_N cheyali./G_N 
+sare/G_N ./G_X 
+thank/@ you./G_N 
+okay/G_N bye./G_N 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hi/G_PRT I/G_PRP am/G_V Divya./G_N 
+I/G_PRP am/G_V doing/G_V great./G_N 
+natho/@ intaka/G_N mundu/PSP matladara/PSP leda/G_N ide/G_X first/G_J time/G_N aa/G_X ?/G_X 
+idi/@ second/G_J time./G_N 
+evaina/@ questions/G_N unte/G_V adagandi./G_N 
+So/@ I/G_PRP want/G_V Books/G_V that/G_PRP are/G_V fictional/G_V Or/CC detective/G_PRP novels/G_N are/G_V also/G_R fine./G_N 
+okay./@ 
+meeku/@ ye/G_PRP language/G_N lo/PSP books/G_N kavali/G_N ?/G_X Hindi,/G_N English/G_N or/CC Telugu?/G_N 
+Naku/@ English/G_N books/G_N Kaavali./G_V 
+okay./@ 
+Author/@ preference/G_N edaina/G_N unda/G_N ?/G_X 
+Ahaa/G_N ledu/G_N 
+To/G_N kill/G_V a/DT mocking/G_N bird/G_N ane/DT book/G_N most/G_X read/G_N lo/PSP undi/G_N ./G_X 
+library.iiit.ac.in/G_N lo/PSP dani/G_J reviews/G_N chudochu/G_N 
+adi/G_N issue/G_N cheyamantara/G_N ?/G_X 
+Oka/G_N 5/G_N books/G_N Chepthe/G_N Daantlo/G_V nundi/PSP nen/G_X choose/G_N cheskunta/G_N 
+oka/G_PRT second/G_N 
+Ipoindi/G_N oka/G_PRT second/G_N 
+The/@ Case/G_N of/PSP the/DT Family/G_N Jewels/G_N by/PSP Evadne/G_N Mount/G_N 
+Death/@ Be/G_N My/DT Deadline/G_N by/PSP Evadne/G_N Mount/G_N 
+The/@ Mystery/G_N of/PSP the/DT Green/G_N Penguin/G_N by/PSP Evadne/G_N Mount/G_N 
+No/@ Murder/G_N in/PSP the/DT Title/G_N by/PSP Evadne/G_N Mount/G_N 
+Oedipus/@ vs./G_N Rex/G_V by/PSP Evadne/G_N Mount/G_N 
+Last/@ book/G_N Issue/G_V cheyandi/G_X 
+Okay./@ 
+ippudu/@ time/G_N 7:15/G_X pm/G_N aindi./G_N 
+Meeru/@ ee/G_N book/G_N december/G_N 15th/PSP 8PM/G_X lopu/G_N return/G_V cheseyali./G_N 
+cool/@ 
+thank/@ you./G_N 
+inkedaina/G_N ?/G_X 
+Ahaa/G_N Ledu/G_N 
+Thank/@ you./G_N 
+See/@ you/G_PRP again./G_V 
+Bye/@ 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+Ela/G_N unnavu?/G_N 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hi/@ My/G_N day/G_N is/G_V good./G_N 
+where/G_N can/G_V i/G_PRP get/G_V some/DT thriller/G_N novels?/G_N 
+Literature/G_N section/G_N lo/PSP last/G_J 2/$ rows/G_N anni/G_N thriller/G_N novels/G_N ee/G_X 
+naaku/G_X murder/G_N mysteries/G_N ante/G_N ishtam./G_N 
+ee/G_N author/G_N ayithe/G_N better/G_J ?/G_X 
+James/@ petterson/G_N rasina/G_X books/G_X ee/G_X madya/G_N students/G_N baga/G_X issue/G_N cheyinchukuntunnaru/G_V 
+ooh/@ avunaa../G_N 
+i/G_PRP havent/G_V heard/G_V about/PSP him../G_N 
+Could/@ you/G_PRP suggest/G_V me/G_PRP a/DT book/G_N of/PSP him/G_N too/G_R ?/G_X 
+Cradle/G_N and/CC All/G_N 
+Wizard/G_N and/CC witch./G_N 
+meeku/@ inka/G_X information/G_N kavalante/G_V library/G_N portal/G_N lo/PSP dorukutadi./G_N 
+ooh/@ thanks../G_N 
+i/G_PRP will/G_V take/G_V these/DT 2/$ books/G_N if/PSP available/G_N 
+They/@ are/G_V available,/G_V 
+issue/G_N cheyana/G_N ?/G_X 
+cheseyandi/@ 
+Mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X 
+naa/G_PRT roll/G_N nubmer/G_N 201201151./G_N 
+i/G_PRP like/G_V dan/G_N brown/G_V books/G_N too.../G_V 
+i/G_PRP have/G_V read/G_N all/DT of/PSP his/DT books../G_N 
+similar/G_N type/G_N of/PSP books/G_N telusaa?..like/G_N fiction/G_V on/PSP history/G_N ?/G_X 
+sorry./@ 
+Nenu/G_N books/G_N recommend/G_N cheyadaniki/PSP kavalsina/G_X information/G_X na/PSP daggara/G_N ledu./G_X 
+ok/@ no/G_PRT problem./G_N 
+mari/G_X ee/G_N rendu/G_N books/G_N issue/G_N cheyamantara/G_N ?/G_X 
+yeah/@ ee/G_N rendu/G_N books/G_N issue/G_N cheyyandi./G_N 
+enni/@ days/G_N lopala/G_X return/G_N cheyyali/G_N ?/G_X 
+iroju/@ date/G_N 27th/G_N november/G_N ,/G_X time/G_N 10/G_X ayindi./G_X 
+December/@ 15th/G_N kalla/G_N return/G_N cheyali./G_N 
+hope/G_N i/G_PRP will/G_V return/G_V before/PSP that/G_PRP period./G_N 
+penalty/G_N entha/G_N ?/G_X 
+return/G_N date/G_N nundi/G_X roju/G_N ki/G_N 5/G_X rupees./G_N 
+ok/@ 
+inkedaina/G_N ?/G_X 
+nothing/G_N more./G_N 
+thanks/G_N 
+welcome./@ 
+Bye/@ 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hello/G_N ,/G_X i/G_PRP m/G_V gud/G_J 
+naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X 
+avnu/@ 
+mee/G_PRP peru/G_N ?/G_X 
+deepya/@ 
+Deepya/@ meeku/G_N library/G_X related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+lib/@ timings/G_N enti?/G_N 
+podunna/G_N 9/G_N ki/PSP open/G_V chestaru./G_N 
+raatri/G_N 12/G_N ki/PSP close/G_N chestaru./G_N 
+sundays/G_N kuda/G_N open/G_V ayye/G_N untada?/G_N 
+Sunday/@ evening/G_N 5/$ kalla/G_N close/G_N chestaru./G_N 
+ohk./@ 
+okasari/@ maximum/G_N enni/G_X books/G_X issue/G_V chestaru/G_N 
+okesari/G_N 3/$ books/G_N varaku/G_N issue/G_N cheskovachu/G_N 
+okk/@ 
+edaina/G_N book/G_N issue/G_N cheyamantara/G_N ?/G_X 
+Data/G_N structures/G_N ki/G_N oka/G_PRT manchi/G_N book/G_N suggest/G_N chesthara/G_N 
+Library/G_N portal/G_N lo/PSP anni/G_N books/G_N list/G_N untundi./G_N 
+prathi/G_N book/G_N ki/G_N rating/G_N kuda/G_X untundi./G_N 
+Meeru/@ portal/G_N loki/G_N velli/G_N chudocu./G_N 
+meeku/@ recommend/G_N cheyadaniki/G_N aa/DT information/G_X naku/G_X telidu/G_N 
+oh/@ ok./G_N 
+nen/G_N chusi/G_N cheptha./G_N 
+Data/@ structures/G_N by/PSP Karumanchi/G_N issue/G_N cheyandi./G_N 
+sare./@ 
+Mee/G_PRP roll/G_N number/G_N chepthara/G_N ?/G_X 
+201225167/@ 
+meeku/G_N book/G_N issue/G_N chesesanu./G_N 
+15th/@ December/G_N lopu/G_X ee/G_X book/G_N return/G_N cheseyali./G_N 
+sare/G_N na/G_N ?/G_X 
+okay/@ 
+enkedaina/G_N ?/G_X 
+aa/G_X oka/G_PRT book/G_N chalu/G_N 
+okay./@ 
+see/G_V you/G_PRP soon./G_V 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hello./@ 
+I/G_PRP am/G_V samyukta./G_N 
+I/G_PRP am/G_V fine/G_N 
+meeru/@ natho/G_N first/G_J time/G_N matladutunnara/G_N ?/G_X 
+Haa./@ 
+Nenu/G_N ee/G_N lib/G_N ki/G_N raavadam/G_N first/G_J time./G_N 
+sare./@ 
+meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagandi./G_N 
+Data/G_N structures/G_N and/CC algorithms/G_N book/G_N copies/G_V dorkaatledu../G_N kani/CC website/G_N says/G_N there/G_PRP r/G_V 4/$ copies/G_N available./G_N 
+Could/@ u/G_PRP please/G_V check/G_V and/CC let/G_V me/G_PRP know./G_X 
+yes/G_PRT 4/G_N copies/G_N unnayi/G_V kaani/G_N anni/G_N reference/G_N copies./G_N 
+refrence/G_N copies/G_N ni/G_N generally/G_N issue/G_N cheyamu./G_N 
+Ohh/G_N Alana./G_N 
+can/G_V u/G_PRP please/G_V check/G_V and/CC let/G_V me/G_PRP know/G_V when/G_N is/G_V the/DT most/G_N nearest/G_V date/G_N where/PSP the/DT book/G_N is/G_V due/G_J to/PSP return/G_V by/PSP someone/G_N who/G_PRP has/G_V that/G_PRP book/G_N 
+2nd/@ December/G_N kalla/DT one/$ copy/G_N will/G_V be/G_V available/G_J 
+Okay/@ thank/G_V u./G_N 
+reserve/G_N chesi/G_N unchamantara/G_N ?/G_X 
+Yes/@ yes./G_N 
+thank/G_V u/G_PRP 
+mee/G_PRP roll/G_N number/G_N ?/G_X 
+201401897/@ 
+okay/@ nenu/G_PRP reserve/G_N chesanu./G_N 
+teeskunna/@ vallu/G_X return/G_V cheyagane/PSP meeku/G_X oka/G_PRT email/G_N vastaundi./G_N 
+mee/G_PRP email/G_N id/G_N cheptara/G_N ?/G_X 
+naa/G_PRT email/G_N id/G_N abc.xyz@gmail.com/G_N 
+okay./@ 
+inkedaina/G_N ?/G_X 
+Ahaa/G_N Ledu/G_N 
+Thank/@ u/G_PRP asklib/G_V 
+Okay/G_N bye./G_N 
+See/@ you/G_PRP soon./G_V 
+Hi,/@ na/G_PRP peru/G_N Asklib./G_N 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni/G_X 
+Lol,/@ what/G_PRP can/G_V u/G_PRP do?/G_V 
+meeku/@ library/G_N related/G_N evaina/G_N questions/G_N unte/G_V nannu/G_X adagochu,Book/G_N Issue,/G_X reissue,/G_X ilantivi/G_X 
+Book/@ renewal/G_N timings/G_N enti?/G_N 
+meeru/@ epudaina/G_N renew/G_N cheskovachu./G_N 
+Library/G_N ki/G_N ravalsina/G_N avasram/G_N ledu./G_N 
+naku/@ chepthe/G_N nenu/G_PRP automatic/G_J ga/G_N system/G_N lo/PSP update/G_N chestanu./G_N 
+Evaraina/G_N aa/G_N book/G_N already/G_R reserve/G_V cheskunte/G_N ,/G_X renewal/G_N option/G_N undadu,/G_N appudu/G_N meeru/G_N library/G_N ki/G_N ravalsuntundi./G_N 
+oh/@ cool./G_N 
+inkedaina/G_N ?/G_X 
+Can/@ you/G_PRP tell/G_V me/G_PRP the/DT status/G_N of/PSP this/DT book/G_N :/G_X Introduction/G_N to/PSP Humanoid/G_V Robotics./G_N Authors:/# Kajita,/# S.,/# Hirukawa,/# H.,/# Harada,/# K.,/# Yokoi,/G_N K./G_N 
+ee/G_N book/G_N availability/G_N lo/PSP undi./G_N 
+Issue/G_N cheyamantara/G_N ?/G_X 
+ikkada/G_N issue/G_N cheste/G_V mari/G_X nenu/G_PRP eppudu/G_X collect/G_V chesukovali?/G_N 
+issue/G_N chesina/G_V 15/null mins/G_N ki/PSP vachi/G_N collect/G_V cheskovachu/G_N 
+okay/@ 
+issue/G_N cheyamantara/G_N ?/G_X 
+ledu./@ 
+thanks/G_N 
+okay/@ 
+inkedaina/G_N adagala/G_N ?/G_X 
+ledu./@ 
+okay/G_N bye./G_N 
+see/G_V you/G_PRP again./G_V 
+ok/G_N 🙂/G_N 
+Hi,/@ I/G_PRP am/G_V Li.b.ot,/G_V mee/G_PRP Library/G_N Assistant./G_N 
+How/G_N can/G_V I/G_PRP help/G_V you/G_PRP ?/G_X 
+Hi/@ I'm/G_N praneetha/G_N 
+Hi/@ praneetha/G_N 
+How/G_N can/G_V I/G_PRP help/G_V you/G_PRP ?/G_X 
+What/G_PRP r/G_V the/DT different/G_J textbooks/G_N on/PSP computer/G_N vision/G_N ?/G_X 
+Sorry,/@ Ippudu/G_PRT Computer/G_X Vision/null books/G_V available/G_J ga/G_N levu./G_N 
+Inka/G_N emaina/G_X books/G_N kavala/G_V ?/G_X 
+Linear/@ algebra/G_N meeda/G_X kavali./G_N 
+Linear/@ Algebra/G_N lo,/G_V Introduction/G_V to/PSP Linear/G_V Algebra/G_N by/PSP Gilbert/$ Strang/G_N book/G_N okate/G_N undi./G_N 
+Aa/@ book/G_N kavala/G_N ?/G_X 
+Oh,/@ No/G_N 
+Sorry,/@ Inka/G_N edaina/G_N book/G_N kavala/G_N ?/G_X 
+Pattern/@ classification/G_N meeda/G_X unnaya/G_N 
+3/@ books/G_N unnayi,/G_N Pattern/G_N Recognition/G_V by/PSP Springer,/G_N Classification/G_N made/G_V easy/G_J by/PSP John/G_N Machintosh/G_N and/CC Classifiers/G_N of/PSP Today/G_N by/PSP Li/G_N Nung/G_N unnayi./G_N 
+Vitilo/@ emaina/G_N kavala/G_N ?/G_X 
+I/G_PRP want/G_V Classifiers/G_N of/PSP Today/G_N 
+okay/@ 
+aa/G_N book/G_N issue/G_N cheyana/G_N ?/G_X 
+Cheyandi./@ 
+mee/G_PRP Library/G_N ID/G_N number/G_N enti/G_N ?/G_X 
+201401187/@ 
+Thank/G_V you/G_PRP 
+mee/G_PRP ID/G_N ki/G_N book/G_N issue/G_N chesenu/G_N 
+meeru/@ velli/G_N teeskovachu/G_N 
+inka/G_X emaina/G_N kavala/G_N ?/G_X 
+Thank/G_V you/G_PRP 
+Eppati/G_N ki/G_N return/G_N cheyali/G_X 
+Oka/G_N 7/G_N days/G_N lo/PSP return/G_N cheyali/G_V 
+Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X 
+No,/@ 
+Thank/G_V you/G_PRP 
+See/@ you/G_PRP again./G_V 
+Bye/@ 
+Hi/G_PRT I/G_PRP am/G_V Li.b.ot,/G_J your/G_R Library/G_N Assistant/G_X 
+meeku/G_N ela/G_X help/G_X cheya/G_N galanu/G_N ?/G_X 
+Hello/@ 
+linear/@ algebra/G_N books/G_N section/G_V ekada/G_N undi?/G_X 
+Linear/@ Algebra/G_N books/G_PRT meeku/G_PRP section/G_N 3.2/G_N lo/PSP dorukutundi/G_N 
+Meeku/@ aa/G_X book/G_N kavala/G_N ?/G_X 
+Naaku/G_N linear/G_N algebra/G_N by/PSP Russel/$ norvig/G_N third/null edition/G_N kavali./G_N 
+Sorry,/@ aa/G_N book/G_N ledhu./G_N 
+Vere/G_N book/G_N emaina/G_N kavala/G_N ?/G_X 
+It's/G_N okay/G_N 
+Introduction/G_N to/PSP Linear/G_V Algebra/G_N by/PSP Gilbert/G_N Strang/G_N Dorukutada?/G_N 
+yes,/@ that/G_N book/G_N is/G_V available./G_N 
+mee/G_PRP ID/G_N ki/G_N issue/G_N cheyala/G_N ?/G_X 
+Yes/G_N please/G_V 
+mee/G_PRP ID/G_N number/G_N istara/G_N ?/G_X 
+201501138/@ 
+Thank/G_V you/G_PRP 
+mee/G_PRP ID/G_N ki/G_N book/G_N issue/G_N chesenu/G_N 
+meeru/@ velli/G_N tesukovachu./G_N 
+Can/@ I/G_PRP assist/G_V you/G_PRP with/PSP something/G_N else/G_N ?/G_X 
+Prastuthaniki/@ inkem/G_N voddu/G_N 
+Thank/G_V you/G_PRP 
+okay,/G_N Bye/G_N 
+Bye/@ 
+Hey,/@ Myself/G_N Libot./G_N 
+How/@ may/G_V I/G_PRP help/G_V you?/G_N 
+Hi,/@ I/G_PRP am/G_V madhur./G_N 
+Naaku/G_N library/G_N related/G_X konni/G_SYM questions/G_N unnayi/G_X 
+sare./@ 
+Mee/G_PRP questions/G_N enti/G_N ?/G_X 
+Library/@ timings/G_N enti/G_N ?/G_X 
+Monday/G_N to/PSP Saturday:/G_V 10:00/G_N AM/G_V to/PSP 12:00/G_V AM/G_N 
+Sunday:/@ 10:00AM/G_V to/PSP 5:00/G_V PM/G_N 
+inka/G_X emaina/G_N doubts/G_N unnaya?/G_X 
+Library/G_N lo/PSP computers/G_N unnaya/G_N ?/G_X 
+4/@ computers/G_N unnayi./G_N 
+inka/G_X emaina/G_N doubts/G_N unte/G_X adagandi./G_X 
+Oka/G_N computer/G_N ni/PSP munde/G_V reserve/G_N chesukovacha/G_N ?/G_X 
+Reserve/@ cheskovatam/G_N kudaradu./G_N 
+Personal/@ system/G_N vadachu./G_N 
+Ok./@ 
+Library/G_N lo/PSP wifi/G_N facility/G_N unda/G_N ?/G_X 
+Library/G_N lo/PSP Wi-Fi/G_N facility/G_N undi./G_N 
+inka/G_X emaina/G_X questions/G_N unnaya?/G_X 
+Psycology/@ related/G_N books/G_N unaya/G_N ?/G_X 
+unnayi./@ 
+meeku/@ ye/G_PRP book/G_N kavali?/G_N 
+Psycology/@ books/G_N tarvata/G_V tesskuntanu/G_N 
+sare./@ 
+inka/G_X emaina/G_X help/G_N kavala?/@ 
+Novels/G_N untaya/G_N ?/G_X 
+novels/G_N unnayi./G_N 
+meeku/@ A/DT novel/G_N kavali?/G_N 
+Not/G_R a/DT penny/G_N more,/G_N Not/G_R a/DT penny/G_N less/G_N 
+Telugu/G_N translation/G_N unda/G_N ?/G_X 
+undi./@ 
+Ekkada/G_N undi?/G_N 
+Rack/@ number/G_N 5-2/G_N lo/PSP untundi./G_N 
+inka/G_X emaina/G_X help/G_N kavala?/@ 
+Ledu,/@ 
+Thank/G_V you/G_PRP 
+Bye,/G_N Have/G_N a/DT good/G_J day./G_N 
+bye/@ 
+Hi,/@ nenu/G_PRP library/G_N assistant/G_N ni/G_X 
+miku/G_N emaina/@ help/G_N kavala?/@ 
+Hi/@ 
+library/G_N membership/G_N gurinchi/G_N details/G_V emaina/G_X cheputara/G_X 
+Library/@ Membership/G_N kosam/G_N two/$ passport/G_N size/G_X photographs/# kavali,/# Registration/# fee/G_V 200,/G_V every/DT year/G_N renewal/G_N kosam/G_N 100/$ pay/G_N cheyali/G_X 
+Meeru/@ membership/G_N teeskundam/G_N anukuntunnara/G_N ?/G_X 
+Avunu,/@ kaani/G_N membership/G_N benefits/G_N emiti/G_N ?/G_X 
+Meeru/@ Member/G_N avvakapothe/PSP library/G_N lone/G_J books/G_N chadavali/G_N 
+Okavela/@ member/G_N aithe/G_N meeru/G_X books/G_N ni/G_N intiki/G_N teesukuvellochu/G_X 
+meeku/@ membership/G_N kavala?/G_N 
+Haan,/@ before/G_V that/G_PRP library/G_N lo/PSP wifi/G_N unda/G_N ?/G_X 
+Yes,/G_N library/G_N lo/PSP wifi/G_N undi/G_N 
+Inka/G_N emaina/G_N adagalanukuntunnara?/G_N 
+Ok,/@ 
+inka/G_X library/G_N timmings/G_N enti/G_N ?/G_X 
+Library/@ Morning/G_N 9/$ to/PSP Evening/G_V 5/G_N ,/G_X and/CC Sundays/G_N holiday/G_N 
+Inka/G_N emaina/G_N doubts/G_N unte/G_X adagachu/G_X 
+Ok,/@ 
+books/@ overdue/G_V ayithe/G_N fine/G_N entha/G_N ?/G_X 
+per/G_N day/G_N 10rs/G_N fine/G_N kattali/G_N 
+Inka/G_N emaina/G_X info/G_N kavala/G_X 
+Ledhu,/@ 
+thank/@ you./G_N 
+Bye/@ 
+Bye/G_N ,/G_X Have/G_N a/DT nice/G_J day/G_N 
+Hi/@ am/G_V Harsha,/G_J your/G_R library/G_N assistant,/G_X 
+Meeku/@ ela/G_X help/G_V cheyagalanu/G_N ?/G_X 
+Naaku/G_N konni/G_N books/G_N kaavali/G_V 
+Em/@ books/G_N kavali/G_V meeku/G_N ?/G_X 
+Harry/G_N Potter/G_N and/CC the/DT half/G_N blood/G_N prince/G_N 
+aa/G_N book/G_N library/G_N lo/PSP undi./G_N 
+Issue/G_N cheyamantara/G_N ?/G_X 
+Issue/G_N cheyoddu!/G_N 
+aa/G_N book/G_N library/G_N lo/PSP ekkada/G_N undi/G_N ?/G_X 
+Okay,/@ A/DT book/G_N section/G_N 3-2/G_N lo/PSP undi/G_N 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Naaku/G_N "Speech/G_N and/CC Language/G_N Processing/G_N by/PSP Jurafsky/G_N Martin"/G_N 7th/G_V edition/G_N kavali/G_N 
+Sorry,/G_N library/G_N lo/PSP only/G_R 5th/G_N edition/G_V a/DT undi/G_N 
+Meeku/@ adhi/G_N kavala/G_X ?/G_X 
+Parledhu/G_N kaavali./G_N 
+Only/@ reference/G_J copies/G_V ye/G_PRP unnaya/G_N ?/G_X 
+Ledhante/@ intiki/G_N kooda/G_N theeskellacha/G_N 
+A/G_N book/G_N vi/PSP total/G_J 5/null copies/G_N unnayi,/G_N 2/$ reference/G_N copies/G_N and/CC methavi/G_N meeru/G_N intiki/G_X kuda/G_X teesukoni/G_N velachu./G_N 
+Meeku/@ aa/G_X book/G_N kavala/G_N ?/G_X 
+Aa/G_PRT 3/$ copies/G_N ippudu/G_X available/G_V ye/G_PRP na?/G_N 
+Only/@ 1/$ copy/G_N available/G_N 
+Meeku/G_N kavala/G_N ?/G_X 
+Kaavali/@ 
+aithe/G_N issue/G_N cheyamantara/G_N ?/G_X 
+Cheseyandi/@ 
+Mee/G_PRP library/G_N ID/G_N number/G_N cheputara/G_N ?/G_X 
+201401027/@ 
+Okay,/G_N book/G_N mee/G_PRP ID/G_N ki/G_N issue/G_N ayindi/G_N 
+Meeru/@ velli/G_N teeskovachu/G_N 
+Inka/G_N emaina/G_X queries/G_V unnaaya/@ 
+Yenni/@ rojullo/G_N return/G_V cheyyali?/G_N 
+1/$ week/G_N lo/PSP return/G_N cheyali/G_V 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_X 
+Ledhu,/@ 
+thanks/G_N 
+Okay,/G_N bye/G_N 
+Hi,/@ I/G_PRP am/G_V Akshhay,/G_J your/G_R library/G_N assistant/G_X 
+Meeku/@ ela/G_X help/G_V cheyagalanu/G_N 
+Top/G_N 5/$ books/G_N starting/G_V with/PSP H/G_N chubinchu/G_N 
+Here/@ Lies/G_N Arthur/G_N 
+Heroes/G_N of/PSP Olympus/G_N 
+Hatter's/G_N Castle/G_N 
+Hiding/G_N Out/G_N 
+His/@ Banner/G_N Over/G_N Me/G_N 
+Meeku/@ ee/G_X books/G_N lo/PSP emaina/G_N kavala/G_N ?/G_X 
+Nalugo/G_N book/G_N kavali/G_V 
+Okay,/@ 
+Hiding/@ Out/G_N issue/G_N cheyamantara/G_N ?/G_X 
+yes/G_PRT 
+mee/G_PRP ID/G_N number/G_N enti/G_N ?/G_X 
+201402029/@ 
+Meeku/@ "Hiding/G_N Out"/G_N issue/G_N ayipoyindi./G_N 
+inka/G_X emaina/G_N questions/G_N unte/G_V adagandi./G_N 
+Ok,/@ 
+Prasthutaniki/G_N levu/G_N 
+okay,/G_N Bye/G_N 
+bye/@ 
+Hi/G_PRT I/G_PRP am/G_V your/G_J library/G_N assistant/G_X 
+Meeku/@ emaina/G_X help/G_N kavala/G_N ?/G_X 
+Avunu,/@ 
+konni/@ pusthakalu/G_N unnayi/G_X naa/G_PRT deggara./G_N 
+Donate/@ cheddam/G_N anukuntunna./G_N 
+Ela/G_N cheyyali?/G_N 
+Meeru/G_N oka/G_PRT form/G_N fill/G_V chesi,/G_PRP books/G_N vadeliachu/G_V 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Okay,/@ 
+aa/G_N form/G_N evari/G_V deggara/G_N teesukovali?/G_N 
+It/G_PRP is/G_V an/DT online/G_N form/G_N 
+Meeku/@ link/G_N pamapala/G_N ?/G_X 
+Haan/G_N pampeeyandi./G_N 
+Okay/@ 
+Mee/G_PRP email/G_N ID/G_N enti/G_N ?/G_X 
+ac_df123@gmail.com/@ 
+Okay/@ 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Meeru/@ book/G_N rentals/G_N chestara?/G_N 
+Chestam/@ 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Avunu./@ 
+Home/@ delivery/G_N chestara?/G_N 
+Sorry/G_N cheyamu/G_N 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Mee/G_PRP deggara/G_N private/G_R reading/G_X rooms/G_N unnaya?/G_N 
+Yes,/G_N library/G_N lo/PSP cubicles/G_N unnayi/G_X 
+Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X 
+Levu./@ 
+bye/@ 
+bye/@ 
+Hi/G_PRT I/G_PRP am/G_V your/G_J library/G_N assistant/G_X 
+Meeku/@ ela/G_X help/G_V cheyagalanu/G_N ?/G_X 
+Nenu/G_N konni/G_N books/G_N borrow/G_V cheddam/G_N ankuntunna/G_N 
+Steps/G_V em/G_PRP em/G_PRP cheyali/G_V 
+Okay,/@ 
+meeru/G_N first/G_J membership/G_N teeskovali/G_X 
+Inka/G_N emaina/G_X doubts/G_N unnaya/G_N ?/G_X 
+Ok./@ 
+Library/G_N lo/PSP edaina/G_N tinacha??/G_N 
+Haan,/@ tinadaniki/G_N area/G_N reserve/G_V chesemu/G_N 
+Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X 
+Books/@ donate/G_N cheyacha/G_N 
+cheyachu/@ 
+Inkemaina/@ queries/G_N unnaya/G_N ?/G_X 
+Mi/@ dantlo/G_N kids/G_N section/G_N unda?/G_N 
+Haan,/G_N Undi/G_N 
+Inka/G_N emaina/G_N queries/$ unte/G_V adagachu/G_N 
+nenu/G_PRP ekkada/G_N politics,/G_X economic/G_N sastram,medical,violence,/G_N dhyanam/G_V gurinchi/G_N chadavachu/G_V 
+Ee/G_N categories/G_N ki/G_N sambandinchina/G_N books/G_N sections/G_N 3-6/G_N lo/PSP untayi/G_N 
+Inka/G_N emaina/G_X doubts/G_N unnaya/G_N ?/G_X 
+Mi/G_N library/G_N lo/PSP video,/G_V gani/G_N audio/G_N library/G_N unda?/G_N 
+Haan/G_N unnayi/G_X 
+Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X 
+No/@ 
+thank/G_V you/G_PRP 
+Okay,/@ bye,/G_V have/G_V a/DT good/G_J day/G_N 
+Hi/@ nenu/G_PRP Asklib/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hello/@ 
+Distributed/@ systems/G_N book/G_N by/PSP Ajay/G_N Kshemakalyani/G_N ekkadundo/G_N cheppagalara/G_N ?/G_X 
+naaku/G_X telisinantha/G_N varaku/G_N aa/DT book/G_N library/G_N lo/PSP ledu/G_N 
+Okay/@ 
+inkemaina/@ information/G_N kavala?/G_N 
+Can/@ you/G_PRP suggest/G_V another/G_R good/G_J distributed/G_N systems/G_N book?/G_N 
+distributed/@ algorithm/G_N by/PSP nancy,/G_N lynch/G_N 
+Ok/@ 
+thanks/G_N 
+Where/G_N is/G_V it?/G_N 
+004.36/G_N L89D/G_N 
+Cool/@ 
+oka/G_PRT reference/G_N and/CC 3/$ student/G_N copies/G_N unnai/G_N 
+Okay/@ 
+inkemaina/@ information/G_N kavala?/G_N 
+Distributed/G_N systems/G_N by/PSP ksheemakalyani/G_N teppinchagalara/G_N ?/G_X 
+It's/G_N a/DT course/G_N prescribed/G_N book/G_N 
+ha/G_PRT request/G_N pedathaamu/G_V mee/G_PRP peru/G_N paina/G_N 
+Ok/@ 
+Thanks/G_N 
+inka/G_X emaina/G_X information/G_N kavala/@ 
+No./@ 
+Thank/G_V you/G_PRP 
+thank/G_V you/G_PRP 
+malli/G_N kaluddaam/G_N 
+Okay/@ 
+bye/@ 
+Hi/G_PRT I/G_PRP am/G_V Asklib./G_N 
+ela/G_X unnavu?/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+hi/@ 
+bhaaney/G_N unna/G_X 
+mee/G_PRP peru/G_N telsukovacha/G_N 
+nagendra/@ 
+naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X 
+ha/G_PRT avunu/G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+mee/G_PRP deggara/G_N bhagavadgita/G_N undha/G_X 
+ha/G_PRT undi/G_N 
+e/G_N language/G_N lo/PSP kavali/G_N 
+telugu/G_N lo/G_N kavali/G_N 
+telugu/G_N lo/G_N kooda/G_N undi/G_N 
+issue/G_N cheyamantara/G_N 
+enni/@ rojulalo/G_N thirigi/G_V icheyali/G_N antaru?/G_N 
+15/G_N days/G_N lo/PSP return/G_N cheyali/G_V 
+or/@ reissue/G_N cheyinchukovachu/G_V 
+reissue/@ tarvatha/G_PRT inkoka/G_N 15/null days/G_N isthara?/G_X 
+haa/G_N istamu./G_N 
+aithe/G_N bhagvadgita/G_N issue/G_N cheseyandi/G_N 
+Inka/G_N edaina/G_N information/G_V kavala?/G_X 
+and/CC mee/G_PRP deggara/G_N emayina/G_X kotha/G_X comics/G_N unnaya?/G_N 
+ha/G_PRT avi/G_N prathi/G_X month/G_N osthu/G_J untai/G_N 
+TINKLE/G_N unte/G_N issue/G_N cheyandi/G_X please/G_V 
+TINKLE/G_N undi/G_N kani/CC issue/G_N cheyadam/G_N kudaradu./G_X 
+Library/G_N lone/G_J chadavali/G_N 
+oooh../@ 
+ayithey/G_N aa/G_N okka/G_N book/G_N issue/G_N cheyyandi/G_N chaalu/G_N 
+ok./@ 
+Inka/G_N edaina/G_N information/G_V kavala?/G_X 
+ledhu/@ 
+okay/@ 
+thank/G_V you/G_PRP 
+malli/G_N kaluddaam/G_N 
+ha/G_PRT thappakunda/G_N 
+Thank/@ You/G_N 
+Hi/@ nenu/G_PRP asklib/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+mee/G_PRP peru/G_N telsukovacha/G_N 
+Hi,/@ Na/G_X peru/G_N ujwala/G_N 
+hi/G_N ujwala/G_N 
+naatho/@ inthaku/G_N mundu/G_N maatladaara/G_N ?/G_X 
+Ledhu/@ 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu/G_N like/PSP books/G_PRP availability,/G_V issue,/G_N reissue/# information/G_N etc./G_N 
+Ok/@ me/G_PRP library/G_N lo/PSP evaina/G_N Kotha/G_N Articles/G_N Vachaya/G_N 
+prathi/@ month/G_N kothavi/G_N osthune/G_N untai/G_N 
+deni/G_N gurinchi/G_N kavali/G_V 
+Ok/G_N e/G_X month/G_N vachina/G_N articles/G_N kavali/G_N 
+avi/G_N meeru/G_X library/G_N lone/G_J chadavaali./G_N 
+Oh/G_N ok/G_PRT 
+Me/@ library/G_V a/DT time/G_N ki/G_X Open/G_X untadhi/G_X 
+morning/G_N 10/G_V to/PSP night/G_N 12/G_N varaku/G_N open/G_V untadi/G_N 
+library/G_N open/G_J ga/G_N unnappudu/G_N eppudaina/G_N book/G_N issue/G_N chyinchukovacha/G_N ?/G_X 
+Ledu/G_N 
+issue/G_N timings/G_N 10/null to/PSP 5pm/G_V 
+Oh/G_N ok/G_PRT 
+Enni/G_N books/G_N issue/G_N chestharu/G_X 
+per/@ student/G_N at/PSP a/DT time/G_N 3/$ books/G_N varaku/G_N issue/G_N cheyinchukovachu/G_N 
+Ok/@ 
+Thank/@ you/G_PRP for/PSP the/DT info/G_N 
+you/G_PRP are/G_V welcome/G_V 
+inka/G_X emaina/G_X information/G_N kavala/G_N ?/G_X 
+No/@ 
+This/G_N is/G_V enough/G_N for/PSP now/G_R 
+Thank/G_V you/G_PRP 
+ok/@ 
+thank/G_V you/G_PRP 
+Hi/@ nenu/G_PRP asklib/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Hi/@ asklib/G_N 
+mee/G_PRP peru/G_N thelsukovacha/G_N 
+na/G_PRP peru/G_N monish/G_N 
+monish/@ inthaku/G_N mundu/PSP naatho/G_X maatlaadaara/G_N 
+ledu/G_N asklib./G_N 
+ide/@ modati/G_N saari/G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+avunaa,/@ elanti/G_N questions/G_N answer/G_N cheyagalavu/G_N 
+books/@ availability/G_N gurinchi,/G_X issue,/G_N return/G_N ,/G_X reissue/G_N gurinchi/G_N cheppagalanu/G_V 
+avunaa,/@ chala/G_PRT use/G_V ayyela/G_V undi/G_N 
+haa/@ meeku/G_N emaina/G_X information/G_N kaavaala/@ 
+ledu./@ 
+thanks/G_N 
+ok/G_PRT thank/G_V you/G_PRP malli/G_V kaluddaam/G_N 
+thank/G_V you/G_PRP asklib/G_V 
+Hi/@ nenu/G_PRP asklib/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+Naku/G_N book/G_N availability/G_V status/G_N kavali/G_X 
+Ye/G_N book/G_N gurinchi/G_N kaavaali/G_N 
+The/@ discovery/G_N of/PSP India/G_N 
+aa/G_N book/G_N available/G_N ga/G_N ledu/G_N 
+inkemaina/@ information/G_N kavala/G_X 
+Total/G_N Library/G_N lo/PSP enni/G_X books/G_N unnai/G_N ?/G_X 
+31,544/@ books/G_N unnai/G_N 
+Language/@ wise/G_J distribution/G_N of/PSP books/G_N enti/G_N ?/G_X 
+aa/DT information/G_N ipudu/G_X ma/DT daggara/G_N ledu/G_X 
+inka/G_X vere/G_N emaina/G_V information/G_N kavala/@ 
+Ledhu/@ 
+ok/G_PRT thank/G_V you/G_PRP 
+malli/G_N kaluddaam/G_N 
+Yo/@ 
+hi/@ na/G_PRP peru/G_N Asklib/G_N 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni/G_X 
+Hello/G_N asklib/G_N 
+mee/G_PRP peru/G_N telsukovacha/G_N 
+Na/@ peru/G_N lakshmi./G_N 
+inthaku/@ mundu/G_N epudaina/G_X naatho/G_N maatladaara/G_N ?/G_X 
+Ledhu./@ 
+idhe/G_N first/G_J time/G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+Oh/@ avna,/G_N ok./G_N 
+Me/G_N library/G_N lo/PSP elanti/G_N books/G_N untayi?/G_N 
+anni/G_N genres/G_N ki/G_N sambandhinchina/G_N books/G_N unnaayi/G_V like/PSP academic/G_PRP books,/G_V stories,/# comics,/G_X mythology/G_N etc/G_X 
+Oh../G_N great!/G_N 
+Shiva/G_N trilogy/G_N books/G_PRT unnayo/G_V levo/G_N cheppagalara?/G_N 
+haa/G_N unnayi/G_X 
+meeku/@ andulo/G_N ye/G_PRP book/G_N kavali/G_N ?/G_X 
+3rd/@ book/G_N kavali./G_N 
+book/G_N name/G_N naku/G_X idea/G_N ledhu./G_N 
+Book/@ peru/G_N Oath/G_N of/PSP the/DT Vayuputras:/G_N book/G_N 3/$ of/PSP the/DT Shiva/G_N Trilogy/G_N 
+library/G_N lo/PSP available/G_J ga/G_N undi./G_N 
+Issue/G_N cheyamantara/G_N ?/G_X 
+Ok/G_N cool/G_N 
+cheyandi/@ 
+Autobiography/G_N of/PSP yogi/G_N ane/G_N book/G_N undha?/G_X 
+aa/G_N book/G_N ledandi/G_N 
+Ayyo!/G_N avna./G_N 
+availability/G_N lo/PSP ledha?/G_N Or/G_N book/G_N e/G_X ledha?/G_N 
+book/G_N e/G_N ledu/G_N 
+Ayyo/G_N ok/G_PRT 
+inka/G_X vere/G_N emaina/G_V information/G_N kavala/G_N ?/G_X 
+God/G_N talks/G_N with/PSP Arjuna/G_N undemo/G_N chepthara?/G_N 
+ha/G_PRT undi./G_N 
+Yayyyyy!/@ ok/G_PRT cool/G_N tq/G_N 
+Issue/G_N cheyamantara?/G_N 
+Ippudu/G_N vadu./G_N 
+Thanks./@ 
+you/G_PRP are/G_V welcome/G_V 
+inka/G_X emaina/G_X information/G_N kavala?/@ 
+Oka/G_N book/G_N maximum/G_PRP nenu/G_PRP enni/G_X rojulu/G_X borrow/G_V cheyyachu?/G_N 
+issue/G_N cheskunna/G_N book/G_N 15days/G_N lo/PSP Return/G_N 
+or/@ reissue/G_N cheyinchukovali/G_V 
+Oh/@ avna/G_PRT ok/G_PRT ok./G_N 
+Me/G_N library/G_N lo/PSP avg/G_N ga/G_N enni/G_X books/G_X untayi?/G_V 
+31544/@ books/G_N unnayi/G_X magazines/G_N avi/G_N kaakunda/G_N 
+Wowww/@ nyc/G_N !!/G_X 
+inka/G_X emaina/G_X information/G_N kavala/G_N ?/G_X 
+Elanti/G_N magazines/G_N untayi/G_V me/G_PRP dhanlo?/G_X 
+comics,/@ education,/G_N technology,/G_N literature/G_N ki/PSP sambandhinchina/G_N magazines/G_N untaayi./G_N 
+Ok./@ Malayalam/G_N vi/PSP kuuda/G_N untaya?/# 
+telugu/G_N hindi/G_N english/G_N lo/PSP untai./G_N 
+Oh/G_N avna./G_N 
+Telugu/G_N lo/G_N ekkuva/G_N refer/G_V chese/G_V magazine/G_N edhi?/G_N 
+telugu/G_N lo/G_N ante/G_N comic/G_N books/G_N and/CC literature/G_N vi/G_N okati/G_N rendu/G_N untaai/G_N like/PSP chandamama,/G_PRP baala/G_V bhaaratam/G_N etc./G_N 
+Oh./@ Chandamama/G_N book/G_N naku/G_X chala/G_X istam/G_V :D/E 
+oh/@ nice/G_N 
+inka/G_X emaina/G_X information/G_N kavala?/@ 
+Newspapers/G_N kuda/G_N untaya?/G_X 
+ha/G_PRT untai./G_N 
+hindi,telugu/@ english/G_N lo./G_N 
+Great!/@ 
+Sare/@ asklib,/@ thanks/G_N for/PSP helping/G_V me/G_PRP 
+Bye/@ 
+thank/@ you/G_PRP malli/G_V kaluddaam/G_N 
+bye/@ 
+Hi/@ nenu/G_PRP asklib/G_X 
+nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N 
+mee/G_PRP peru/G_N telsukovacha/G_N 
+Okk/@ 
+I/G_PRP am/G_V uma/G_N chowdary./G_X 
+naatho/@ inthaku/G_N mundu/G_N maatladaara/G_N ?/G_X 
+Ledu./@ 
+May/@ I/G_PRP know/G_V your/G_N name?/G_N 
+naa/G_PRT peru/G_N asklib./G_N 
+Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N 
+Okk./@ 
+May/@ I/G_PRP know/G_V which/G_N type/G_N of/PSP books/DT are/G_V available,/G_V ante/G_N type/G_N of/PSP journals,comics,/DT novels/G_N etc?/G_N 
+almost/G_N anni/G_N genres/G_V available/G_N unnaayi,/G_X academic/G_N books,/# stories,/# novels,/# comics,/# magazines/G_N etc./G_N 
+meeku/@ elaanti/G_N books/G_N kavali?/G_V 
+I/G_PRP like/G_V mythology/G_PRP books/G_V ,technology/G_V journals/G_N and/CC comics/G_N too./G_N 
+oh,/G_N avi/G_N kooda/G_N unnai./G_N 
+Okk./@ How/G_N can/G_V I/G_PRP get/G_V them?/E 
+library/G_N lo/PSP book/G_N theeskoni/G_N issue/G_N cheskovachu./G_N 
+Edaina/@ card/G_N tesukovala/G_N ?/G_X 
+Daniki/@ evaina/G_N requirments/G_N untaya./G_N 
+meeeu/G_N student/G_N kani/CC faculty/G_N kani/G_N aithe/G_N id/G_N card/G_V saripotundi/G_N separate/G_J ga/G_N card/G_V em/G_PRP avasaram/G_V ledu./G_N 
+prathi/@ student/G_N at/PSP a/DT time/G_N maximum/G_N three/G_N books/G_N issue/G_N cheyinchukovachu./G_N 
+inka/G_X vere/G_N requirements/G_V em/G_PRP levu./G_V 
+Ohh/G_N okk./G_N 
+inka/G_X emaina/G_X information/G_N kavala?/@ 
+issue/G_N chesaka/G_N oka/G_PRT book/G_N ni/PSP enni/G_X days/G_N lo/PSP return/G_N cheyali?/G_N 
+15days/@ lopu/G_N return/G_V cheseyali./G_N 
+Ohh/@ okk/G_PRT got/G_V it/G_PRP 
+ok./@ 
+inka/G_X emaina/G_X information/G_N kavala?/@ 
+No/@ that's/G_N it./G_N 
+ok./@ 
+thank/@ you./G_N 
+see/G_V you/G_PRP soon./G_V 

@@ -1,0 +1,162 @@
+SYS		Hi nenu asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+SYS		mee peru telsukovacha		GREETING		NULL		CM
+USER		Hi, Na peru ujwala		GREETING		ACK		CM
+SYS		hi ujwala		GREETING		ACK		CM
+SYS		naatho inthaku mundu maatladaara ?		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledhu		ASSERT		ANSWER_NEG		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu like books availability, issue, reissue information etc.		OFFER		NULL		TASK0
+USER		Ok me library lo evaina Kotha Articles Vachaya		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		prathi month kothavi osthune untai		ASSERT		ANSWER_DESC		TASK1
+SYS		deni gurinchi kavali		INFO_REQUEST_WH		ACK		TASK1
+USER		Ok e month vachina articles kavali		ASSERT		ANSWER_DESC		TASK1
+SYS		avi meeru library lone chadavaali.		ASSERT		ACK		TASK1
+USER		Oh ok		NULL		ACK		CM
+USER		Me library a time ki Open untadhi		INFO_REQUEST_WH		NULL		TASK2
+SYS		morning 10 to night 12 varaku open untadi 		ASSERT		ANSWER_DESC		TASK2
+USER		library open ga unnappudu eppudaina book issue chyinchukovacha ?		INFO_REQUEST_YN		NULL		TASK3
+SYS		Ledu		ASSERT		ANSWER_NEG		TASK3
+SYS		issue timings 10 to 5pm		ASSERT		ANSWER_DESC		TASK3
+USER		Oh ok		NULL		ACK		CM
+USER		Enni books issue chestharu		INFO_REQUEST_YN		NULL		TASK3
+SYS		per student at a time 3 books varaku issue cheyinchukovachu		ASSERT		ANSWER_DESC		TASK3
+USER		Ok		NULL		ACK		CM
+USER		Thank you for the info 		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		you are welcome		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		No		ASSERT		ANSWER_NEG		TASK0
+USER		This is enough for now		ASSERT		ANSWER_NEG		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		ok		NULL		ACK		CM
+SYS		thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Hi nenu asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hi asklib		GREETING		ACK		CM
+SYS		mee peru thelsukovacha		GREETING		NULL		CM
+USER		na peru monish		GREETING		ACK		CM
+SYS		monish inthaku mundu naatho maatlaadaara		INFO_REQUEST_YN		NULL		OTHER
+USER		ledu asklib.		ASSERT		ANSWER_NEG		OTHER
+USER		ide modati saari		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		avunaa, elanti questions answer cheyagalavu		INFO_REQUEST_YN		ACCEPT		TASK0
+SYS		books availability gurinchi, issue, return , reissue gurinchi cheppagalanu		ASSERT		ANSWER_DESC		TASK0
+USER		avunaa, chala use ayyela undi		ASSERT		ACK		OTHER
+SYS		haa meeku emaina information kaavaala		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu.		ASSERT		ANSWER_NEG		TASK0
+USER		thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		ok thank you malli kaluddaam		GREETING_EOC		ACK		CM
+USER		thank you asklib		GREETING_EOC		ACK		CM
+SYS		Hi nenu asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Naku book availability status kavali		INFO_REQUEST_WH		NULL		TASK1
+SYS		Ye book gurinchi kaavaali		INFO_REQUEST_WH		HOLD		TASK1
+USER		The discovery of India		ASSERT		ANSWER_DESC		TASK1
+SYS		aa book available ga ledu		ASSERT		ACK		TASK1
+SYS		inkemaina information kavala		INFO_REQUEST_YN		NULL		TASK0
+USER		Total Library lo enni books unnai ?		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		31,544 books unnai		ASSERT		ANSWER_DESC		TASK2
+USER		Language wise distribution of books enti ?		INFO_REQUEST_WH		NULL		TASK2
+SYS		aa information ipudu ma daggara ledu		ASSERT		ANSWER_DESC		TASK2
+SYS		inka vere emaina information kavala		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu		ASSERT		ANSWER_NEG		CM
+SYS		ok thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli kaluddaam		GREETING_EOC		NULL		CM
+USER		Yo		GREETING_EOC		ACK		CM
+SYS		hi na peru Asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni		ASSERT		NULL		CM
+USER		Hello asklib		GREETING		ACK		CM
+SYS		mee peru telsukovacha		GREETING		NULL		CM
+USER		Na peru lakshmi.		GREETING		ACK		CM
+SYS		inthaku mundu epudaina naatho maatladaara ?		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledhu.		ASSERT		ANSWER_NEG		OTHER
+USER		idhe first time 		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		Oh avna, ok.		NULL		ACK		CM
+USER		Me library lo elanti books untayi?		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		anni genres ki sambandhinchina books unnaayi like academic books, stories, comics, mythology etc		ASSERT		ANSWER_DESC		TASK2
+USER		Oh.. great!		NULL		ACK		CM
+USER		Shiva trilogy books unnayo levo cheppagalara?		INFO_REQUEST_YN		NULL		TASK1
+SYS		haa unnayi		ASSERT		ANSWER_POS		TASK1
+SYS		meeku andulo ye book kavali ?		INFO_REQUEST_WH		ACK		TASK1
+USER		3rd book kavali.		ASSERT		ANSWER_DESC		TASK1
+USER		book name naku idea ledhu.		ASSERT		ANSWER_DESC		TASK1
+SYS		Book peru Oath of the Vayuputras		 book 3 of the Shiva Trilogy		ASSERT		ACK		TASK1
+SYS		library lo available ga undi.		ASSERT		ACK		TASK1
+SYS		Issue cheyamantara ?		INFO_REQUEST_YN		ACK		TASK3
+USER		Ok cool		NULL		ACK		CM
+USER		cheyandi		ACTION_DIR		ANSWER_POS		TASK3
+USER		Autobiography of yogi ane book undha?		INFO_REQUEST_YN		NULL		TASK1
+SYS		aa book ledandi		ASSERT		ANSWER_NEG		TASK1
+USER		Ayyo! avna.		NULL		ACK		CM
+USER		availability lo ledha? Or book e ledha?		INFO_REQUEST_OR		ACK		TASK1
+SYS		book e ledu		ASSERT		ANSWER_NEG		TASK1
+USER		Ayyo ok		NULL		ACK		CM
+SYS		inka vere emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		God talks with Arjuna undemo chepthara?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha undi.		ASSERT		ANSWER_POS		TASK1
+USER		Yayyyyy! ok cool tq 		EXPLICIT_PERFORMATIVE		ACK		TASK1
+SYS		Issue cheyamantara?		INFO_REQUEST_YN		NULL		TASK3
+USER		Ippudu vadu.		ASSERT		ANSWER_DESC		TASK1
+USER		Thanks.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		you are welcome		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka emaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Oka book maximum nenu enni rojulu borrow cheyyachu?		INFO_REQUEST_WH		ANSWER_DESC		TASK5
+SYS		issue cheskunna book 15days lo Return		ASSERT		ANSWER_DESC		TASK5
+SYS		or reissue cheyinchukovali		ASSERT		ANSWER_DESC		TASK4
+USER		Oh avna ok ok.		NULL		ACK		CM
+USER		Me library lo avg ga enni books untayi?		INFO_REQUEST_WH		NULL		TASK2
+SYS		31544 books unnayi magazines avi kaakunda		ASSERT		ANSWER_DESC		TASK2
+USER		Wowww nyc !!		NULL		ACK		CM
+SYS		inka emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Elanti magazines untayi me dhanlo?		INFO_REQUEST_WH		ANSWER_DESC		TASK1
+SYS		comics, education, technology, literature ki sambandhinchina magazines untaayi.		ASSERT		ANSWER_DESC		TASK1
+USER		Ok. Malayalam vi kuuda untaya?		INFO_REQUEST_YN		ACK		TASK1
+SYS		telugu hindi english lo untai.		ASSERT		ANSWER_DESC		TASK1
+USER		Oh avna.		NULL		ACK		CM
+USER		Telugu lo ekkuva refer chese magazine edhi?		INFO_REQUEST_WH		ACK		TASK1
+SYS		telugu lo ante comic books and literature vi okati rendu untaai like chandamama, baala bhaaratam etc.		ASSERT		ANSWER_DESC		TASK1
+USER		Oh. Chandamama book naku chala istam 		D		ASSERT		ACK		OTHER
+SYS		oh nice		NULL		ACK		OTHER
+SYS		inka emaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Newspapers kuda untaya?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha untai.		ASSERT		ANSWER_POS		TASK1
+SYS		hindi,telugu english lo.		ASSERT		ANSWER_DESC		TASK1
+USER		Great!		NULL		ACK		CM
+USER		Sare asklib, thanks for helping me		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye		GREETING_EOC		NULL		CM
+SYS		thank you malli kaluddaam		GREETING_EOC		ACK		CM
+SYS		bye		GREETING_EOC		ACK		CM
+SYS		Hi nenu asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+SYS		mee peru telsukovacha		INFO_REQUEST_YN		NULL		CM
+USER		Okk		NULL		ACK		CM
+USER		I am uma chowdary.		ASSERT		ANSWER_DESC		CM
+SYS		naatho inthaku mundu maatladaara ?		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledu.		ASSERT		ANSWER_NEG		OTHER
+USER		May I know your name?		INFO_REQUEST_YN		NULL		OTHER
+SYS		naa peru asklib.		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		Okk.		NULL		ACK		CM
+USER		May I know which type of books are available, ante type of journals,comics, novels etc?		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		almost anni genres available unnaayi, academic books, stories, novels, comics, magazines etc.		ASSERT		ANSWER_DESC		TASK1
+SYS		meeku elaanti books kavali?		INFO_REQUEST_WH		ACK		TASK1
+USER		I like mythology books ,technology journals and comics too.		ASSERT		ANSWER_DESC		TASK1
+SYS		oh, avi kooda unnai.		ASSERT		ACK		TASK1
+USER		Okk. How can I get them?		INFO_REQUEST_WH		ACK		TASK1
+SYS		library lo book theeskoni issue cheskovachu.		OO		ANSWER_DESC		TASK1
+USER		Edaina card tesukovala ?		INFO_REQUEST_YN		ACK		TASK1
+USER		Daniki evaina requirments untaya.		INFO_REQUEST_YN		ACK		TASK1
+SYS		meeeu student kani faculty kani aithe id card saripotundi separate ga card em avasaram ledu.		ASSERT		ANSWER_DESC		TASK1
+SYS		prathi student at a time maximum three books issue cheyinchukovachu.		ASSERT		ANSWER_DESC		TASK1
+SYS		inka vere requirements em levu.		ASSERT		ANSWER_NEG		TASK1
+USER		Ohh okk.		NULL		ACK		CM
+SYS		inka emaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		issue chesaka oka book ni enni days lo return cheyali?		INFO_REQUEST_YN		ANSWER_DESC		TASK5
+SYS		15days lopu return cheseyali.		ASSERT		ANSWER_DESC		TASK5
+USER		Ohh okk got it		ASSERT		ACCEPT		TASK5
+SYS		ok.		NULL		ACK		CM
+SYS		inka emaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		No that's it.		ASSERT		ANSWER_NEG		TASK0
+SYS		ok.		NULL		ACK		CM
+SYS		thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		see you soon.		GREETING_EOC		ACK		CM

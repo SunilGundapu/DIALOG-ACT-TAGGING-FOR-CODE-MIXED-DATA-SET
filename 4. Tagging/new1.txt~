@@ -1,0 +1,856 @@
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hello/@ nenu/G_PRP ramz./G_N		ACK		CM		GREETING
+USER		Nenu/G_N good./G_N		ACK		CM		GREETING
+USER		Glad/G_N to/PSP meet/G_V u./G_N		ACK		CM		GREETING
+SYS		naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Yaa/@ first/G_J time./G_N		ANSWER_POS		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		Meeru/G_N intha/G_N pedha/G_J library/G_X ela/G_PRP maintain/G_X chestunnaru./G_N		ACCEPT		TASK2		INFO_REQUEST_WH
+SYS		Inka/@ chala/G_X mandi/G_J help/G_V chestaru./G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		Meeku/G_N ikkada/G_N available/G_N books/G_N gurinchi/G_N edaina/G_N information/G_X kavala?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Author/@ wise/G_J books/G_X ela/G_X search/G_V cheyachu./G_X		ANSWER_DESC		TASK1		INFO_REQUEST_WH
+SYS		Daniki/@ inka/G_X portal/G_N set/G_V up/G_PRT cheyaledu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/@ ye/G_PRP author/G_N ki/G_N sambandinchina/G_N books/G_N kavali?/G_V		NULL		TASK1		INFO_REQUEST_WH
+USER		Oliver/G_N twist./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Oliver/@ Twist/G_N library/G_N lo/PSP undi./G_N		ACK		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara?/G_N		NULL		TASK3		INFO_REQUEST_YN
+USER		Cheyandi./@		ANSWER_POS		TASK3		ACTION_DIR
+SYS		mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_WH
+USER		201225012/@		ANSWER_DESC		TASK3		ASSERT
+SYS		Oliver/@ Twist/G_N meeku/G_PRP issue/G_N ayipoyindi./G_N		NULL		TASK3		ASSERT
+SYS		Inka/G_N edaina/G_N information/G_V kavala?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ledu/G_N andi./G_N		ANSWER_NEG		TASK0		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		Thanks./@		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		malli/G_N kaluddam./G_N		NULL		CM		GREETING_EOC
+USER		Ok/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hi/@ sir/G_N		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N telusukovacha./G_N		NULL		CM		GREETING
+USER		Na/@ peru/G_N saujanya/G_N reddy./G_N		ACK		CM		GREETING
+SYS		Meeru/G_N library/G_N lo/PSP unna/G_X books/G_N kani,/G_V library/G_N timings/# kani,/G_N library/G_N ki/PSP sambandinchi/G_X evaina/G_N questions/G_N unte/G_V nanu/G_N adagandi./G_N		NULL		TASK0		OFFER
+USER		Me/G_N library/G_N lo/PSP Karumanchi/G_N book/G_N unda?/G_N		ACCEPT		TASK1		INFO_REQUEST_YN
+SYS		yes/G_PRT undi./G_N		ANSWER_POS		TASK1		ASSERT
+USER		Nenu/G_N a/DT book/G_N issue/G_N cheskovacha?/G_N		ACK		TASK3		INFO_REQUEST_YN
+SYS		Student/@ copies/G_N aithe/G_X prastutaniki/G_N available/G_J ga/G_N unnayi./G_N		HOLD		TASK3		ASSERT
+SYS		check/G_N chesi/G_N cheptanu./G_X		HOLD		TASK3		COMMIT
+SYS		Mee/G_PRP roll/G_N number/G_N cheptara./G_N		HOLD		TASK3		INFO_REQUEST_YN
+USER		201325221/@		ANSWER_DESC		TASK3		ASSERT
+SYS		meeru/@ last/G_J time/G_N teesukunna/G_X books/G_X inka/G_X return/G_N cheyaledu./G_N		HOLD		TASK3		ASSERT
+SYS		aa/G_X books/G_N return/G_V chesake/G_N inko/G_N book/G_N issue/G_N cheskovacu./G_N		HOLD		TASK3		ASSERT
+USER		Oh/G_N avuna/G_N		ACK		CM		NULL
+USER		mari/@ naku/G_N rendu/G_N books/G_N avasaram/G_X unte?/G_N		ACK		TASK3		INFO_REQUEST_WH
+SYS		request/G_N pettali./G_N		ANSWER_DESC		TASK3		ASSERT
+SYS		meeru/G_N maximum/G_N 3/$ books/G_N ee/G_X teeskovachu./G_N		ANSWER_DESC		TASK3		ASSERT
+USER		ohh/G_N ok./G_N		ACK		CM		NULL
+USER		ekada/@ petali/G_N request?/G_N		ACK		TASK3		INFO_REQUEST_WH
+USER		evariki/G_N petali?/G_N		ACK		TASK3		INFO_REQUEST_WH
+SYS		library/@ portal/G_N loki/G_N velli/G_N isuue/G_N requests/G_N section/G_N lo/PSP pettali./G_N		ANSWER_DESC		TASK3		ASSERT
+USER		okay./@		ACK		CM		NULL
+USER		petanu./@		ACCEPT		TASK3		ASSERT
+SYS		sare/@ mee/G_PRP request/G_N accept/G_N avvagane/G_X naku/G_PRP notification/G_N vastundi./G_N		ACK		TASK3		ASSERT
+USER		eppudu/G_N issue/G_N chestaru?/G_N		NULL		TASK3		INFO_REQUEST_WH
+SYS		notification/@ raagane/G_PRT meeku/G_N book/G_N issue/G_N chesestanu./G_N		ANSWER_POS		TASK3		COMMIT
+USER		nenu/G_N book/G_N eppudu/G_PRP collect/G_V cheskovachu/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_WH
+SYS		meeru/@ inko/G_N 15/$ mins/G_N lo/PSP mee/G_PRP book/G_N collect/G_V cheskodaniki/G_N ravachu./G_N		ANSWER_DESC		TASK3		OO
+USER		tappakunda./@		ACK		TASK3		COMMIT
+USER		chala/G_X thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inkedina/@ information/G_N kavalante/G_N adagandi/G_X		NULL		TASK0		OFFER
+USER		oka/G_PRT vela/G_N late/G_J ga/G_N submit/G_V cheste/G_N penality/G_N entha/G_N untundi/G_V ?/G_X		ACCEPT		TASK5		INFO_REQUEST_WH
+SYS		day/G_N ki/G_N 5rs/G_X charge/G_N chestam./G_N		ANSWER_DESC		TASK5		ASSERT
+USER		oh/@ okay./G_N		ACK		TASK5		NULL
+USER		issue/G_N ni/G_N renew/G_N cheskovacha/G_N ?/G_X		NULL		TASK4		INFO_REQUEST_YN
+USER		ante/G_N reissue/G_N cheskovacha/G_X oka/G_PRT vela/G_N maku/G_N issue/G_N date/G_N ipoyaka/G_N kuda/G_X use/G_X cheyalsi/G_V avasaram/G_N unte?/G_N		NULL		TASK4		INFO_REQUEST_YN
+SYS		yes/G_PRT cheskovachu./G_N		ANSWER_POS		TASK4		ASSERT
+SYS		Return/G_N date/G_N ki/G_X mundu/G_N cheskunte/G_X fine/G_N padadu./G_N		ANSWER_DESC		TASK4		ASSERT
+USER		okay/G_N sure./G_N		ACK		TASK4		NULL
+USER		eni/@ sarlu/G_X varaku/G_V resissue/G_N cheskovachu?/G_N		NULL		TASK4		INFO_REQUEST_WH
+USER		edana/@ limit/G_N unda?/G_N		NULL		TASK4		INFO_REQUEST_YN
+SYS		ledu/G_N		ANSWER_NEG		TASK4		ASSERT
+USER		Okay/@		ACK		TASK4		NULL
+USER		thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		ipudu/G_N a/DT book/G_N teskovadaniki/G_N ravocha?/G_N		NULL		TASK3		INFO_REQUEST_YN
+SYS		ravachu/@		ANSWER_POS		TASK3		OO
+USER		okay/@ thank/G_V you/G_PRP 🙂/G_V		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inkedaina/G_N adagala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ahaa/G_N Ledu/G_N		ANSWER_NEG		TASK0		ASSERT
+SYS		Sare/G_N aithe/G_N malli/G_N kaluddam./G_N		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		hi/G_N asklib./G_N		ACK		CM		GREETING
+USER		bavunna./@		ACK		CM		GREETING
+USER		nuv/G_N ela/G_X unnav./G_X		ACK		CM		GREETING
+SYS		nenu/G_PRP bagunna./G_N		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N ?/G_X		NULL		CM		GREETING
+USER		Monika/@		ACK		CM		GREETING
+SYS		nenu/G_PRP meeku/G_X ela/G_X help/G_X cheyagalanu?/G_N		NULL		TASK0		OFFER
+USER		Naku/@ Dsp/G_N textbook/G_V kavali./G_N		ACCEPT		TASK3		ASSERT
+USER		I/G_PRP need/G_V some/DT manchi/G_J books/G_N andi./G_N		NULL		TASK3		ASSERT
+SYS		DSP/G_N ante/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_WH
+USER		Digital/@ Signal/G_N Processing./G_N		ANSWER_DESC		TASK3		ASSERT
+SYS		Okay./@		ACK		CM		NULL
+SYS		Author/@ preference/G_N edaina/G_N unda?/G_N		HOLD		TASK3		INFO_REQUEST_YN
+USER		andlo/G_N best/G_J books/G_N emunna/G_V naku/G_X kavali./G_N		ANSWER_DESC		TASK3		ASSERT
+USER		can/G_V u/G_PRP help/G_V me?/G_N		NULL		TASK3		INFO_REQUEST_YN
+USER		Oppenham/G_N unda/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+SYS		yes/G_PRT sure./G_N		ANSWER_POS		TASK3		ASSERT
+SYS		yes/G_PRT undi./G_N		ANSWER_POS		TASK3		ASSERT
+SYS		Oppenhamm/@ chala/G_X manchi/G_J book./G_V		NULL		TASK3		ASSERT
+SYS		Chalaa/@ mandi/G_N refer/G_V chestaru./G_N		NULL		TASK3		ASSERT
+SYS		Issue/G_N cheyamantara?/G_N		NULL		TASK3		INFO_REQUEST_YN
+USER		cheyandi./@		ANSWER_POS		TASK3		ACTION_DIR
+USER		inko/G_N 2/$ books/G_N kuda/G_X suggest/G_N cheyandi/G_X		NULL		TASK3		INFO_REQUEST_WH
+SYS		DIGITAL/@ SIGNAL/G_N PROCESSING/# Principles,/G_N Algorithms/G_N and/CC Applications/G_N by/PSP Proakis/G_N and/CC Manolakis./G_N		ANSWER_DESC		TASK3		ASSERT
+SYS		idi/G_X kuda/G_N most/G_X referred./G_N		NULL		TASK3		ASSERT
+SYS		idi/G_N kuda/G_N issue/G_N cheyamantara?/G_N		NULL		TASK3		INFO_REQUEST_YN
+USER		cheyandi./@		ANSWER_POS		TASK3		ACTION_DIR
+USER		na/G_N friend/G_N ki/PSP novel/G_N book/G_N kavalandi./G_N		NULL		TASK1		ASSERT
+USER		manchi/G_J love/G_V story/G_N okati/G_N suggest/G_X cheyandi./G_N		NULL		TASK1		INFO_REQUEST_YN
+SYS		Author/@ preference/G_N edaina/G_N unda?/G_N		HOLD		TASK1		INFO_REQUEST_YN
+USER		emo/@ naku/G_X tanu/G_X emi/G_N cheppaledu./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		prastutaniki/G_N Openhamm/G_N and/CC DSP/G_N by/PSP proakis/G_N ivvandi./G_N		NULL		TASK3		ACTION_DIR
+SYS		mee/G_PRP roll/G_N num/G_N cheppandi./G_N		HOLD		TASK3		INFO_REQUEST_WH
+SYS		meeru/G_N enni/G_N issue/G_N cheskovalo/G_X chusi/G_N cheptanu/G_V		HOLD		TASK3		COMMIT
+USER		201225167/@		ANSWER_DESC		TASK3		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		meeru/G_N already/G_N oka/G_PRT book/G_N teeskunnaru./G_N		HOLD		TASK3		ASSERT
+SYS		adi/G_X inka/G_X return/G_N cheyaledu./G_N		HOLD		TASK3		ASSERT
+SYS		So/@ only/G_R 2/$ books/G_N issue/G_N cheyagalatanu./G_N		HOLD		TASK3		OFFER
+USER		okay./@		ACK		CM		NULL
+USER		aite/G_PRT naku/G_N oka/G_PRT oppenham,oka/G_N love/G_V story/G_N book/G_N ichesyandi/G_X		ACCEPT		TASK3		ACTION_DIR
+SYS		love/G_V story/G_N ante/G_N chala/G_X unnayi./G_X		HOLD		TASK3		ASSERT
+SYS		nenu/G_PRP recommendation/G_N lo/PSP koncham/G_N weak./G_N		HOLD		TASK3		ASSERT
+SYS		fault/G_N in/PSP the/DT stars/G_N issue/G_N cheyamantara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		vadu./@		ANSWER_NEG		TASK3		ASSERT
+USER		naKu/@ can/G_V love/G_V happen/G_N twice/G_N issue/G_N cheyagaltara/G_N		NULL		TASK3		INFO_REQUEST_YN
+SYS		yes/G_PRT sure/G_N		ANSWER_POS		TASK3		COMMIT
+SYS		mee/G_PRP roll/G_N number/G_N ki/G_X ee/G_N books/G_N issue/G_N chesesanu./G_N		NULL		TASK3		ASSERT
+USER		thanks/G_N andi./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		welcome./@		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inkedaina?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		ledu./G_N anthe./G_N		ANSWER_NEG		TASK0		 ASSERT
+SYS		bye!/@ malli/G_N kaluddam./G_N		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hello/@ assistant,/@ am/G_V fine/G_N		ACK		CM		GREETING
+SYS		naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Avunu./@		ANSWER_POS		OTHER		ASSERT
+SYS		mee/G_PRP peru/G_N telusukovacha/G_N ?/G_X		NULL		CM		GREETING
+USER		Yes./@		ANSWER_POS		CM		ASSERT
+USER		Naa/@ peru/G_N chetan./G_N		ACK		CM		GREETING
+SYS		okay/G_N chetan./G_N		ACK		CM		NULL
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		Wat/G_N are/G_V the/DT latest/G_N books/G_N ?/G_X		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		ee/G_N topic/G_N meeda/G_N kavali/G_N ?/G_X		HOLD		TASK1		INFO_REQUEST_WH
+USER		Preferably/@ sports,/G_N Lekapothe/# space/G_N related/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		sports/G_N meeda/G_N ante/G_N magazines/G_N unnayi./G_N		ACK		TASK1		ASSERT
+SYS		Space/G_N meeda/G_N ante/G_N science/G_X journals/G_N unnayi./G_N		ACK		TASK1		ASSERT
+USER		What/G_N is/G_V the/DT latest/G_N magazine/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_WH
+USER		Niku/G_N magazine/G_N lo/PSP emundo/G_N telsa/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		sportstart/G_N ani/G_N kothaga/G_N okati/G_N vachindi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Magazine/G_N lo/PSP emundo/G_N aa/G_X details/G_X naku/G_X telidu./G_N		ANSWER_NEG		TASK1		ASSERT
+SYS		I/G_PRP am/G_V sorry./G_N		NULL		CM		EXPLICIT_PERFORMATIVE
+USER		Where/G_N in/PSP the/DT library/G_N ,/G_X is/G_V it/G_PRP located/G_V ?/G_X		ACK		TASK1		INFO_REQUEST_WH
+USER		Naaku/G_N cheppava/G_N plz./G_N		NULL		CM		INFO_REQUEST_WH
+SYS		library/@ loki/G_N enter/G_V avvagane/G_X first/G_J shelf/G_N lo/PSP top/G_J row/G_N lo/PSP untundi/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Ohh/G_N thankss/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inkedaina/G_N adagalanukuntunnara/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Nuvvu/@ inka/G_X emi/G_N cheyagaluthavu?/G_N		ACCEPT		TASK0		INFO_REQUEST_WH
+SYS		meekedaina/@ book/G_N kavalante/G_N issue/G_N cheyinchi/G_V ready/G_J ga/G_N pettgalugutanu/G_N		ANSWER_DESC		TASK0		OFFER
+USER		Ohh/G_N ok./G_N		ACK		CM		NULL
+USER		Can/@ u/G_PRP check/G_V if/PSP a/DT book/G_N is/G_V available/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		thappakunda/@		ANSWER_POS		TASK1		COMMIT
+SYS		book/G_N peru/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_WH
+USER		The/@ monk/G_N who/G_PRP sold/G_V his/DT ferrari./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		"The/@ monk/G_N who/G_PRP sold/G_V his/DT ferrari"/G_N availability/G_N lo/PSP undi./G_N		ACK		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		Yes/@		ANSWER_POS		TASK3		ACTION_DIR
+SYS		mee/G_PRP roll/G_N number/G_N please/G_V		HOLD		TASK3		INFO_REQUEST_WH
+USER		201201124/@		ANSWER_DESC		TASK3		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		Meeru/@ inko/G_N 5/$ mins/G_N lo/PSP vachi/G_N tesskelochu./G_N		NULL		TASK3		OO
+USER		Thanks./@		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		Bye/@		NULL		CM		GREETING_EOC
+SYS		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		nenu/G_PRP bagunnanu./G_N		ACK		CM		GREETING
+USER		nuvu/G_N ?/G_X		ACK		CM		GREETING
+SYS		nenu/G_PRP kuda/G_N bagunnanu./G_X		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N ?/G_X		ACK		CM		GREETING
+USER		akhil/@		ACK		CM		GREETING
+SYS		naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		avunu/G_N first/G_J time/G_N eh./G_X		ANSWER_POS		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu/G_N		NULL		TASK0		OFFER
+USER		library/@ related/@ questions/G_N ante/G_N ?/G_X		HOLD		TASK0		INFO_REQUEST_WH
+SYS		ante/G_N edaina/G_N book/G_N gurinchi/G_X kanukovalanna,/G_N leda/G_X issue/G_N cheyinchukovalanna/G_N		ANSWER_DESC		TASK0		ASSERT
+USER		me/G_PRP dagara/G_N anni/G_N languages/G_N books/G_N untaya/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		technical/G_N vi/G_X kavalante/G_N english/G_N lo/PSP ekkuva/G_N unnayi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Literature/G_N lo/G_N telugu/G_N inka/G_N hindi/G_N kuda/G_X unnayi/G_X		ANSWER_DESC		TASK1		ASSERT
+USER		naku/@ philosophy/G_N pusthakaalu/G_N kavali/G_N ./G_X		NULL		TASK1		ASSERT
+SYS		ye/G_PRP language/G_N lo/PSP kavali./G_N		HOLD		TASK1		INFO_REQUEST_WH
+USER		telugu/G_N lo/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		author/@ preference/G_N edaina/G_N unda/G_N ?/G_X		HOLD		TASK1		INFO_REQUEST_YN
+USER		yendamuri/G_N verendranath/G_N !/G_X		ANSWER_DESC		TASK1		ASSERT
+SYS		"mimalni/@ meeru/G_X gelavagalaru"/G_N ane/G_N book/G_N undi/G_N ./G_X		ACK		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		adhi/G_N okkate/G_N undha/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		vijayaniki/@ aidhu/G_N metlu/G_N ane/DT pusthakam/G_N ledha/G_X ?/G_X		HOLD		TASK1		INFO_REQUEST_YN
+SYS		adi/G_X okate/G_N copy/G_N undi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		already/G_R okaru/G_N teeskunnaru./G_X		ANSWER_DESC		TASK1		ASSERT
+USER		sare./@		ACK		CM		NULL
+USER		mimalni/G_N meeru/G_N gelavagalaru/G_N ane/G_X pusthakanni/G_X naku/G_X issue/G_N cheyandi/G_X		ACCEPT		TASK3		ACTION_DIR
+SYS		okay./@		ACK		CM		NULL
+SYS		mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		201325148/@		ANSWER_DESC		TASK3		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		book/G_N issue/G_N chesesanu./G_N		NULL		TASK3		ASSERT
+SYS		Inko/G_N 5/$ mins/G_N lo/PSP vachi/G_N meeru/G_X mee/G_PRP id/G_N card/G_N chupinchi/G_V book/G_N teesukelachu./G_V		NULL		TASK3		OO
+SYS		inka/G_N edaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		yepati/@ lopu/G_N return/G_V cheyali/G_X ee/G_X book/G_N ni/G_N ?/G_X		NULL		TASK5		INFO_REQUEST_WH
+SYS		ee/G_N roju/G_N date/G_N 26th/G_N November./G_N		NULL		TASK5		ASSERT
+SYS		Time/@ 6:45PM/G_N ayindi./G_N		NULL		TASK5		ASSERT
+SYS		10th/@ December/G_N 7PM/G_X kalla/G_N return/G_N cheyali./G_N		ANSWER_DESC		TASK5		ASSERT
+USER		sare/G_N ./G_X		ACCEPT		TASK5		COMMIT
+USER		thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		okay/G_N bye./G_N		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hi/G_PRT I/G_PRP am/G_V Divya./G_N		ACK		CM		GREETING
+USER		I/G_PRP am/G_V doing/G_V great./G_N		ACK		CM		GREETING
+SYS		natho/@ intaka/G_N mundu/PSP matladara/PSP leda/G_N ide/G_X first/G_J time/G_N aa/G_X ?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		idi/@ second/G_J time./G_N		ANSWER_DESC		OTHER		ASSERT
+SYS		evaina/@ questions/G_N unte/G_V adagandi./G_N		NULL		TASK0		OFFER
+USER		So/@ I/G_PRP want/G_V Books/G_V that/G_PRP are/G_V fictional/G_V Or/CC detective/G_PRP novels/G_N are/G_V also/G_R fine./G_N		ACCEPT		TASK1		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		meeku/@ ye/G_PRP language/G_N lo/PSP books/G_N kavali/G_N ?/G_X Hindi,/G_N English/G_N or/CC Telugu?/G_N		HOLD		TASK1		INFO_REQUEST_WH
+USER		Naku/@ English/G_N books/G_N Kaavali./G_V		ANSWER_DESC		TASK1		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		Author/@ preference/G_N edaina/G_N unda/G_N ?/G_X		HOLD		TASK1		INFO_REQUEST_YN
+USER		Ahaa/G_N ledu/G_N		ANSWER_NEG		TASK1		ASSERT
+SYS		To/G_N kill/G_V a/DT mocking/G_N bird/G_N ane/DT book/G_N most/G_X read/G_N lo/PSP undi/G_N ./G_X		ACK		TASK1		ASSERT
+SYS		library.iiit.ac.in/G_N lo/PSP dani/G_J reviews/G_N chudochu/G_N		NULL		TASK1		OO
+SYS		adi/G_N issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		Oka/G_N 5/G_N books/G_N Chepthe/G_N Daantlo/G_V nundi/PSP nen/G_X choose/G_N cheskunta/G_N		HOLD		TASK3		INFO_REQUEST_WH
+SYS		oka/G_PRT second/G_N		ACK		CM		NULL
+USER		Ipoindi/G_N oka/G_PRT second/G_N		ACK		OTHER		ASSERT
+SYS		Oedipus/@ vs./G_N Rex/G_V by/PSP Evadne/G_N Mount/G_N		ANSWER_DESC		TASK3		ASSERT
+USER		Last/@ book/G_N Issue/G_V cheyandi/G_X		ACK		TASK3		ACTION_DIR
+SYS		Okay./@		ACK		CM		NULL
+SYS		ippudu/@ time/G_N 7:15/G_X pm/G_N aindi./G_N		NULL		TASK5		ASSERT
+SYS		Meeru/@ ee/G_N book/G_N december/G_N 15th/PSP 8PM/G_X lopu/G_N return/G_V cheseyali./G_N		NULL		TASK5		ASSERT
+USER		cool/@		ACCEPT		TASK5		COMMIT
+USER		thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inkedaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ahaa/G_N Ledu/G_N		ANSWER_NEG		TASK0		ASSERT
+SYS		Thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		See/@ you/G_PRP again./G_V		ACK		CM		GREETING_EOC
+SYS		Bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		Ela/G_N unnavu?/G_N		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hi/@ My/G_N day/G_N is/G_V good./G_N		ACK		CM		GREETING
+USER		where/G_N can/G_V i/G_PRP get/G_V some/DT thriller/G_N novels?/G_N		NULL		TASK1		INFO_REQUEST_WH
+SYS		Literature/G_N section/G_N lo/PSP last/G_J 2/$ rows/G_N anni/G_N thriller/G_N novels/G_N ee/G_X		ANSWER_DESC		TASK1		ASSERT
+USER		naaku/G_X murder/G_N mysteries/G_N ante/G_N ishtam./G_N		NULL		TASK1		ASSERT
+USER		ee/G_N author/G_N ayithe/G_N better/G_J ?/G_X		NULL		TASK1		INFO_REQUEST_WH
+SYS		James/@ petterson/G_N rasina/G_X books/G_X ee/G_X madya/G_N students/G_N baga/G_X issue/G_N cheyinchukuntunnaru/G_V		ANSWER_DESC		TASK1		ASSERT
+USER		ooh/@ avunaa../G_N		ACK		CM		NULL
+USER		i/G_PRP havent/G_V heard/G_V about/PSP him../G_N		ACK		OTHER		ASSERT
+USER		Could/@ you/G_PRP suggest/G_V me/G_PRP a/DT book/G_N of/PSP him/G_N too/G_R ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+SYS		Wizard/G_N and/CC witch./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		meeku/@ inka/G_X information/G_N kavalante/G_V library/G_N portal/G_N lo/PSP dorukutadi./G_N		NULL		TASK1		ASSERT
+USER		ooh/@ thanks../G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		i/G_PRP will/G_V take/G_V these/DT 2/$ books/G_N if/PSP available/G_N		ACK		TASK3		COMMIT
+SYS		They/@ are/G_V available,/G_V		ANSWER_POS		TASK3		ASSERT
+SYS		issue/G_N cheyana/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		cheseyandi/@		ANSWER_POS		TASK3		ACTION_DIR
+SYS		Mee/G_PRP roll/G_N number/G_N cheptara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		naa/G_PRT roll/G_N nubmer/G_N 201201151./G_N		ANSWER_DESC		TASK3		ASSERT
+USER		i/G_PRP like/G_V dan/G_N brown/G_V books/G_N too.../G_V		NULL		TASK1		ASSERT
+USER		i/G_PRP have/G_V read/G_N all/DT of/PSP his/DT books../G_N		NULL		TASK1		ASSERT
+USER		similar/G_N type/G_N of/PSP books/G_N telusaa?..like/G_N fiction/G_V on/PSP history/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		sorry./@		ACK		TASK1		EXPLICIT_PERFORMATIVE
+SYS		Nenu/G_N books/G_N recommend/G_N cheyadaniki/PSP kavalsina/G_X information/G_X na/PSP daggara/G_N ledu./G_X		ANSWER_DESC		TASK1		ASSERT
+USER		ok/@ no/G_PRT problem./G_N		ACK		CM		ASSERT
+SYS		mari/G_X ee/G_N rendu/G_N books/G_N issue/G_N cheyamantara/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		yeah/@ ee/G_N rendu/G_N books/G_N issue/G_N cheyyandi./G_N		ANSWER_POS		TASK3		ACTION_DIR
+USER		enni/@ days/G_N lopala/G_X return/G_N cheyyali/G_N ?/G_X		NULL		TASK5		INFO_REQUEST_WH
+SYS		iroju/@ date/G_N 27th/G_N november/G_N ,/G_X time/G_N 10/G_X ayindi./G_X		HOLD		TASK5		ASSERT
+SYS		December/@ 15th/G_N kalla/G_N return/G_N cheyali./G_N		ANSWER_DESC		TASK5		ASSERT
+USER		hope/G_N i/G_PRP will/G_V return/G_V before/PSP that/G_PRP period./G_N		ACCEPT		TASK5		COMMIT
+USER		penalty/G_N entha/G_N ?/G_X		NULL		TASK5		INFO_REQUEST_WH
+SYS		return/G_N date/G_N nundi/G_X roju/G_N ki/G_N 5/G_X rupees./G_N		ANSWER_DESC		TASK5		ASSERT
+USER		ok/@		ACK		CM		NULL
+SYS		inkedaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		nothing/G_N more./G_N		ANSWER_NEG		TASK0		ASSERT
+USER		thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		welcome./@		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		Bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hello/G_N ,/G_X i/G_PRP m/G_V gud/G_J		ACK		CM		GREETING
+SYS		naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		avnu/@		ANSWER_POS		OTHER		ASSERT
+SYS		mee/G_PRP peru/G_N ?/G_X		NULL		CM		GREETING
+USER		deepya/@		ACK		CM		GREETING
+SYS		Deepya/@ meeku/G_N library/G_X related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		ACK		TASK0		OFFER
+USER		lib/@ timings/G_N enti?/G_N		ACCEPT		TASK2		INFO_REQUEST_WH
+SYS		podunna/G_N 9/G_N ki/PSP open/G_V chestaru./G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		raatri/G_N 12/G_N ki/PSP close/G_N chestaru./G_N		ANSWER_DESC		TASK2		ASSERT
+USER		sundays/G_N kuda/G_N open/G_V ayye/G_N untada?/G_N		NULL		TASK2		INFO_REQUEST_YN
+SYS		Sunday/@ evening/G_N 5/$ kalla/G_N close/G_N chestaru./G_N		ANSWER_DESC		TASK2		ASSERT
+USER		ohk./@		ACK		CM		NULL
+USER		okasari/@ maximum/G_N enni/G_X books/G_X issue/G_V chestaru/G_N		NULL		TASK1		INFO_REQUEST_WH
+SYS		okesari/G_N 3/$ books/G_N varaku/G_N issue/G_N cheskovachu/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		okk/@		ACK		CM		NULL
+SYS		edaina/G_N book/G_N issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		Data/G_N structures/G_N ki/G_N oka/G_PRT manchi/G_N book/G_N suggest/G_N chesthara/G_N		HOLD		TASK1		INFO_REQUEST_WH
+SYS		Library/G_N portal/G_N lo/PSP anni/G_N books/G_N list/G_N untundi./G_N		HOLD		TASK1		ASSERT
+SYS		prathi/G_N book/G_N ki/G_N rating/G_N kuda/G_X untundi./G_N		HOLD		TASK1		ASSERT
+SYS		Meeru/@ portal/G_N loki/G_N velli/G_N chudocu./G_N		HOLD		TASK1		OO
+SYS		meeku/@ recommend/G_N cheyadaniki/G_N aa/DT information/G_X naku/G_X telidu/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		oh/@ ok./G_N		ACK		CM		NULL
+USER		nen/G_N chusi/G_N cheptha./G_N		ACCEPT		TASK1		COMMIT
+USER		Data/@ structures/G_N by/PSP Karumanchi/G_N issue/G_N cheyandi./G_N		NULL		TASK3		ACTION_DIR
+SYS		sare./@		ACK		CM		NULL
+SYS		Mee/G_PRP roll/G_N number/G_N chepthara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		201225167/@		ANSWER_DESC		TASK3		ASSERT
+SYS		meeku/G_N book/G_N issue/G_N chesesanu./G_N		NULL		TASK3		ASSERT
+SYS		15th/@ December/G_N lopu/G_X ee/G_X book/G_N return/G_N cheseyali./G_N		NULL		TASK5		ASSERT
+SYS		sare/G_N na/G_N ?/G_X		NULL		TASK5		INFO_REQUEST_YN
+USER		okay/@		ACK		TASK5		COMMIT
+SYS		enkedaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		aa/G_X oka/G_PRT book/G_N chalu/G_N		ANSWER_NEG		TASK0		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		see/G_V you/G_PRP soon./G_V		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hello./@		ACK		CM		GREETING
+USER		I/G_PRP am/G_V samyukta./G_N		ACK		CM		GREETING
+USER		I/G_PRP am/G_V fine/G_N		ACK		CM		GREETING
+SYS		meeru/@ natho/G_N first/G_J time/G_N matladutunnara/G_N ?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Haa./@		ANSWER_POS		OTHER		ASSERT
+USER		Nenu/G_N ee/G_N lib/G_N ki/G_N raavadam/G_N first/G_J time./G_N		ANSWER_DESC		OTHER		ASSERT
+SYS		sare./@		ACK		CM		NULL
+SYS		meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagandi./G_N		NULL		TASK0		OFFER
+USER		Data/G_N structures/G_N and/CC algorithms/G_N book/G_N copies/G_V dorkaatledu../G_N kani/CC website/G_N says/G_N there/G_PRP r/G_V 4/$ copies/G_N available./G_N		ACCEPT		TASK1		ASSERT
+USER		Could/@ u/G_PRP please/G_V check/G_V and/CC let/G_V me/G_PRP know./G_X		ACCEPT		TASK1		INFO_REQUEST_YN
+SYS		yes/G_PRT 4/G_N copies/G_N unnayi/G_V kaani/G_N anni/G_N reference/G_N copies./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		refrence/G_N copies/G_N ni/G_N generally/G_N issue/G_N cheyamu./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Ohh/G_N Alana./G_N		ACK		CM		NULL
+USER		can/G_V u/G_PRP please/G_V check/G_V and/CC let/G_V me/G_PRP know/G_V when/G_N is/G_V the/DT most/G_N nearest/G_V date/G_N where/PSP the/DT book/G_N is/G_V due/G_J to/PSP return/G_V by/PSP someone/G_N who/G_PRP has/G_V that/G_PRP book/G_N		NULL		TASK1		INFO_REQUEST_YN
+SYS		2nd/@ December/G_N kalla/DT one/$ copy/G_N will/G_V be/G_V available/G_J		ANSWER_DESC		TASK1		ASSERT
+USER		Okay/@ thank/G_V u./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		reserve/G_N chesi/G_N unchamantara/G_N ?/G_X		NULL		TASK6		INFO_REQUEST_YN
+USER		Yes/@ yes./G_N		ANSWER_POS		TASK6		ACTION_DIR
+USER		thank/G_V u/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		mee/G_PRP roll/G_N number/G_N ?/G_X		HOLD		TASK6		INFO_REQUEST_WH
+USER		201401897/@		ANSWER_DESC		TASK6		ASSERT
+SYS		okay/@ nenu/G_PRP reserve/G_N chesanu./G_N		ACK		TASK6		ASSERT
+SYS		teeskunna/@ vallu/G_X return/G_V cheyagane/PSP meeku/G_X oka/G_PRT email/G_N vastaundi./G_N		NULL		TASK6		ASSERT
+SYS		mee/G_PRP email/G_N id/G_N cheptara/G_N ?/G_X		NULL		TASK6		INFO_REQUEST_YN
+USER		naa/G_PRT email/G_N id/G_N abc.xyz@gmail.com/G_N		ANSWER_DESC		TASK6		ASSERT
+SYS		okay./@		ACK		CM		NULL
+SYS		inkedaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ahaa/G_N Ledu/G_N		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/@ u/G_PRP asklib/G_V		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		Okay/G_N bye./G_N		ACK		CM		GREETING_EOC
+SYS		See/@ you/G_PRP soon./G_V		ACK		CM		GREETING_EOC
+SYS		Hi,/@ na/G_PRP peru/G_N Asklib./G_N		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni/G_X		NULL		CM		ASSERT
+USER		Lol,/@ what/G_PRP can/G_V u/G_PRP do?/G_V		ACCEPT		TASK0		INFO_REQUEST_WH
+SYS		meeku/@ library/G_N related/G_N evaina/G_N questions/G_N unte/G_V nannu/G_X adagochu,Book/G_N Issue,/G_X reissue,/G_X ilantivi/G_X		ANSWER_DESC		TASK0		OFFER
+USER		Book/@ renewal/G_N timings/G_N enti?/G_N		NULL		TASK4		INFO_REQUEST_WH
+SYS		meeru/@ epudaina/G_N renew/G_N cheskovachu./G_N		ANSWER_DESC		TASK4		OO
+SYS		Library/G_N ki/G_N ravalsina/G_N avasram/G_N ledu./G_N		ANSWER_DESC		TASK4		ASSERT
+SYS		naku/@ chepthe/G_N nenu/G_PRP automatic/G_J ga/G_N system/G_N lo/PSP update/G_N chestanu./G_N		ANSWER_DESC		TASK4		OFFER
+SYS		Evaraina/G_N aa/G_N book/G_N already/G_R reserve/G_V cheskunte/G_N ,/G_X renewal/G_N option/G_N undadu,/G_N appudu/G_N meeru/G_N library/G_N ki/G_N ravalsuntundi./G_N		ANSWER_DESC		TASK4		ASSERT
+USER		oh/@ cool./G_N		ACK		CM		NULL
+SYS		inkedaina/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Can/@ you/G_PRP tell/G_V me/G_PRP the/DT status/G_N of/PSP this/DT book/G_N Introduction/G_N to/PSP Humanoid/G_V Robotics./G_N Authors/G_N Kajita/G_N S.Hirukawa/G_N H.Harada/G_N K.Yokoi/G_N K.Ragu/G_N		ANSWER_POS		TASK1		INFO_REQUEST_YN
+SYS		ee/G_N book/G_N availability/G_N lo/PSP undi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		ikkada/G_N issue/G_N cheste/G_V mari/G_X nenu/G_PRP eppudu/G_X collect/G_V chesukovali?/G_N		HOLD		TASK3		INFO_REQUEST_WH
+SYS		issue/G_N chesina/G_V 15/null mins/G_N ki/PSP vachi/G_N collect/G_V cheskovachu/G_N		ANSWER_DESC		TASK3		ASSERT
+USER		okay/@		ACK		CM		NULL
+SYS		issue/G_N cheyamantara/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+USER		ledu./@		ANSWER_NEG		TASK3		ASSERT
+USER		thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		okay/@		ACK		CM		NULL
+SYS		inkedaina/G_N adagala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		ledu./@		ANSWER_NEG		TASK0		ASSERT
+SYS		okay/G_N bye./G_N		ACK		CM		GREETING_EOC
+SYS		see/G_V you/G_PRP again./G_V		ACK		CM		GREETING_EOC
+USER		ok/G_N 🙂/G_N		ACK		CM		NULL
+SYS		Hi,/@ I/G_PRP am/G_V Li.b.ot,/G_V mee/G_PRP Library/G_N Assistant./G_N		NULL		CM		GREETING
+SYS		How/G_N can/G_V I/G_PRP help/G_V you/G_PRP ?/G_X		NULL		TASK0		OFFER
+USER		Hi/@ I'm/G_N praneetha/G_N		ACK		CM		GREETING
+SYS		Hi/@ praneetha/G_N		ACK		CM		GREETING
+SYS		How/G_N can/G_V I/G_PRP help/G_V you/G_PRP ?/G_X		NULL		TASK0		OFFER
+USER		What/G_PRP r/G_V the/DT different/G_J textbooks/G_N on/PSP computer/G_N vision/G_N ?/G_X		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		Sorry,/@ Ippudu/G_PRT Computer/G_X Vision/null books/G_V available/G_J ga/G_N levu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Inka/G_N emaina/G_X books/G_N kavala/G_V ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Linear/@ algebra/G_N meeda/G_X kavali./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Linear/@ Algebra/G_N lo,/G_V Introduction/G_V to/PSP Linear/G_V Algebra/G_N by/PSP Gilbert/$ Strang/G_N book/G_N okate/G_N undi./G_N		ACK		TASK1		ASSERT
+SYS		Aa/@ book/G_N kavala/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Oh,/@ No/G_N		REJECT		TASK1		ASSERT
+SYS		Sorry,/@ Inka/G_N edaina/G_N book/G_N kavala/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Pattern/@ classification/G_N meeda/G_X unnaya/G_N		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		3/@ books/G_N unnayi,/G_N Pattern/G_N Recognition/G_V by/PSP Springer,/G_N Classification/G_N made/G_V easy/G_J by/PSP John/G_N Machintosh/G_N and/CC Classifiers/G_N of/PSP Today/G_N by/PSP Li/G_N Nung/G_N unnayi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Vitilo/@ emaina/G_N kavala/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		I/G_PRP want/G_V Classifiers/G_N of/PSP Today/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		okay/@		ACK		CM		NULL
+SYS		aa/G_N book/G_N issue/G_N cheyana/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		Cheyandi./@		ANSWER_POS		TASK3		ACTION_DIR
+SYS		mee/G_PRP Library/G_N ID/G_N number/G_N enti/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		201401187/@		ANSWER_DESC		TASK3		ASSERT
+SYS		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		mee/G_PRP ID/G_N ki/G_N book/G_N issue/G_N chesenu/G_N		NULL		TASK3		ASSERT
+SYS		meeru/@ velli/G_N teeskovachu/G_N		NULL		TASK3		OO
+SYS		inka/G_X emaina/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		Eppati/G_N ki/G_N return/G_N cheyali/G_X		ANSWER_DESC		TASK5		INFO_REQUEST_WH
+SYS		Oka/G_N 7/G_N days/G_N lo/PSP return/G_N cheyali/G_V		ANSWER_DESC		TASK5		ASSERT
+SYS		Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		No,/@		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		See/@ you/G_PRP again./G_V		ACK		CM		GREETING_EOC
+USER		Bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Li.b.ot,/G_J your/G_R Library/G_N Assistant/G_X		NULL		CM		GREETING
+SYS		meeku/G_N ela/G_X help/G_X cheya/G_N galanu/G_N ?/G_X		NULL		TASK0		OFFER
+USER		Hello/@		ACK		CM		GREETING
+USER		linear/@ algebra/G_N books/G_N section/G_V ekada/G_N undi?/G_X		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		Linear/@ Algebra/G_N books/G_PRT meeku/G_PRP section/G_N 3.2/G_N lo/PSP dorukutundi/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/@ aa/G_X book/G_N kavala/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Naaku/G_N linear/G_N algebra/G_N by/PSP Russel/$ norvig/G_N third/null edition/G_N kavali./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Sorry,/@ aa/G_N book/G_N ledhu./G_N		ACK		TASK1		ASSERT
+SYS		Vere/G_N book/G_N emaina/G_N kavala/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		It's/G_N okay/G_N		ACK		TASK1		ASSERT
+USER		Introduction/G_N to/PSP Linear/G_V Algebra/G_N by/PSP Gilbert/G_N Strang/G_N Dorukutada?/G_N		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		yes,/@ that/G_N book/G_N is/G_V available./G_N		ANSWER_POS		TASK1		ASSERT
+SYS		mee/G_PRP ID/G_N ki/G_N issue/G_N cheyala/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		Yes/G_N please/G_V		ANSWER_POS		TASK3		ACTION_DIR
+SYS		mee/G_PRP ID/G_N number/G_N istara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		201501138/@		ANSWER_DESC		TASK3		ASSERT
+SYS		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		mee/G_PRP ID/G_N ki/G_N book/G_N issue/G_N chesenu/G_N		NULL		TASK3		ASSERT
+SYS		meeru/@ velli/G_N tesukovachu./G_N		NULL		TASK3		OO
+SYS		Can/@ I/G_PRP assist/G_V you/G_PRP with/PSP something/G_N else/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Prastuthaniki/@ inkem/G_N voddu/G_N		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		okay,/G_N Bye/G_N		ACK		CM		GREETING_EOC
+USER		Bye/@		ACK		CM		GREETING_EOC
+SYS		Hey,/@ Myself/G_N Libot./G_N		NULL		CM		GREETING
+SYS		How/@ may/G_V I/G_PRP help/G_V you?/G_N		NULL		TASK0		OFFER
+USER		Hi,/@ I/G_PRP am/G_V madhur./G_N		ACK		CM		GREETING
+USER		Naaku/G_N library/G_N related/G_X konni/G_SYM questions/G_N unnayi/G_X		ACCEPT		TASK2		ASSERT
+SYS		sare./@		ACK		CM		NULL
+SYS		Mee/G_PRP questions/G_N enti/G_N ?/G_X		ACK		TASK2		INFO_REQUEST_WH
+USER		Library/@ timings/G_N enti/G_N ?/G_X		ANSWER_DESC		TASK2		INFO_REQUEST_WH
+SYS		Monday/G_N to/PSP Saturday/G_V 10:00/G_N AM/G_V to/PSP 12:00/G_V AM/G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		Sunday/@ 10:00AM/G_V to/PSP 5:00/G_V PM/G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		inka/G_X emaina/G_N doubts/G_N unnaya?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Library/G_N lo/PSP computers/G_N unnaya/G_N ?/G_X		ANSWER_DESC		TASK2		INFO_REQUEST_YN
+SYS		4/@ computers/G_N unnayi./G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		inka/G_X emaina/G_N doubts/G_N unte/G_X adagandi./G_X		NULL		TASK0		OFFER
+USER		Oka/G_N computer/G_N ni/PSP munde/G_V reserve/G_N chesukovacha/G_N ?/G_X		ACCEPT		TASK6		INFO_REQUEST_YN
+SYS		Reserve/@ cheskovatam/G_N kudaradu./G_N		ANSWER_NEG		TASK6		ASSERT
+SYS		Personal/@ system/G_N vadachu./G_N		ANSWER_DESC		TASK6		ASSERT
+USER		Ok./@		ACK		CM		NULL
+USER		Library/G_N lo/PSP wifi/G_N facility/G_N unda/G_N ?/G_X		NULL		TASK2		INFO_REQUEST_YN
+SYS		Library/G_N lo/PSP Wi-Fi/G_N facility/G_N undi./G_N		ANSWER_POS		TASK2		ASSERT
+SYS		inka/G_X emaina/G_X questions/G_N unnaya?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Psycology/@ related/G_N books/G_N unaya/G_N ?/G_X		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		unnayi./@		ANSWER_POS		TASK1		ASSERT
+SYS		meeku/@ ye/G_PRP book/G_N kavali?/G_N		ACK		TASK1		INFO_REQUEST_WH
+USER		Psycology/@ books/G_N tarvata/G_V tesskuntanu/G_N		MAYBE		TASK1		ASSERT
+SYS		sare./@		ACK		CM		NULL
+SYS		inka/G_X emaina/G_X help/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Novels/G_N untaya/G_N ?/G_X		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		novels/G_N unnayi./G_N		ANSWER_POS		TASK1		ASSERT
+SYS		meeku/@ A/DT novel/G_N kavali?/G_N		ACK		TASK1		INFO_REQUEST_WH
+USER		Not/G_R a/DT penny/G_N more,/G_N Not/G_R a/DT penny/G_N less/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Telugu/G_N translation/G_N unda/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		undi./@		ANSWER_POS		TASK1		ASSERT
+USER		Ekkada/G_N undi?/G_N		NULL		TASK1		INFO_REQUEST_WH
+SYS		Rack/@ number/G_N 5-2/G_N lo/PSP untundi./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		inka/G_X emaina/G_X help/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Ledu,/@		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		Bye,/G_N Have/G_N a/DT good/G_J day./G_N		ACK		CM		GREETING_EOC
+USER		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi,/@ nenu/G_PRP library/G_N assistant/G_N ni/G_X		NULL		CM		GREETING
+SYS		miku/G_N emaina/@ help/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Hi/@		ACK		CM		GREETING
+USER		library/G_N membership/G_N gurinchi/G_N details/G_V emaina/G_X cheputara/G_X		ANSWER_DESC		TASK7		INFO_REQUEST_YN
+SYS		Library/@ Membership/G_N kosam/G_N two/$ passport/G_N size/G_X photographs/# kavali,/# Registration/# fee/G_V 200,/G_V every/DT year/G_N renewal/G_N kosam/G_N 100/$ pay/G_N cheyali/G_X		ANSWER_DESC		TASK7		ASSERT
+SYS		Meeru/@ membership/G_N teeskundam/G_N anukuntunnara/G_N ?/G_X		ACK		TASK7		INFO_REQUEST_YN
+USER		Avunu,/@ kaani/G_N membership/G_N benefits/G_N emiti/G_N ?/G_X		HOLD		TASK7		INFO_REQUEST_WH
+SYS		Meeru/@ Member/G_N avvakapothe/PSP library/G_N lone/G_J books/G_N chadavali/G_N		ANSWER_DESC		TASK7		ASSERT
+SYS		Okavela/@ member/G_N aithe/G_N meeru/G_X books/G_N ni/G_N intiki/G_N teesukuvellochu/G_X		ANSWER_DESC		TASK7		ASSERT
+SYS		meeku/@ membership/G_N kavala?/G_N		NULL		TASK7		INFO_REQUEST_YN
+USER		Haan,/@ before/G_V that/G_PRP library/G_N lo/PSP wifi/G_N unda/G_N ?/G_X		HOLD		TASK2		INFO_REQUEST_YN
+SYS		Yes,/G_N library/G_N lo/PSP wifi/G_N undi/G_N		ANSWER_POS		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_N adagalanukuntunnara?/G_N		NULL		TASK0		INFO_REQUEST_YN
+USER		Ok,/@		ACK		CM		NULL
+USER		inka/G_X library/G_N timmings/G_N enti/G_N ?/G_X		ANSWER_DESC		TASK2		INFO_REQUEST_WH
+SYS		Library/@ Morning/G_N 9/$ to/PSP Evening/G_V 5/G_N ,/G_X and/CC Sundays/G_N holiday/G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_N doubts/G_N unte/G_X adagachu/G_X		NULL		TASK0		OFFER
+USER		Ok,/@		ACK		TASK0		NULL
+USER		books/@ overdue/G_V ayithe/G_N fine/G_N entha/G_N ?/G_X		ACCEPT		TASK5		INFO_REQUEST_WH
+SYS		per/G_N day/G_N 10rs/G_N fine/G_N kattali/G_N		ANSWER_DESC		TASK5		ASSERT
+SYS		Inka/G_N emaina/G_X info/G_N kavala/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ledhu,/@		ANSWER_NEG		TASK0		ASSERT
+USER		thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		Bye/@		NULL		CM		GREETING_EOC
+SYS		Bye/G_N ,/G_X Have/G_N a/DT nice/G_J day/G_N		ACK		CM		GREETING_EOC
+SYS		Hi/@ am/G_V Harsha,/G_J your/G_R library/G_N assistant,/G_X		NULL		CM		GREETING
+SYS		Meeku/@ ela/G_X help/G_V cheyagalanu/G_N ?/G_X		NULL		TASK0		OFFER
+USER		Naaku/G_N konni/G_N books/G_N kaavali/G_V		ACCEPT		TASK1		ASSERT
+SYS		Em/@ books/G_N kavali/G_V meeku/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_WH
+USER		Harry/G_N Potter/G_N and/CC the/DT half/G_N blood/G_N prince/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		aa/G_N book/G_N library/G_N lo/PSP undi./G_N		ACK		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		Issue/G_N cheyoddu!/G_N		ANSWER_NEG		TASK3		ASSERT
+USER		aa/G_N book/G_N library/G_N lo/PSP ekkada/G_N undi/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_WH
+SYS		Okay,/@ A/DT book/G_N section/G_N 3-2/G_N lo/PSP undi/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Naaku/G_N "Speech/G_N and/CC Language/G_N Processing/G_N by/PSP Jurafsky/G_N Martin"/G_N 7th/G_V edition/G_N kavali/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Sorry,/G_N library/G_N lo/PSP only/G_R 5th/G_N edition/G_V a/DT undi/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/@ adhi/G_N kavala/G_X ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+USER		Parledhu/G_N kaavali./G_N		ANSWER_POS		TASK1		ASSERT
+USER		Only/@ reference/G_J copies/G_V ye/G_PRP unnaya/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_YN
+USER		Ledhante/@ intiki/G_N kooda/G_N theeskellacha/G_N		NULL		TASK1		INFO_REQUEST_YN
+SYS		A/G_N book/G_N vi/PSP total/G_J 5/null copies/G_N unnayi,/G_N 2/$ reference/G_N copies/G_N and/CC methavi/G_N meeru/G_N intiki/G_X kuda/G_X teesukoni/G_N velachu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/@ aa/G_X book/G_N kavala/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+USER		Aa/G_PRT 3/$ copies/G_N ippudu/G_X available/G_V ye/G_PRP na?/G_N		HOLD		TASK1		INFO_REQUEST_YN
+SYS		Only/@ 1/$ copy/G_N available/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/G_N kavala/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+USER		Kaavali/@		ANSWER_POS		TASK1		ASSERT
+SYS		aithe/G_N issue/G_N cheyamantara/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		Cheseyandi/@		ANSWER_POS		TASK3		ACTION_DIR
+SYS		Mee/G_PRP library/G_N ID/G_N number/G_N cheputara/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_YN
+USER		201401027/@		ANSWER_DESC		TASK3		ASSERT
+SYS		Okay,/G_N book/G_N mee/G_PRP ID/G_N ki/G_N issue/G_N ayindi/G_N		ACK		TASK3		ASSERT
+SYS		Meeru/@ velli/G_N teeskovachu/G_N		NULL		TASK3		OO
+SYS		Inka/G_N emaina/G_X queries/G_V unnaaya/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Yenni/@ rojullo/G_N return/G_V cheyyali?/G_N		ANSWER_DESC		TASK5		INFO_REQUEST_YN
+SYS		1/$ week/G_N lo/PSP return/G_N cheyali/G_V		ANSWER_DESC		TASK5		ASSERT
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ledhu,/@		ANSWER_NEG		TASK0		ASSERT
+USER		thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		Okay,/G_N bye/G_N		ACK		CM		GREETING_EOC
+SYS		Hi,/@ I/G_PRP am/G_V Akshhay,/G_J your/G_R library/G_N assistant/G_X		NULL		CM		GREETING
+SYS		Meeku/@ ela/G_X help/G_V cheyagalanu/G_N		NULL		TASK0		OFFER
+USER		Top/G_N 5/$ books/G_N starting/G_V with/PSP H/G_N chubinchu/G_N		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		His/@ Banner/G_N Over/G_N Me/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Meeku/@ ee/G_X books/G_N lo/PSP emaina/G_N kavala/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+USER		Nalugo/G_N book/G_N kavali/G_V		ANSWER_DESC		TASK1		ASSERT
+SYS		Okay,/@		ACK		TASK1		NULL
+SYS		Hiding/@ Out/G_N issue/G_N cheyamantara/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		yes/G_PRT		ANSWER_POS		TASK3		ASSERT
+SYS		mee/G_PRP ID/G_N number/G_N enti/G_N ?/G_X		HOLD		TASK3		INFO_REQUEST_WH
+USER		201402029/@		ANSWER_DESC		TASK3		ASSERT
+SYS		Meeku/@ "Hiding/G_N Out"/G_N issue/G_N ayipoyindi./G_N		ACK		TASK3		ASSERT
+SYS		inka/G_X emaina/G_N questions/G_N unte/G_V adagandi./G_N		NULL		TASK0		OFFER
+USER		Ok,/@		ACK		CM		NULL
+USER		Prasthutaniki/G_N levu/G_N		REJECT		TASK0		ASSERT
+SYS		okay,/G_N Bye/G_N		ACK		CM		GREETING_EOC
+USER		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V your/G_J library/G_N assistant/G_X		NULL		CM		GREETING
+SYS		Meeku/@ emaina/G_X help/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Avunu,/@		ANSWER_POS		TASK0		ASSERT
+USER		konni/@ pusthakalu/G_N unnayi/G_X naa/G_PRT deggara./G_N		NULL		TASK8		ASSERT
+USER		Donate/@ cheddam/G_N anukuntunna./G_N		NULL		TASK8		COMMIT
+USER		Ela/G_N cheyyali?/G_N		NULL		TASK8		INFO_REQUEST_WH
+SYS		Meeru/G_N oka/G_PRT form/G_N fill/G_V chesi,/G_PRP books/G_N vadeliachu/G_V		ANSWER_DESC		TASK8		OO
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Okay,/@		ACK		CM		NULL
+USER		aa/G_N form/G_N evari/G_V deggara/G_N teesukovali?/G_N		ANSWER_DESC		TASK8		INFO_REQUEST_WH
+SYS		It/G_PRP is/G_V an/DT online/G_N form/G_N		ANSWER_DESC		TASK8		ASSERT
+SYS		Meeku/@ link/G_N pamapala/G_N ?/G_X		ACK		TASK8		INFO_REQUEST_YN
+USER		Haan/G_N pampeeyandi./G_N		ANSWER_POS		TASK8		ACTION_DIR
+SYS		Okay/@		ACK		CM		NULL
+SYS		Mee/G_PRP email/G_N ID/G_N enti/G_N ?/G_X		HOLD		TASK8		INFO_REQUEST_WH
+USER		ac_df123@gmail.com/@		ANSWER_DESC		TASK8		ASSERT
+SYS		Okay/@		ACK		CM		NULL
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Meeru/@ book/G_N rentals/G_N chestara?/G_N		ANSWER_DESC		TASK3		INFO_REQUEST_YN
+SYS		Chestam/@		ANSWER_POS		TASK3		ASSERT
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Avunu./@		ANSWER_POS		TASK0		ASSERT
+USER		Home/@ delivery/G_N chestara?/G_N		NULL		TASK8		INFO_REQUEST_YN
+SYS		Sorry/G_N cheyamu/G_N		ANSWER_NEG		TASK8		ASSERT
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Mee/G_PRP deggara/G_N private/G_R reading/G_X rooms/G_N unnaya?/G_N		ANSWER_DESC		TASK2		INFO_REQUEST_YN
+SYS		Yes,/G_N library/G_N lo/PSP cubicles/G_N unnayi/G_X		ANSWER_POS		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Levu./@		ANSWER_NEG		TASK0		ASSERT
+USER		bye/@		NULL		CM		GREETING_EOC
+SYS		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V your/G_J library/G_N assistant/G_X		NULL		CM		GREETING
+SYS		Meeku/@ ela/G_X help/G_V cheyagalanu/G_N ?/G_X		NULL		TASK0		OFFER
+USER		Nenu/G_N konni/G_N books/G_N borrow/G_V cheddam/G_N ankuntunna/G_N		ACCEPT		TASK3		ASSERT
+USER		Steps/G_V em/G_PRP em/G_PRP cheyali/G_V		NULL		TASK3		INFO_REQUEST_WH
+SYS		Okay,/@		ACK		CM		NULL
+SYS		meeru/G_N first/G_J membership/G_N teeskovali/G_X		ANSWER_DESC		TASK3		ASSERT
+SYS		Inka/G_N emaina/G_X doubts/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Ok./@		ACK		CM		NULL
+USER		Library/G_N lo/PSP edaina/G_N tinacha??/G_N		ANSWER_DESC		TASK2		INFO_REQUEST_YN
+SYS		Haan,/@ tinadaniki/G_N area/G_N reserve/G_V chesemu/G_N		ANSWER_DESC		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_X queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Books/@ donate/G_N cheyacha/G_N		ANSWER_DESC		TASK8		INFO_REQUEST_YN
+SYS		cheyachu/@		ANSWER_POS		TASK8		OO
+SYS		Inkemaina/@ queries/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Mi/@ dantlo/G_N kids/G_N section/G_N unda?/G_N		ANSWER_DESC		TASK2		INFO_REQUEST_YN
+SYS		Haan,/G_N Undi/G_N		ANSWER_POS		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_N queries/$ unte/G_V adagachu/G_N		NULL		TASK0		OFFER
+USER		nenu/G_PRP ekkada/G_N politics,/G_X economic/G_N sastram,medical,violence,/G_N dhyanam/G_V gurinchi/G_N chadavachu/G_V		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		Ee/G_N categories/G_N ki/G_N sambandinchina/G_N books/G_N sections/G_N 3-6/G_N lo/PSP untayi/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Inka/G_N emaina/G_X doubts/G_N unnaya/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Mi/G_N library/G_N lo/PSP video,/G_V gani/G_N audio/G_N library/G_N unda?/G_N		ANSWER_DESC		TASK2		INFO_REQUEST_YN
+SYS		Haan/G_N unnayi/G_X		ANSWER_POS		TASK2		ASSERT
+SYS		Inka/G_N emaina/G_X information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		No/@		ANSWER_NEG		TASK0		ASSERT
+USER		thank/G_V you/G_PRP		ACK		CM		GREETING_EOC
+SYS		Okay,/@ bye,/G_V have/G_V a/DT good/G_J day/G_N		ACK		CM		GREETING_EOC
+SYS		Hi/@ nenu/G_PRP Asklib/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hello/@		ACK		CM		GREETING
+USER		Distributed/@ systems/G_N book/G_N by/PSP Ajay/G_N Kshemakalyani/G_N ekkadundo/G_N cheppagalara/G_N ?/G_X		NULL		TASK1		INFO_REQUEST_WH
+SYS		naaku/G_X telisinantha/G_N varaku/G_N aa/DT book/G_N library/G_N lo/PSP ledu/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Okay/@		ACK		CM		NULL
+SYS		inkemaina/@ information/G_N kavala?/G_N		NULL		TASK0		INFO_REQUEST_YN
+USER		Can/@ you/G_PRP suggest/G_V another/G_R good/G_J distributed/G_N systems/G_N book?/G_N		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		distributed/@ algorithm/G_N by/PSP nancy,/G_N lynch/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Ok/@		ACK		CM		NULL
+USER		thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		Where/G_N is/G_V it?/G_N		ACK		TASK1		INFO_REQUEST_WH
+SYS		004.36/G_N L89D/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Cool/@		ACK		CM		NULL
+SYS		oka/G_PRT reference/G_N and/CC 3/$ student/G_N copies/G_N unnai/G_N		NULL		TASK1		ASSERT
+USER		Okay/@		ACK		CM		NULL
+SYS		inkemaina/@ information/G_N kavala?/G_N		NULL		TASK0		INFO_REQUEST_YN
+USER		Distributed/G_N systems/G_N by/PSP ksheemakalyani/G_N teppinchagalara/G_N ?/G_X		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+USER		It's/G_N a/DT course/G_N prescribed/G_N book/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		ha/G_PRT request/G_N pedathaamu/G_V mee/G_PRP peru/G_N paina/G_N		ANSWER_DESC		TASK1		COMMIT
+USER		Ok/@		ACK		CM		NULL
+USER		Thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inka/G_X emaina/G_X information/G_N kavala/@		NULL		TASK0		INFO_REQUEST_YN
+USER		No./@		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/G_V you/G_PRP		NULL		CM		EXPLICIT_PERFORMATIVE
+SYS		thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		malli/G_N kaluddaam/G_N		NULL		CM		GREETING_EOC
+USER		Okay/@		ACK		CM		NULL
+USER		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/G_PRT I/G_PRP am/G_V Asklib./G_N		NULL		CM		GREETING
+SYS		ela/G_X unnavu?/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		hi/@		ACK		CM		GREETING
+USER		bhaaney/G_N unna/G_X		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N telsukovacha/G_N		NULL		CM		GREETING
+USER		nagendra/@		ACK		CM		GREETING
+SYS		naatho/@ matladatam/G_N ide/G_X first/G_J time/G_N aa?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		ha/G_PRT avunu/G_N		ANSWER_POS		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		mee/G_PRP deggara/G_N bhagavadgita/G_N undha/G_X		ACCEPT		TASK1		INFO_REQUEST_YN
+SYS		ha/G_PRT undi/G_N		ANSWER_POS		TASK1		ASSERT
+SYS		e/G_N language/G_N lo/PSP kavali/G_N		ACK		TASK1		INFO_REQUEST_WH
+USER		telugu/G_N lo/G_N kavali/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		telugu/G_N lo/G_N kooda/G_N undi/G_N		ACK		TASK1		ASSERT
+SYS		issue/G_N cheyamantara/G_N		ACK		TASK3		INFO_REQUEST_YN
+USER		enni/@ rojulalo/G_N thirigi/G_V icheyali/G_N antaru?/G_N		HOLD		TASK5		INFO_REQUEST_YN
+SYS		15/G_N days/G_N lo/PSP return/G_N cheyali/G_V		ANSWER_DESC		TASK5		ASSERT
+SYS		or/@ reissue/G_N cheyinchukovachu/G_V		ANSWER_DESC		TASK4		OO
+USER		reissue/@ tarvatha/G_PRT inkoka/G_N 15/null days/G_N isthara?/G_X		ACK		TASK4		INFO_REQUEST_YN
+SYS		haa/G_N istamu./G_N		ANSWER_POS		TASK4		ASSERT
+USER		aithe/G_N bhagvadgita/G_N issue/G_N cheseyandi/G_N		ACK		TASK3		ACTION_DIR
+SYS		Inka/G_N edaina/G_N information/G_V kavala?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		and/CC mee/G_PRP deggara/G_N emayina/G_X kotha/G_X comics/G_N unnaya?/G_N		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		ha/G_PRT avi/G_N prathi/G_X month/G_N osthu/G_J untai/G_N		ANSWER_DESC		TASK1		ASSERT
+USER		TINKLE/G_N unte/G_N issue/G_N cheyandi/G_X please/G_V		ACK		TASK3		ACTION_DIR
+SYS		TINKLE/G_N undi/G_N kani/CC issue/G_N cheyadam/G_N kudaradu./G_X		REJECT		TASK3		ASSERT
+SYS		Library/G_N lone/G_J chadavali/G_N		ACK		TASK3		ASSERT
+USER		oooh../@		ACK		CM		NULL
+USER		ayithey/G_N aa/G_N okka/G_N book/G_N issue/G_N cheyyandi/G_N chaalu/G_N		ACK		TASK3		ACTION_DIR
+SYS		ok./@		ACK		CM		NULL
+SYS		Inka/G_N edaina/G_N information/G_V kavala?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		ledhu/@		ANSWER_NEG		TASK0		ASSERT
+SYS		okay/@		ACK		CM		NULL
+SYS		thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		malli/G_N kaluddaam/G_N		NULL		CM		GREETING_EOC
+USER		ha/G_PRT thappakunda/G_N		ACK		CM		COMMIT
+USER		Thank/@ You/G_N		ACK		CM		GREETING_EOC
+SYS		Hi/@ nenu/G_PRP asklib/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+SYS		mee/G_PRP peru/G_N telsukovacha/G_N		NULL		CM		GREETING
+USER		Hi,/@ Na/G_X peru/G_N ujwala/G_N		ACK		CM		GREETING
+SYS		hi/G_N ujwala/G_N		ACK		CM		GREETING
+SYS		naatho/@ inthaku/G_N mundu/G_N maatladaara/G_N ?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Ledhu/@		ANSWER_NEG		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu/G_N like/PSP books/G_PRP availability,/G_V issue,/G_N reissue/# information/G_N etc./G_N		NULL		TASK0		OFFER
+USER		Ok/@ me/G_PRP library/G_N lo/PSP evaina/G_N Kotha/G_N Articles/G_N Vachaya/G_N		ACCEPT		TASK1		INFO_REQUEST_YN
+SYS		prathi/@ month/G_N kothavi/G_N osthune/G_N untai/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		deni/G_N gurinchi/G_N kavali/G_V		ACK		TASK1		INFO_REQUEST_WH
+USER		Ok/G_N e/G_X month/G_N vachina/G_N articles/G_N kavali/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		avi/G_N meeru/G_X library/G_N lone/G_J chadavaali./G_N		ACK		TASK1		ASSERT
+USER		Oh/G_N ok/G_PRT		ACK		CM		NULL
+USER		Me/@ library/G_V a/DT time/G_N ki/G_X Open/G_X untadhi/G_X		NULL		TASK2		INFO_REQUEST_WH
+SYS		morning/G_N 10/G_V to/PSP night/G_N 12/G_N varaku/G_N open/G_V untadi/G_N		ANSWER_DESC		TASK2		ASSERT
+USER		library/G_N open/G_J ga/G_N unnappudu/G_N eppudaina/G_N book/G_N issue/G_N chyinchukovacha/G_N ?/G_X		NULL		TASK3		INFO_REQUEST_YN
+SYS		Ledu/G_N		ANSWER_NEG		TASK3		ASSERT
+SYS		issue/G_N timings/G_N 10/null to/PSP 5pm/G_V		ANSWER_DESC		TASK3		ASSERT
+USER		Oh/G_N ok/G_PRT		ACK		CM		NULL
+USER		Enni/G_N books/G_N issue/G_N chestharu/G_X		NULL		TASK3		INFO_REQUEST_YN
+SYS		per/@ student/G_N at/PSP a/DT time/G_N 3/$ books/G_N varaku/G_N issue/G_N cheyinchukovachu/G_N		ANSWER_DESC		TASK3		ASSERT
+USER		Ok/@		ACK		CM		NULL
+USER		Thank/@ you/G_PRP for/PSP the/DT info/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		you/G_PRP are/G_V welcome/G_V		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inka/G_X emaina/G_X information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		No/@		ANSWER_NEG		TASK0		ASSERT
+USER		This/G_N is/G_V enough/G_N for/PSP now/G_R		ANSWER_NEG		TASK0		ASSERT
+USER		Thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		ok/@		ACK		CM		NULL
+SYS		thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		Hi/@ nenu/G_PRP asklib/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Hi/@ asklib/G_N		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N thelsukovacha/G_N		NULL		CM		GREETING
+USER		na/G_PRP peru/G_N monish/G_N		ACK		CM		GREETING
+SYS		monish/@ inthaku/G_N mundu/PSP naatho/G_X maatlaadaara/G_N		NULL		OTHER		INFO_REQUEST_YN
+USER		ledu/G_N asklib./G_N		ANSWER_NEG		OTHER		ASSERT
+USER		ide/@ modati/G_N saari/G_N		ANSWER_DESC		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		avunaa,/@ elanti/G_N questions/G_N answer/G_N cheyagalavu/G_N		ACCEPT		TASK0		INFO_REQUEST_YN
+SYS		books/@ availability/G_N gurinchi,/G_X issue,/G_N return/G_N ,/G_X reissue/G_N gurinchi/G_N cheppagalanu/G_V		ANSWER_DESC		TASK0		ASSERT
+USER		avunaa,/@ chala/G_PRT use/G_V ayyela/G_V undi/G_N		ACK		OTHER		ASSERT
+SYS		haa/@ meeku/G_N emaina/G_X information/G_N kaavaala/@		NULL		TASK0		INFO_REQUEST_YN
+USER		ledu./@		ANSWER_NEG		TASK0		ASSERT
+USER		thanks/G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		ok/G_PRT thank/G_V you/G_PRP malli/G_V kaluddaam/G_N		ACK		CM		GREETING_EOC
+USER		thank/G_V you/G_PRP asklib/G_V		ACK		CM		GREETING_EOC
+SYS		Hi/@ nenu/G_PRP asklib/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+USER		Naku/G_N book/G_N availability/G_V status/G_N kavali/G_X		NULL		TASK1		INFO_REQUEST_WH
+SYS		Ye/G_N book/G_N gurinchi/G_N kaavaali/G_N		HOLD		TASK1		INFO_REQUEST_WH
+USER		The/@ discovery/G_N of/PSP India/G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		aa/G_N book/G_N available/G_N ga/G_N ledu/G_N		ACK		TASK1		ASSERT
+SYS		inkemaina/@ information/G_N kavala/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Total/G_N Library/G_N lo/PSP enni/G_X books/G_N unnai/G_N ?/G_X		ANSWER_DESC		TASK2		INFO_REQUEST_WH
+SYS		31,544/@ books/G_N unnai/G_N		ANSWER_DESC		TASK2		ASSERT
+USER		Language/@ wise/G_J distribution/G_N of/PSP books/G_N enti/G_N ?/G_X		NULL		TASK2		INFO_REQUEST_WH
+SYS		aa/DT information/G_N ipudu/G_X ma/DT daggara/G_N ledu/G_X		ANSWER_DESC		TASK2		ASSERT
+SYS		inka/G_X vere/G_N emaina/G_V information/G_N kavala/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Ledhu/@		ANSWER_NEG		CM		ASSERT
+SYS		ok/G_PRT thank/G_V you/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		malli/G_N kaluddaam/G_N		NULL		CM		GREETING_EOC
+USER		Yo/@		ACK		CM		GREETING_EOC
+SYS		hi/@ na/G_PRP peru/G_N Asklib/G_N		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni/G_X		NULL		CM		ASSERT
+USER		Hello/G_N asklib/G_N		ACK		CM		GREETING
+SYS		mee/G_PRP peru/G_N telsukovacha/G_N		NULL		CM		GREETING
+USER		Na/@ peru/G_N lakshmi./G_N		ACK		CM		GREETING
+SYS		inthaku/@ mundu/G_N epudaina/G_X naatho/G_N maatladaara/G_N ?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Ledhu./@		ANSWER_NEG		OTHER		ASSERT
+USER		idhe/G_N first/G_J time/G_N		ANSWER_DESC		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		Oh/@ avna,/G_N ok./G_N		ACK		CM		NULL
+USER		Me/G_N library/G_N lo/PSP elanti/G_N books/G_N untayi?/G_N		ACCEPT		TASK2		INFO_REQUEST_WH
+SYS		anni/G_N genres/G_N ki/G_N sambandhinchina/G_N books/G_N unnaayi/G_V like/PSP academic/G_PRP books,/G_V stories,/# comics,/G_X mythology/G_N etc/G_X		ANSWER_DESC		TASK2		ASSERT
+USER		Oh../G_N great!/G_N		ACK		CM		NULL
+USER		Shiva/G_N trilogy/G_N books/G_PRT unnayo/G_V levo/G_N cheppagalara?/G_N		NULL		TASK1		INFO_REQUEST_YN
+SYS		haa/G_N unnayi/G_X		ANSWER_POS		TASK1		ASSERT
+SYS		meeku/@ andulo/G_N ye/G_PRP book/G_N kavali/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_WH
+USER		3rd/@ book/G_N kavali./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		book/G_N name/G_N naku/G_X idea/G_N ledhu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		Book/@ peru/G_N Oath/G_N of/PSP the/DT Vayuputras/G_N book/G_N 3/$ of/PSP the/DT Shiva/G_N Trilogy/G_N		ACK		TASK1		ASSERT
+SYS		library/G_N lo/PSP available/G_J ga/G_N undi./G_N		ACK		TASK1		ASSERT
+SYS		Issue/G_N cheyamantara/G_N ?/G_X		ACK		TASK3		INFO_REQUEST_YN
+USER		Ok/G_N cool/G_N		ACK		CM		NULL
+USER		cheyandi/@		ANSWER_POS		TASK3		ACTION_DIR
+USER		Autobiography/G_N of/PSP yogi/G_N ane/G_N book/G_N undha?/G_X		NULL		TASK1		INFO_REQUEST_YN
+SYS		aa/G_N book/G_N ledandi/G_N		ANSWER_NEG		TASK1		ASSERT
+USER		Ayyo!/G_N avna./G_N		ACK		CM		NULL
+USER		availability/G_N lo/PSP ledha?/G_N Or/G_N book/G_N e/G_X ledha?/G_N		ACK		TASK1		INFO_REQUEST_OR
+SYS		book/G_N e/G_N ledu/G_N		ANSWER_NEG		TASK1		ASSERT
+USER		Ayyo/G_N ok/G_PRT		ACK		CM		NULL
+SYS		inka/G_X vere/G_N emaina/G_V information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		God/G_N talks/G_N with/PSP Arjuna/G_N undemo/G_N chepthara?/G_N		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		ha/G_PRT undi./G_N		ANSWER_POS		TASK1		ASSERT
+USER		Yayyyyy!/@ ok/G_PRT cool/G_N tq/G_N		ACK		TASK1		EXPLICIT_PERFORMATIVE
+SYS		Issue/G_N cheyamantara?/G_N		NULL		TASK3		INFO_REQUEST_YN
+USER		Ippudu/G_N vadu./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Thanks./@		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		you/G_PRP are/G_V welcome/G_V		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		inka/G_X emaina/G_X information/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Oka/G_N book/G_N maximum/G_PRP nenu/G_PRP enni/G_X rojulu/G_X borrow/G_V cheyyachu?/G_N		ANSWER_DESC		TASK5		INFO_REQUEST_WH
+SYS		issue/G_N cheskunna/G_N book/G_N 15days/G_N lo/PSP Return/G_N		ANSWER_DESC		TASK5		ASSERT
+SYS		or/@ reissue/G_N cheyinchukovali/G_V		ANSWER_DESC		TASK4		ASSERT
+USER		Oh/@ avna/G_PRT ok/G_PRT ok./G_N		ACK		CM		NULL
+USER		Me/G_N library/G_N lo/PSP avg/G_N ga/G_N enni/G_X books/G_X untayi?/G_V		NULL		TASK2		INFO_REQUEST_WH
+SYS		31544/@ books/G_N unnayi/G_X magazines/G_N avi/G_N kaakunda/G_N		ANSWER_DESC		TASK2		ASSERT
+USER		Wowww/@ nyc/G_N !!/G_X		ACK		CM		NULL
+SYS		inka/G_X emaina/G_X information/G_N kavala/G_N ?/G_X		NULL		TASK0		INFO_REQUEST_YN
+USER		Elanti/G_N magazines/G_N untayi/G_V me/G_PRP dhanlo?/G_X		ANSWER_DESC		TASK1		INFO_REQUEST_WH
+SYS		comics,/@ education,/G_N technology,/G_N literature/G_N ki/PSP sambandhinchina/G_N magazines/G_N untaayi./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Ok./@ Malayalam/G_N vi/PSP kuuda/G_N untaya?/#		ACK		TASK1		INFO_REQUEST_YN
+SYS		telugu/G_N hindi/G_N english/G_N lo/PSP untai./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Oh/G_N avna./G_N		ACK		CM		NULL
+USER		Telugu/G_N lo/G_N ekkuva/G_N refer/G_V chese/G_V magazine/G_N edhi?/G_N		ACK		TASK1		INFO_REQUEST_WH
+SYS		telugu/G_N lo/G_N ante/G_N comic/G_N books/G_N and/CC literature/G_N vi/G_N okati/G_N rendu/G_N untaai/G_N like/PSP chandamama,/G_PRP baala/G_V bhaaratam/G_N etc./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Oh./@ Chandamama/G_N book/G_N naku/G_X chala/G_X istam/G_V 		ACK		OTHER		ASSERT
+SYS		oh/@ nice/G_N		ACK		OTHER		NULL
+SYS		inka/G_X emaina/G_X information/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		Newspapers/G_N kuda/G_N untaya?/G_X		ANSWER_DESC		TASK1		INFO_REQUEST_YN
+SYS		ha/G_PRT untai./G_N		ANSWER_POS		TASK1		ASSERT
+SYS		hindi,telugu/@ english/G_N lo./G_N		ANSWER_DESC		TASK1		ASSERT
+USER		Great!/@		ACK		CM		NULL
+USER		Sare/@ asklib,/@ thanks/G_N for/PSP helping/G_V me/G_PRP		ACK		CM		EXPLICIT_PERFORMATIVE
+USER		Bye/@		NULL		CM		GREETING_EOC
+SYS		thank/@ you/G_PRP malli/G_V kaluddaam/G_N		ACK		CM		GREETING_EOC
+SYS		bye/@		ACK		CM		GREETING_EOC
+SYS		Hi/@ nenu/G_PRP asklib/G_X		NULL		CM		GREETING
+SYS		nenu/G_PRP mee/G_PRP library/G_N assistant/G_N ni./G_N		NULL		CM		ASSERT
+SYS		mee/G_PRP peru/G_N telsukovacha/G_N		NULL		CM		INFO_REQUEST_YN
+USER    		Okk/@		ACK		CM		NULL
+USER		I/G_PRP am/G_V uma/G_N chowdary./G_X		ANSWER_DESC		CM		ASSERT
+SYS		naatho/@ inthaku/G_N mundu/G_N maatladaara/G_N ?/G_X		NULL		OTHER		INFO_REQUEST_YN
+USER		Ledu./@		ANSWER_NEG		OTHER		ASSERT
+USER		May/@ I/G_PRP know/G_V your/G_N name?/G_N		NULL		OTHER		INFO_REQUEST_YN
+SYS		naa/G_PRT peru/G_N asklib./G_N		ANSWER_DESC		OTHER		ASSERT
+SYS		Meeku/@ library/G_N related/$ questions/G_N evaina/$ unte/G_V nannu/G_X adagochu./G_N		NULL		TASK0		OFFER
+USER		Okk./@		ACK		CM		NULL
+USER		May/@ I/G_PRP know/G_V which/G_N type/G_N of/PSP books/DT are/G_V available,/G_V ante/G_N type/G_N of/PSP journals,comics,/DT novels/G_N etc?/G_N		ACCEPT		TASK1		INFO_REQUEST_WH
+SYS		almost/G_N anni/G_N genres/G_V available/G_N unnaayi,/G_X academic/G_N books,/# stories,/# novels,/# comics,/# magazines/G_N etc./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		meeku/@ elaanti/G_N books/G_N kavali?/G_V		ACK		TASK1		INFO_REQUEST_WH
+USER		I/G_PRP like/G_V mythology/G_PRP books/G_V ,technology/G_V journals/G_N and/CC comics/G_N too./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		oh,/G_N avi/G_N kooda/G_N unnai./G_N		ACK		TASK1		ASSERT
+USER		Okk./@ How/G_N can/G_V I/G_PRP get/G_V them?/E		ACK		TASK1		INFO_REQUEST_WH
+SYS		library/G_N lo/PSP book/G_N theeskoni/G_N issue/G_N cheskovachu./G_N		ANSWER_DESC		TASK1		OO
+USER		Edaina/@ card/G_N tesukovala/G_N ?/G_X		ACK		TASK1		INFO_REQUEST_YN
+USER		Daniki/@ evaina/G_N requirments/G_N untaya./G_N		ACK		TASK1		INFO_REQUEST_YN
+SYS		meeeu/G_N student/G_N kani/CC faculty/G_N kani/G_N aithe/G_N id/G_N card/G_V saripotundi/G_N separate/G_J ga/G_N card/G_V em/G_PRP avasaram/G_V ledu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		prathi/@ student/G_N at/PSP a/DT time/G_N maximum/G_N three/G_N books/G_N issue/G_N cheyinchukovachu./G_N		ANSWER_DESC		TASK1		ASSERT
+SYS		inka/G_X vere/G_N requirements/G_V em/G_PRP levu./G_V		ANSWER_NEG		TASK1		ASSERT
+USER		Ohh/G_N okk./G_N		ACK		CM		NULL
+SYS		inka/G_X emaina/G_X information/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		issue/G_N chesaka/G_N oka/G_PRT book/G_N ni/PSP enni/G_X days/G_N lo/PSP return/G_N cheyali?/G_N		ANSWER_DESC		TASK5		INFO_REQUEST_YN
+SYS		15days/@ lopu/G_N return/G_V cheseyali./G_N		ANSWER_DESC		TASK5		ASSERT
+USER		Ohh/@ okk/G_PRT got/G_V it/G_PRP		ACCEPT		TASK5		ASSERT
+SYS		ok./@		ACK		CM		NULL
+SYS		inka/G_X emaina/G_X information/G_N kavala?/@		NULL		TASK0		INFO_REQUEST_YN
+USER		No/@ that's/G_N it./G_N		ANSWER_NEG		TASK0		ASSERT
+SYS		ok./@		ACK		CM		NULL
+SYS		thank/@ you./G_N		ACK		CM		EXPLICIT_PERFORMATIVE
+SYS		see/G_V you/G_PRP soon./G_V		ACK		CM		GREETING_EOC

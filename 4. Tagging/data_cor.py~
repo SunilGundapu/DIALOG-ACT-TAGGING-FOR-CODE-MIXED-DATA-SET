@@ -1,0 +1,10 @@
+def main():
+       f = open("asklib_pos_sent.txt","r")
+       f1= open("new1.txt","w+")
+       f_data = f.readlines()
+       count=0
+       for i in range(0, len(f_data)):
+              m = f_data[i].strip().split("\t\t")
+              f1.write(m[0]+"\t\t"+m[1]+"\t\t"+m[3]+"\t\t"+m[4]+"\t\t"+m[2]+"\n")
+       print(count)
+main()

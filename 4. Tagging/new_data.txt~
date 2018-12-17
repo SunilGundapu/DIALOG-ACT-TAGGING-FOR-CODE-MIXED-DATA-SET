@@ -1,0 +1,856 @@
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hello	@ nenu	G_PRP ramz.	G_N		GREETING		ACK		CM
+USER		Nenu	G_N good.	G_N		GREETING		ACK		CM
+USER		Glad	G_N to	PSP meet	G_V u.	G_N		GREETING		ACK		CM
+SYS		naatho	@ matladatam	G_N ide	G_X first	G_J time	G_N aa?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Yaa	@ first	G_J time.	G_N		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		Meeru	G_N intha	G_N pedha	G_J library	G_X ela	G_PRP maintain	G_X chestunnaru.	G_N		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		Inka	@ chala	G_X mandi	G_J help	G_V chestaru.	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		Meeku	G_N ikkada	G_N available	G_N books	G_N gurinchi	G_N edaina	G_N information	G_X kavala?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Author	@ wise	G_J books	G_X ela	G_X search	G_V cheyachu.	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK1
+SYS		Daniki	@ inka	G_X portal	G_N set	G_V up	G_PRT cheyaledu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	@ ye	G_PRP author	G_N ki	G_N sambandinchina	G_N books	G_N kavali?	G_V		INFO_REQUEST_WH		NULL		TASK1
+USER		Oliver	G_N twist.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Oliver	@ Twist	G_N library	G_N lo	PSP undi.	G_N		ASSERT		ACK		TASK1
+SYS		Issue	G_N cheyamantara?	G_N		INFO_REQUEST_YN		NULL		TASK3
+USER		Cheyandi.	@		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee	G_PRP roll	G_N number	G_N cheptara	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK3
+USER		201225012	@		ASSERT		ANSWER_DESC		TASK3
+SYS		Oliver	@ Twist	G_N meeku	G_PRP issue	G_N ayipoyindi.	G_N		ASSERT		NULL		TASK3
+SYS		Inka	G_N edaina	G_N information	G_V kavala?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledu	G_N andi.	G_N		ASSERT		ANSWER_NEG		TASK0
+SYS		okay.	@		NULL		ACK		CM
+SYS		Thanks.	@		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli	G_N kaluddam.	G_N		GREETING_EOC		NULL		CM
+USER		Ok	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hi	@ sir	G_N		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N telusukovacha.	G_N		GREETING		NULL		CM
+USER		Na	@ peru	G_N saujanya	G_N reddy.	G_N		GREETING		ACK		CM
+SYS		Meeru	G_N library	G_N lo	PSP unna	G_X books	G_N kani,	G_V library	G_N timings	# kani,	G_N library	G_N ki	PSP sambandinchi	G_X evaina	G_N questions	G_N unte	G_V nanu	G_N adagandi.	G_N		OFFER		NULL		TASK0
+USER		Me	G_N library	G_N lo	PSP Karumanchi	G_N book	G_N unda?	G_N		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		yes	G_PRT undi.	G_N		ASSERT		ANSWER_POS		TASK1
+USER		Nenu	G_N a	DT book	G_N issue	G_N cheskovacha?	G_N		INFO_REQUEST_YN		ACK		TASK3
+SYS		Student	@ copies	G_N aithe	G_X prastutaniki	G_N available	G_J ga	G_N unnayi.	G_N		ASSERT		HOLD		TASK3
+SYS		check	G_N chesi	G_N cheptanu.	G_X		COMMIT		HOLD		TASK3
+SYS		Mee	G_PRP roll	G_N number	G_N cheptara.	G_N		INFO_REQUEST_YN		HOLD		TASK3
+USER		201325221	@		ASSERT		ANSWER_DESC		TASK3
+SYS		meeru	@ last	G_J time	G_N teesukunna	G_X books	G_X inka	G_X return	G_N cheyaledu.	G_N		ASSERT		HOLD		TASK3
+SYS		aa	G_X books	G_N return	G_V chesake	G_N inko	G_N book	G_N issue	G_N cheskovacu.	G_N		ASSERT		HOLD		TASK3
+USER		Oh	G_N avuna	G_N		NULL		ACK		CM
+USER		mari	@ naku	G_N rendu	G_N books	G_N avasaram	G_X unte?	G_N		INFO_REQUEST_WH		ACK		TASK3
+SYS		request	G_N pettali.	G_N		ASSERT		ANSWER_DESC		TASK3
+SYS		meeru	G_N maximum	G_N 3	$ books	G_N ee	G_X teeskovachu.	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		ohh	G_N ok.	G_N		NULL		ACK		CM
+USER		ekada	@ petali	G_N request?	G_N		INFO_REQUEST_WH		ACK		TASK3
+USER		evariki	G_N petali?	G_N		INFO_REQUEST_WH		ACK		TASK3
+SYS		library	@ portal	G_N loki	G_N velli	G_N isuue	G_N requests	G_N section	G_N lo	PSP pettali.	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		okay.	@		NULL		ACK		CM
+USER		petanu.	@		ASSERT		ACCEPT		TASK3
+SYS		sare	@ mee	G_PRP request	G_N accept	G_N avvagane	G_X naku	G_PRP notification	G_N vastundi.	G_N		ASSERT		ACK		TASK3
+USER		eppudu	G_N issue	G_N chestaru?	G_N		INFO_REQUEST_WH		NULL		TASK3
+SYS		notification	@ raagane	G_PRT meeku	G_N book	G_N issue	G_N chesestanu.	G_N		COMMIT		ANSWER_POS		TASK3
+USER		nenu	G_N book	G_N eppudu	G_PRP collect	G_V cheskovachu	G_N ?	G_X		INFO_REQUEST_WH		ACK		TASK3
+SYS		meeru	@ inko	G_N 15	$ mins	G_N lo	PSP mee	G_PRP book	G_N collect	G_V cheskodaniki	G_N ravachu.	G_N		OO		ANSWER_DESC		TASK3
+USER		tappakunda.	@		COMMIT		ACK		TASK3
+USER		chala	G_X thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedina	@ information	G_N kavalante	G_N adagandi	G_X		OFFER		NULL		TASK0
+USER		oka	G_PRT vela	G_N late	G_J ga	G_N submit	G_V cheste	G_N penality	G_N entha	G_N untundi	G_V ?	G_X		INFO_REQUEST_WH		ACCEPT		TASK5
+SYS		day	G_N ki	G_N 5rs	G_X charge	G_N chestam.	G_N		ASSERT		ANSWER_DESC		TASK5
+USER		oh	@ okay.	G_N		NULL		ACK		TASK5
+USER		issue	G_N ni	G_N renew	G_N cheskovacha	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK4
+USER		ante	G_N reissue	G_N cheskovacha	G_X oka	G_PRT vela	G_N maku	G_N issue	G_N date	G_N ipoyaka	G_N kuda	G_X use	G_X cheyalsi	G_V avasaram	G_N unte?	G_N		INFO_REQUEST_YN		NULL		TASK4
+SYS		yes	G_PRT cheskovachu.	G_N		ASSERT		ANSWER_POS		TASK4
+SYS		Return	G_N date	G_N ki	G_X mundu	G_N cheskunte	G_X fine	G_N padadu.	G_N		ASSERT		ANSWER_DESC		TASK4
+USER		okay	G_N sure.	G_N		NULL		ACK		TASK4
+USER		eni	@ sarlu	G_X varaku	G_V resissue	G_N cheskovachu?	G_N		INFO_REQUEST_WH		NULL		TASK4
+USER		edana	@ limit	G_N unda?	G_N		INFO_REQUEST_YN		NULL		TASK4
+SYS		ledu	G_N		ASSERT		ANSWER_NEG		TASK4
+USER		Okay	@		NULL		ACK		TASK4
+USER		thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		ipudu	G_N a	DT book	G_N teskovadaniki	G_N ravocha?	G_N		INFO_REQUEST_YN		NULL		TASK3
+SYS		ravachu	@		OO		ANSWER_POS		TASK3
+USER		okay	@ thank	G_V you	G_PRP 🙂	G_V		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina	G_N adagala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa	G_N Ledu	G_N		ASSERT		ANSWER_NEG		TASK0
+SYS		Sare	G_N aithe	G_N malli	G_N kaluddam.	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		hi	G_N asklib.	G_N		GREETING		ACK		CM
+USER		bavunna.	@		GREETING		ACK		CM
+USER		nuv	G_N ela	G_X unnav.	G_X		GREETING		ACK		CM
+SYS		nenu	G_PRP bagunna.	G_N		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N ?	G_X		GREETING		NULL		CM
+USER		Monika	@		GREETING		ACK		CM
+SYS		nenu	G_PRP meeku	G_X ela	G_X help	G_X cheyagalanu?	G_N		OFFER		NULL		TASK0
+USER		Naku	@ Dsp	G_N textbook	G_V kavali.	G_N		ASSERT		ACCEPT		TASK3
+USER		I	G_PRP need	G_V some	DT manchi	G_J books	G_N andi.	G_N		ASSERT		NULL		TASK3
+SYS		DSP	G_N ante	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK3
+USER		Digital	@ Signal	G_N Processing.	G_N		ASSERT		ANSWER_DESC		TASK3
+SYS		Okay.	@		NULL		ACK		CM
+SYS		Author	@ preference	G_N edaina	G_N unda?	G_N		INFO_REQUEST_YN		HOLD		TASK3
+USER		andlo	G_N best	G_J books	G_N emunna	G_V naku	G_X kavali.	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		can	G_V u	G_PRP help	G_V me?	G_N		INFO_REQUEST_YN		NULL		TASK3
+USER		Oppenham	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+SYS		yes	G_PRT sure.	G_N		ASSERT		ANSWER_POS		TASK3
+SYS		yes	G_PRT undi.	G_N		ASSERT		ANSWER_POS		TASK3
+SYS		Oppenhamm	@ chala	G_X manchi	G_J book.	G_V		ASSERT		NULL		TASK3
+SYS		Chalaa	@ mandi	G_N refer	G_V chestaru.	G_N		ASSERT		NULL		TASK3
+SYS		Issue	G_N cheyamantara?	G_N		INFO_REQUEST_YN		NULL		TASK3
+USER		cheyandi.	@		ACTION_DIR		ANSWER_POS		TASK3
+USER		inko	G_N 2	$ books	G_N kuda	G_X suggest	G_N cheyandi	G_X		INFO_REQUEST_WH		NULL		TASK3
+SYS		DIGITAL	@ SIGNAL	G_N PROCESSING	# Principles,	G_N Algorithms	G_N and	CC Applications	G_N by	PSP Proakis	G_N and	CC Manolakis.	G_N		ASSERT		ANSWER_DESC		TASK3
+SYS		idi	G_X kuda	G_N most	G_X referred.	G_N		ASSERT		NULL		TASK3
+SYS		idi	G_N kuda	G_N issue	G_N cheyamantara?	G_N		INFO_REQUEST_YN		NULL		TASK3
+USER		cheyandi.	@		ACTION_DIR		ANSWER_POS		TASK3
+USER		na	G_N friend	G_N ki	PSP novel	G_N book	G_N kavalandi.	G_N		ASSERT		NULL		TASK1
+USER		manchi	G_J love	G_V story	G_N okati	G_N suggest	G_X cheyandi.	G_N		INFO_REQUEST_YN		NULL		TASK1
+SYS		Author	@ preference	G_N edaina	G_N unda?	G_N		INFO_REQUEST_YN		HOLD		TASK1
+USER		emo	@ naku	G_X tanu	G_X emi	G_N cheppaledu.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		prastutaniki	G_N Openhamm	G_N and	CC DSP	G_N by	PSP proakis	G_N ivvandi.	G_N		ACTION_DIR		NULL		TASK3
+SYS		mee	G_PRP roll	G_N num	G_N cheppandi.	G_N		INFO_REQUEST_WH		HOLD		TASK3
+SYS		meeru	G_N enni	G_N issue	G_N cheskovalo	G_X chusi	G_N cheptanu	G_V		COMMIT		HOLD		TASK3
+USER		201225167	@		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.	@		NULL		ACK		CM
+SYS		meeru	G_N already	G_N oka	G_PRT book	G_N teeskunnaru.	G_N		ASSERT		HOLD		TASK3
+SYS		adi	G_X inka	G_X return	G_N cheyaledu.	G_N		ASSERT		HOLD		TASK3
+SYS		So	@ only	G_R 2	$ books	G_N issue	G_N cheyagalatanu.	G_N		OFFER		HOLD		TASK3
+USER		okay.	@		NULL		ACK		CM
+USER		aite	G_PRT naku	G_N oka	G_PRT oppenham,oka	G_N love	G_V story	G_N book	G_N ichesyandi	G_X		ACTION_DIR		ACCEPT		TASK3
+SYS		love	G_V story	G_N ante	G_N chala	G_X unnayi.	G_X		ASSERT		HOLD		TASK3
+SYS		nenu	G_PRP recommendation	G_N lo	PSP koncham	G_N weak.	G_N		ASSERT		HOLD		TASK3
+SYS		fault	G_N in	PSP the	DT stars	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		vadu.	@		ASSERT		ANSWER_NEG		TASK3
+USER		naKu	@ can	G_V love	G_V happen	G_N twice	G_N issue	G_N cheyagaltara	G_N		INFO_REQUEST_YN		NULL		TASK3
+SYS		yes	G_PRT sure	G_N		COMMIT		ANSWER_POS		TASK3
+SYS		mee	G_PRP roll	G_N number	G_N ki	G_X ee	G_N books	G_N issue	G_N chesesanu.	G_N		ASSERT		NULL		TASK3
+USER		thanks	G_N andi.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		welcome.	@		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu.	G_N anthe.	G_N		 ASSERT		ANSWER_NEG		TASK0
+SYS		bye!	@ malli	G_N kaluddam.	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hello	@ assistant,	@ am	G_V fine	G_N		GREETING		ACK		CM
+SYS		naatho	@ matladatam	G_N ide	G_X first	G_J time	G_N aa?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Avunu.	@		ASSERT		ANSWER_POS		OTHER
+SYS		mee	G_PRP peru	G_N telusukovacha	G_N ?	G_X		GREETING		NULL		CM
+USER		Yes.	@		ASSERT		ANSWER_POS		CM
+USER		Naa	@ peru	G_N chetan.	G_N		GREETING		ACK		CM
+SYS		okay	G_N chetan.	G_N		NULL		ACK		CM
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		Wat	G_N are	G_V the	DT latest	G_N books	G_N ?	G_X		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		ee	G_N topic	G_N meeda	G_N kavali	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK1
+USER		Preferably	@ sports,	G_N Lekapothe	# space	G_N related	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		sports	G_N meeda	G_N ante	G_N magazines	G_N unnayi.	G_N		ASSERT		ACK		TASK1
+SYS		Space	G_N meeda	G_N ante	G_N science	G_X journals	G_N unnayi.	G_N		ASSERT		ACK		TASK1
+USER		What	G_N is	G_V the	DT latest	G_N magazine	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK1
+USER		Niku	G_N magazine	G_N lo	PSP emundo	G_N telsa	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		sportstart	G_N ani	G_N kothaga	G_N okati	G_N vachindi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Magazine	G_N lo	PSP emundo	G_N aa	G_X details	G_X naku	G_X telidu.	G_N		ASSERT		ANSWER_NEG		TASK1
+SYS		I	G_PRP am	G_V sorry.	G_N		EXPLICIT_PERFORMATIVE		NULL		CM
+USER		Where	G_N in	PSP the	DT library	G_N ,	G_X is	G_V it	G_PRP located	G_V ?	G_X		INFO_REQUEST_WH		ACK		TASK1
+USER		Naaku	G_N cheppava	G_N plz.	G_N		INFO_REQUEST_WH		NULL		CM
+SYS		library	@ loki	G_N enter	G_V avvagane	G_X first	G_J shelf	G_N lo	PSP top	G_J row	G_N lo	PSP untundi	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Ohh	G_N thankss	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina	G_N adagalanukuntunnara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Nuvvu	@ inka	G_X emi	G_N cheyagaluthavu?	G_N		INFO_REQUEST_WH		ACCEPT		TASK0
+SYS		meekedaina	@ book	G_N kavalante	G_N issue	G_N cheyinchi	G_V ready	G_J ga	G_N pettgalugutanu	G_N		OFFER		ANSWER_DESC		TASK0
+USER		Ohh	G_N ok.	G_N		NULL		ACK		CM
+USER		Can	@ u	G_PRP check	G_V if	PSP a	DT book	G_N is	G_V available	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		thappakunda	@		COMMIT		ANSWER_POS		TASK1
+SYS		book	G_N peru	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK1
+USER		The	@ monk	G_N who	G_PRP sold	G_V his	DT ferrari.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		"The	@ monk	G_N who	G_PRP sold	G_V his	DT ferrari"	G_N availability	G_N lo	PSP undi.	G_N		ASSERT		ACK		TASK1
+SYS		Issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		Yes	@		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee	G_PRP roll	G_N number	G_N please	G_V		INFO_REQUEST_WH		HOLD		TASK3
+USER		201201124	@		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.	@		NULL		ACK		CM
+SYS		Meeru	@ inko	G_N 5	$ mins	G_N lo	PSP vachi	G_N tesskelochu.	G_N		OO		NULL		TASK3
+USER		Thanks.	@		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye	@		GREETING_EOC		NULL		CM
+SYS		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		nenu	G_PRP bagunnanu.	G_N		GREETING		ACK		CM
+USER		nuvu	G_N ?	G_X		GREETING		ACK		CM
+SYS		nenu	G_PRP kuda	G_N bagunnanu.	G_X		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N ?	G_X		GREETING		ACK		CM
+USER		akhil	@		GREETING		ACK		CM
+SYS		naatho	@ matladatam	G_N ide	G_X first	G_J time	G_N aa?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		avunu	G_N first	G_J time	G_N eh.	G_X		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu	G_N		OFFER		NULL		TASK0
+USER		library	@ related	@ questions	G_N ante	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK0
+SYS		ante	G_N edaina	G_N book	G_N gurinchi	G_X kanukovalanna,	G_N leda	G_X issue	G_N cheyinchukovalanna	G_N		ASSERT		ANSWER_DESC		TASK0
+USER		me	G_PRP dagara	G_N anni	G_N languages	G_N books	G_N untaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		technical	G_N vi	G_X kavalante	G_N english	G_N lo	PSP ekkuva	G_N unnayi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Literature	G_N lo	G_N telugu	G_N inka	G_N hindi	G_N kuda	G_X unnayi	G_X		ASSERT		ANSWER_DESC		TASK1
+USER		naku	@ philosophy	G_N pusthakaalu	G_N kavali	G_N .	G_X		ASSERT		NULL		TASK1
+SYS		ye	G_PRP language	G_N lo	PSP kavali.	G_N		INFO_REQUEST_WH		HOLD		TASK1
+USER		telugu	G_N lo	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		author	@ preference	G_N edaina	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK1
+USER		yendamuri	G_N verendranath	G_N !	G_X		ASSERT		ANSWER_DESC		TASK1
+SYS		"mimalni	@ meeru	G_X gelavagalaru"	G_N ane	G_N book	G_N undi	G_N .	G_X		ASSERT		ACK		TASK1
+SYS		Issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		adhi	G_N okkate	G_N undha	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		vijayaniki	@ aidhu	G_N metlu	G_N ane	DT pusthakam	G_N ledha	G_X ?	G_X		INFO_REQUEST_YN		HOLD		TASK1
+SYS		adi	G_X okate	G_N copy	G_N undi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		already	G_R okaru	G_N teeskunnaru.	G_X		ASSERT		ANSWER_DESC		TASK1
+USER		sare.	@		NULL		ACK		CM
+USER		mimalni	G_N meeru	G_N gelavagalaru	G_N ane	G_X pusthakanni	G_X naku	G_X issue	G_N cheyandi	G_X		ACTION_DIR		ACCEPT		TASK3
+SYS		okay.	@		NULL		ACK		CM
+SYS		mee	G_PRP roll	G_N number	G_N cheptara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		201325148	@		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.	@		NULL		ACK		CM
+SYS		book	G_N issue	G_N chesesanu.	G_N		ASSERT		NULL		TASK3
+SYS		Inko	G_N 5	$ mins	G_N lo	PSP vachi	G_N meeru	G_X mee	G_PRP id	G_N card	G_N chupinchi	G_V book	G_N teesukelachu.	G_V		OO		NULL		TASK3
+SYS		inka	G_N edaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		yepati	@ lopu	G_N return	G_V cheyali	G_X ee	G_X book	G_N ni	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK5
+SYS		ee	G_N roju	G_N date	G_N 26th	G_N November.	G_N		ASSERT		NULL		TASK5
+SYS		Time	@ 6	45PM	G_N ayindi.	G_N		ASSERT		NULL		TASK5
+SYS		10th	@ December	G_N 7PM	G_X kalla	G_N return	G_N cheyali.	G_N		ASSERT		ANSWER_DESC		TASK5
+USER		sare	G_N .	G_X		COMMIT		ACCEPT		TASK5
+USER		thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay	G_N bye.	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hi	G_PRT I	G_PRP am	G_V Divya.	G_N		GREETING		ACK		CM
+USER		I	G_PRP am	G_V doing	G_V great.	G_N		GREETING		ACK		CM
+SYS		natho	@ intaka	G_N mundu	PSP matladara	PSP leda	G_N ide	G_X first	G_J time	G_N aa	G_X ?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		idi	@ second	G_J time.	G_N		ASSERT		ANSWER_DESC		OTHER
+SYS		evaina	@ questions	G_N unte	G_V adagandi.	G_N		OFFER		NULL		TASK0
+USER		So	@ I	G_PRP want	G_V Books	G_V that	G_PRP are	G_V fictional	G_V Or	CC detective	G_PRP novels	G_N are	G_V also	G_R fine.	G_N		ASSERT		ACCEPT		TASK1
+SYS		okay.	@		NULL		ACK		CM
+SYS		meeku	@ ye	G_PRP language	G_N lo	PSP books	G_N kavali	G_N ?	G_X Hindi,	G_N English	G_N or	CC Telugu?	G_N		INFO_REQUEST_WH		HOLD		TASK1
+USER		Naku	@ English	G_N books	G_N Kaavali.	G_V		ASSERT		ANSWER_DESC		TASK1
+SYS		okay.	@		NULL		ACK		CM
+SYS		Author	@ preference	G_N edaina	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK1
+USER		Ahaa	G_N ledu	G_N		ASSERT		ANSWER_NEG		TASK1
+SYS		To	G_N kill	G_V a	DT mocking	G_N bird	G_N ane	DT book	G_N most	G_X read	G_N lo	PSP undi	G_N .	G_X		ASSERT		ACK		TASK1
+SYS		library.iiit.ac.in	G_N lo	PSP dani	G_J reviews	G_N chudochu	G_N		OO		NULL		TASK1
+SYS		adi	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		Oka	G_N 5	G_N books	G_N Chepthe	G_N Daantlo	G_V nundi	PSP nen	G_X choose	G_N cheskunta	G_N		INFO_REQUEST_WH		HOLD		TASK3
+SYS		oka	G_PRT second	G_N		NULL		ACK		CM
+USER		Ipoindi	G_N oka	G_PRT second	G_N		ASSERT		ACK		OTHER
+SYS		Oedipus	@ vs.	G_N Rex	G_V by	PSP Evadne	G_N Mount	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		Last	@ book	G_N Issue	G_V cheyandi	G_X		ACTION_DIR		ACK		TASK3
+SYS		Okay.	@		NULL		ACK		CM
+SYS		ippudu	@ time	G_N 7:15	G_X pm	G_N aindi.	G_N		ASSERT		NULL		TASK5
+SYS		Meeru	@ ee	G_N book	G_N december	G_N 15th	PSP 8PM	G_X lopu	G_N return	G_V cheseyali.	G_N		ASSERT		NULL		TASK5
+USER		cool	@		COMMIT		ACCEPT		TASK5
+USER		thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa	G_N Ledu	G_N		ASSERT		ANSWER_NEG		TASK0
+SYS		Thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		See	@ you	G_PRP again.	G_V		GREETING_EOC		ACK		CM
+SYS		Bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		Ela	G_N unnavu?	G_N		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hi	@ My	G_N day	G_N is	G_V good.	G_N		GREETING		ACK		CM
+USER		where	G_N can	G_V i	G_PRP get	G_V some	DT thriller	G_N novels?	G_N		INFO_REQUEST_WH		NULL		TASK1
+SYS		Literature	G_N section	G_N lo	PSP last	G_J 2	$ rows	G_N anni	G_N thriller	G_N novels	G_N ee	G_X		ASSERT		ANSWER_DESC		TASK1
+USER		naaku	G_X murder	G_N mysteries	G_N ante	G_N ishtam.	G_N		ASSERT		NULL		TASK1
+USER		ee	G_N author	G_N ayithe	G_N better	G_J ?	G_X		INFO_REQUEST_WH		NULL		TASK1
+SYS		James	@ petterson	G_N rasina	G_X books	G_X ee	G_X madya	G_N students	G_N baga	G_X issue	G_N cheyinchukuntunnaru	G_V		ASSERT		ANSWER_DESC		TASK1
+USER		ooh	@ avunaa..	G_N		NULL		ACK		CM
+USER		i	G_PRP havent	G_V heard	G_V about	PSP him..	G_N		ASSERT		ACK		OTHER
+USER		Could	@ you	G_PRP suggest	G_V me	G_PRP a	DT book	G_N of	PSP him	G_N too	G_R ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+SYS		Wizard	G_N and	CC witch.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		meeku	@ inka	G_X information	G_N kavalante	G_V library	G_N portal	G_N lo	PSP dorukutadi.	G_N		ASSERT		NULL		TASK1
+USER		ooh	@ thanks..	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		i	G_PRP will	G_V take	G_V these	DT 2	$ books	G_N if	PSP available	G_N		COMMIT		ACK		TASK3
+SYS		They	@ are	G_V available,	G_V		ASSERT		ANSWER_POS		TASK3
+SYS		issue	G_N cheyana	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		cheseyandi	@		ACTION_DIR		ANSWER_POS		TASK3
+SYS		Mee	G_PRP roll	G_N number	G_N cheptara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		naa	G_PRT roll	G_N nubmer	G_N 201201151.	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		i	G_PRP like	G_V dan	G_N brown	G_V books	G_N too...	G_V		ASSERT		NULL		TASK1
+USER		i	G_PRP have	G_V read	G_N all	DT of	PSP his	DT books..	G_N		ASSERT		NULL		TASK1
+USER		similar	G_N type	G_N of	PSP books	G_N telusaa?..like	G_N fiction	G_V on	PSP history	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		sorry.	@		EXPLICIT_PERFORMATIVE		ACK		TASK1
+SYS		Nenu	G_N books	G_N recommend	G_N cheyadaniki	PSP kavalsina	G_X information	G_X na	PSP daggara	G_N ledu.	G_X		ASSERT		ANSWER_DESC		TASK1
+USER		ok	@ no	G_PRT problem.	G_N		ASSERT		ACK		CM
+SYS		mari	G_X ee	G_N rendu	G_N books	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		yeah	@ ee	G_N rendu	G_N books	G_N issue	G_N cheyyandi.	G_N		ACTION_DIR		ANSWER_POS		TASK3
+USER		enni	@ days	G_N lopala	G_X return	G_N cheyyali	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK5
+SYS		iroju	@ date	G_N 27th	G_N november	G_N ,	G_X time	G_N 10	G_X ayindi.	G_X		ASSERT		HOLD		TASK5
+SYS		December	@ 15th	G_N kalla	G_N return	G_N cheyali.	G_N		ASSERT		ANSWER_DESC		TASK5
+USER		hope	G_N i	G_PRP will	G_V return	G_V before	PSP that	G_PRP period.	G_N		COMMIT		ACCEPT		TASK5
+USER		penalty	G_N entha	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK5
+SYS		return	G_N date	G_N nundi	G_X roju	G_N ki	G_N 5	G_X rupees.	G_N		ASSERT		ANSWER_DESC		TASK5
+USER		ok	@		NULL		ACK		CM
+SYS		inkedaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		nothing	G_N more.	G_N		ASSERT		ANSWER_NEG		TASK0
+USER		thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		welcome.	@		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hello	G_N ,	G_X i	G_PRP m	G_V gud	G_J		GREETING		ACK		CM
+SYS		naatho	@ matladatam	G_N ide	G_X first	G_J time	G_N aa?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		avnu	@		ASSERT		ANSWER_POS		OTHER
+SYS		mee	G_PRP peru	G_N ?	G_X		GREETING		NULL		CM
+USER		deepya	@		GREETING		ACK		CM
+SYS		Deepya	@ meeku	G_N library	G_X related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		ACK		TASK0
+USER		lib	@ timings	G_N enti?	G_N		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		podunna	G_N 9	G_N ki	PSP open	G_V chestaru.	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		raatri	G_N 12	G_N ki	PSP close	G_N chestaru.	G_N		ASSERT		ANSWER_DESC		TASK2
+USER		sundays	G_N kuda	G_N open	G_V ayye	G_N untada?	G_N		INFO_REQUEST_YN		NULL		TASK2
+SYS		Sunday	@ evening	G_N 5	$ kalla	G_N close	G_N chestaru.	G_N		ASSERT		ANSWER_DESC		TASK2
+USER		ohk.	@		NULL		ACK		CM
+USER		okasari	@ maximum	G_N enni	G_X books	G_X issue	G_V chestaru	G_N		INFO_REQUEST_WH		NULL		TASK1
+SYS		okesari	G_N 3	$ books	G_N varaku	G_N issue	G_N cheskovachu	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		okk	@		NULL		ACK		CM
+SYS		edaina	G_N book	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		Data	G_N structures	G_N ki	G_N oka	G_PRT manchi	G_N book	G_N suggest	G_N chesthara	G_N		INFO_REQUEST_WH		HOLD		TASK1
+SYS		Library	G_N portal	G_N lo	PSP anni	G_N books	G_N list	G_N untundi.	G_N		ASSERT		HOLD		TASK1
+SYS		prathi	G_N book	G_N ki	G_N rating	G_N kuda	G_X untundi.	G_N		ASSERT		HOLD		TASK1
+SYS		Meeru	@ portal	G_N loki	G_N velli	G_N chudocu.	G_N		OO		HOLD		TASK1
+SYS		meeku	@ recommend	G_N cheyadaniki	G_N aa	DT information	G_X naku	G_X telidu	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		oh	@ ok.	G_N		NULL		ACK		CM
+USER		nen	G_N chusi	G_N cheptha.	G_N		COMMIT		ACCEPT		TASK1
+USER		Data	@ structures	G_N by	PSP Karumanchi	G_N issue	G_N cheyandi.	G_N		ACTION_DIR		NULL		TASK3
+SYS		sare.	@		NULL		ACK		CM
+SYS		Mee	G_PRP roll	G_N number	G_N chepthara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		201225167	@		ASSERT		ANSWER_DESC		TASK3
+SYS		meeku	G_N book	G_N issue	G_N chesesanu.	G_N		ASSERT		NULL		TASK3
+SYS		15th	@ December	G_N lopu	G_X ee	G_X book	G_N return	G_N cheseyali.	G_N		ASSERT		NULL		TASK5
+SYS		sare	G_N na	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK5
+USER		okay	@		COMMIT		ACK		TASK5
+SYS		enkedaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		aa	G_X oka	G_PRT book	G_N chalu	G_N		ASSERT		ANSWER_NEG		TASK0
+SYS		okay.	@		NULL		ACK		CM
+SYS		see	G_V you	G_PRP soon.	G_V		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hello.	@		GREETING		ACK		CM
+USER		I	G_PRP am	G_V samyukta.	G_N		GREETING		ACK		CM
+USER		I	G_PRP am	G_V fine	G_N		GREETING		ACK		CM
+SYS		meeru	@ natho	G_N first	G_J time	G_N matladutunnara	G_N ?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Haa.	@		ASSERT		ANSWER_POS		OTHER
+USER		Nenu	G_N ee	G_N lib	G_N ki	G_N raavadam	G_N first	G_J time.	G_N		ASSERT		ANSWER_DESC		OTHER
+SYS		sare.	@		NULL		ACK		CM
+SYS		meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagandi.	G_N		OFFER		NULL		TASK0
+USER		Data	G_N structures	G_N and	CC algorithms	G_N book	G_N copies	G_V dorkaatledu..	G_N kani	CC website	G_N says	G_N there	G_PRP r	G_V 4	$ copies	G_N available.	G_N		ASSERT		ACCEPT		TASK1
+USER		Could	@ u	G_PRP please	G_V check	G_V and	CC let	G_V me	G_PRP know.	G_X		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		yes	G_PRT 4	G_N copies	G_N unnayi	G_V kaani	G_N anni	G_N reference	G_N copies.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		refrence	G_N copies	G_N ni	G_N generally	G_N issue	G_N cheyamu.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Ohh	G_N Alana.	G_N		NULL		ACK		CM
+USER		can	G_V u	G_PRP please	G_V check	G_V and	CC let	G_V me	G_PRP know	G_V when	G_N is	G_V the	DT most	G_N nearest	G_V date	G_N where	PSP the	DT book	G_N is	G_V due	G_J to	PSP return	G_V by	PSP someone	G_N who	G_PRP has	G_V that	G_PRP book	G_N		INFO_REQUEST_YN		NULL		TASK1
+SYS		2nd	@ December	G_N kalla	DT one	$ copy	G_N will	G_V be	G_V available	G_J		ASSERT		ANSWER_DESC		TASK1
+USER		Okay	@ thank	G_V u.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		reserve	G_N chesi	G_N unchamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK6
+USER		Yes	@ yes.	G_N		ACTION_DIR		ANSWER_POS		TASK6
+USER		thank	G_V u	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee	G_PRP roll	G_N number	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK6
+USER		201401897	@		ASSERT		ANSWER_DESC		TASK6
+SYS		okay	@ nenu	G_PRP reserve	G_N chesanu.	G_N		ASSERT		ACK		TASK6
+SYS		teeskunna	@ vallu	G_X return	G_V cheyagane	PSP meeku	G_X oka	G_PRT email	G_N vastaundi.	G_N		ASSERT		NULL		TASK6
+SYS		mee	G_PRP email	G_N id	G_N cheptara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK6
+USER		naa	G_PRT email	G_N id	G_N abc.xyz@gmail.com	G_N		ASSERT		ANSWER_DESC		TASK6
+SYS		okay.	@		NULL		ACK		CM
+SYS		inkedaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa	G_N Ledu	G_N		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	@ u	G_PRP asklib	G_V		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Okay	G_N bye.	G_N		GREETING_EOC		ACK		CM
+SYS		See	@ you	G_PRP soon.	G_V		GREETING_EOC		ACK		CM
+SYS		Hi,	@ na	G_PRP peru	G_N Asklib.	G_N		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni	G_X		ASSERT		NULL		CM
+USER		Lol,	@ what	G_PRP can	G_V u	G_PRP do?	G_V		INFO_REQUEST_WH		ACCEPT		TASK0
+SYS		meeku	@ library	G_N related	G_N evaina	G_N questions	G_N unte	G_V nannu	G_X adagochu,Book	G_N Issue,	G_X reissue,	G_X ilantivi	G_X		OFFER		ANSWER_DESC		TASK0
+USER		Book	@ renewal	G_N timings	G_N enti?	G_N		INFO_REQUEST_WH		NULL		TASK4
+SYS		meeru	@ epudaina	G_N renew	G_N cheskovachu.	G_N		OO		ANSWER_DESC		TASK4
+SYS		Library	G_N ki	G_N ravalsina	G_N avasram	G_N ledu.	G_N		ASSERT		ANSWER_DESC		TASK4
+SYS		naku	@ chepthe	G_N nenu	G_PRP automatic	G_J ga	G_N system	G_N lo	PSP update	G_N chestanu.	G_N		OFFER		ANSWER_DESC		TASK4
+SYS		Evaraina	G_N aa	G_N book	G_N already	G_R reserve	G_V cheskunte	G_N ,	G_X renewal	G_N option	G_N undadu,	G_N appudu	G_N meeru	G_N library	G_N ki	G_N ravalsuntundi.	G_N		ASSERT		ANSWER_DESC		TASK4
+USER		oh	@ cool.	G_N		NULL		ACK		CM
+SYS		inkedaina	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Can	@ you	G_PRP tell	G_V me	G_PRP the	DT status	G_N of	PSP this	DT book	G_N 	Introduction	G_N to	PSP Humanoid	G_V Robotics.	G_N Authors	# Kajita,	# S.,	# Hirukawa,	# H.,	# Harada,	# K.,	# Yokoi,	G_N K.	G_N		INFO_REQUEST_YN		ANSWER_POS		TASK1
+SYS		ee	G_N book	G_N availability	G_N lo	PSP undi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		ikkada	G_N issue	G_N cheste	G_V mari	G_X nenu	G_PRP eppudu	G_X collect	G_V chesukovali?	G_N		INFO_REQUEST_WH		HOLD		TASK3
+SYS		issue	G_N chesina	G_V 15	null mins	G_N ki	PSP vachi	G_N collect	G_V cheskovachu	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		okay	@		NULL		ACK		CM
+SYS		issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+USER		ledu.	@		ASSERT		ANSWER_NEG		TASK3
+USER		thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay	@		NULL		ACK		CM
+SYS		inkedaina	G_N adagala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu.	@		ASSERT		ANSWER_NEG		TASK0
+SYS		okay	G_N bye.	G_N		GREETING_EOC		ACK		CM
+SYS		see	G_V you	G_PRP again.	G_V		GREETING_EOC		ACK		CM
+USER		ok	G_N 🙂	G_N		NULL		ACK		CM
+SYS		Hi,	@ I	G_PRP am	G_V Li.b.ot,	G_V mee	G_PRP Library	G_N Assistant.	G_N		GREETING		NULL		CM
+SYS		How	G_N can	G_V I	G_PRP help	G_V you	G_PRP ?	G_X		OFFER		NULL		TASK0
+USER		Hi	@ I'm	G_N praneetha	G_N		GREETING		ACK		CM
+SYS		Hi	@ praneetha	G_N		GREETING		ACK		CM
+SYS		How	G_N can	G_V I	G_PRP help	G_V you	G_PRP ?	G_X		OFFER		NULL		TASK0
+USER		What	G_PRP r	G_V the	DT different	G_J textbooks	G_N on	PSP computer	G_N vision	G_N ?	G_X		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Sorry,	@ Ippudu	G_PRT Computer	G_X Vision	null books	G_V available	G_J ga	G_N levu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka	G_N emaina	G_X books	G_N kavala	G_V ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Linear	@ algebra	G_N meeda	G_X kavali.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Linear	@ Algebra	G_N lo,	G_V Introduction	G_V to	PSP Linear	G_V Algebra	G_N by	PSP Gilbert	$ Strang	G_N book	G_N okate	G_N undi.	G_N		ASSERT		ACK		TASK1
+SYS		Aa	@ book	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Oh,	@ No	G_N		ASSERT		REJECT		TASK1
+SYS		Sorry,	@ Inka	G_N edaina	G_N book	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Pattern	@ classification	G_N meeda	G_X unnaya	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		3	@ books	G_N unnayi,	G_N Pattern	G_N Recognition	G_V by	PSP Springer,	G_N Classification	G_N made	G_V easy	G_J by	PSP John	G_N Machintosh	G_N and	CC Classifiers	G_N of	PSP Today	G_N by	PSP Li	G_N Nung	G_N unnayi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Vitilo	@ emaina	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		I	G_PRP want	G_V Classifiers	G_N of	PSP Today	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		okay	@		NULL		ACK		CM
+SYS		aa	G_N book	G_N issue	G_N cheyana	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		Cheyandi.	@		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee	G_PRP Library	G_N ID	G_N number	G_N enti	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		201401187	@		ASSERT		ANSWER_DESC		TASK3
+SYS		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee	G_PRP ID	G_N ki	G_N book	G_N issue	G_N chesenu	G_N		ASSERT		NULL		TASK3
+SYS		meeru	@ velli	G_N teeskovachu	G_N		OO		NULL		TASK3
+SYS		inka	G_X emaina	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Eppati	G_N ki	G_N return	G_N cheyali	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK5
+SYS		Oka	G_N 7	G_N days	G_N lo	PSP return	G_N cheyali	G_V		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka	G_N emaina	G_X information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		No,	@		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		See	@ you	G_PRP again.	G_V		GREETING_EOC		ACK		CM
+USER		Bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Li.b.ot,	G_J your	G_R Library	G_N Assistant	G_X		GREETING		NULL		CM
+SYS		meeku	G_N ela	G_X help	G_X cheya	G_N galanu	G_N ?	G_X		OFFER		NULL		TASK0
+USER		Hello	@		GREETING		ACK		CM
+USER		linear	@ algebra	G_N books	G_N section	G_V ekada	G_N undi?	G_X		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Linear	@ Algebra	G_N books	G_PRT meeku	G_PRP section	G_N 3.2	G_N lo	PSP dorukutundi	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	@ aa	G_X book	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Naaku	G_N linear	G_N algebra	G_N by	PSP Russel	$ norvig	G_N third	null edition	G_N kavali.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Sorry,	@ aa	G_N book	G_N ledhu.	G_N		ASSERT		ACK		TASK1
+SYS		Vere	G_N book	G_N emaina	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		It's	G_N okay	G_N		ASSERT		ACK		TASK1
+USER		Introduction	G_N to	PSP Linear	G_V Algebra	G_N by	PSP Gilbert	G_N Strang	G_N Dorukutada?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		yes,	@ that	G_N book	G_N is	G_V available.	G_N		ASSERT		ANSWER_POS		TASK1
+SYS		mee	G_PRP ID	G_N ki	G_N issue	G_N cheyala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		Yes	G_N please	G_V		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee	G_PRP ID	G_N number	G_N istara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		201501138	@		ASSERT		ANSWER_DESC		TASK3
+SYS		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee	G_PRP ID	G_N ki	G_N book	G_N issue	G_N chesenu	G_N		ASSERT		NULL		TASK3
+SYS		meeru	@ velli	G_N tesukovachu.	G_N		OO		NULL		TASK3
+SYS		Can	@ I	G_PRP assist	G_V you	G_PRP with	PSP something	G_N else	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Prastuthaniki	@ inkem	G_N voddu	G_N		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay,	G_N Bye	G_N		GREETING_EOC		ACK		CM
+USER		Bye	@		GREETING_EOC		ACK		CM
+SYS		Hey,	@ Myself	G_N Libot.	G_N		GREETING		NULL		CM
+SYS		How	@ may	G_V I	G_PRP help	G_V you?	G_N		OFFER		NULL		TASK0
+USER		Hi,	@ I	G_PRP am	G_V madhur.	G_N		GREETING		ACK		CM
+USER		Naaku	G_N library	G_N related	G_X konni	G_SYM questions	G_N unnayi	G_X		ASSERT		ACCEPT		TASK2
+SYS		sare.	@		NULL		ACK		CM
+SYS		Mee	G_PRP questions	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		ACK		TASK2
+USER		Library	@ timings	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		Monday	G_N to	PSP Saturday	G_V 10:00	G_N AM	G_V to	PSP 12:00     G_V AM	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		Sunday	@ 10:00AM	G_V to	PSP 5:00	G_V PM	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		inka	G_X emaina	G_N doubts	G_N unnaya?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Library	G_N lo	PSP computers	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		4	@ computers	G_N unnayi.	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		inka	G_X emaina	G_N doubts	G_N unte	G_X adagandi.	G_X		OFFER		NULL		TASK0
+USER		Oka	G_N computer	G_N ni	PSP munde	G_V reserve	G_N chesukovacha	G_N ?	G_X		INFO_REQUEST_YN		ACCEPT		TASK6
+SYS		Reserve	@ cheskovatam	G_N kudaradu.	G_N		ASSERT		ANSWER_NEG		TASK6
+SYS		Personal	@ system	G_N vadachu.	G_N		ASSERT		ANSWER_DESC		TASK6
+USER		Ok.	@		NULL		ACK		CM
+USER		Library	G_N lo	PSP wifi	G_N facility	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK2
+SYS		Library	G_N lo	PSP Wi-Fi	G_N facility	G_N undi.	G_N		ASSERT		ANSWER_POS		TASK2
+SYS		inka	G_X emaina	G_X questions	G_N unnaya?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Psycology	@ related	G_N books	G_N unaya	G_N ?	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		unnayi.	@		ASSERT		ANSWER_POS		TASK1
+SYS		meeku	@ ye	G_PRP book	G_N kavali?	G_N		INFO_REQUEST_WH		ACK		TASK1
+USER		Psycology	@ books	G_N tarvata	G_V tesskuntanu	G_N		ASSERT		MAYBE		TASK1
+SYS		sare.	@		NULL		ACK		CM
+SYS		inka	G_X emaina	G_X help	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Novels	G_N untaya	G_N ?	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		novels	G_N unnayi.	G_N		ASSERT		ANSWER_POS		TASK1
+SYS		meeku	@ A	DT novel	G_N kavali?	G_N		INFO_REQUEST_WH		ACK		TASK1
+USER		Not	G_R a	DT penny	G_N more,	G_N Not	G_R a	DT penny	G_N less	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Telugu	G_N translation	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		undi.	@		ASSERT		ANSWER_POS		TASK1
+USER		Ekkada	G_N undi?	G_N		INFO_REQUEST_WH		NULL		TASK1
+SYS		Rack	@ number	G_N 5-2	G_N lo	PSP untundi.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		inka	G_X emaina	G_X help	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledu,	@		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Bye,	G_N Have	G_N a	DT good	G_J day.	G_N		GREETING_EOC		ACK		CM
+USER		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi,	@ nenu	G_PRP library	G_N assistant	G_N ni	G_X		GREETING		NULL		CM
+SYS		miku	G_N emaina	@ help	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Hi	@		GREETING		ACK		CM
+USER		library	G_N membership	G_N gurinchi	G_N details	G_V emaina	G_X cheputara	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK7
+SYS		Library	@ Membership	G_N kosam	G_N two	$ passport	G_N size	G_X photographs	# kavali,	# Registration	# fee	G_V 200,	G_V every	DT year	G_N renewal	G_N kosam	G_N 100	$ pay	G_N cheyali	G_X		ASSERT		ANSWER_DESC		TASK7
+SYS		Meeru	@ membership	G_N teeskundam	G_N anukuntunnara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK7
+USER		Avunu,	@ kaani	G_N membership	G_N benefits	G_N emiti	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK7
+SYS		Meeru	@ Member	G_N avvakapothe	PSP library	G_N lone	G_J books	G_N chadavali	G_N		ASSERT		ANSWER_DESC		TASK7
+SYS		Okavela	@ member	G_N aithe	G_N meeru	G_X books	G_N ni	G_N intiki	G_N teesukuvellochu	G_X		ASSERT		ANSWER_DESC		TASK7
+SYS		meeku	@ membership	G_N kavala?	G_N		INFO_REQUEST_YN		NULL		TASK7
+USER		Haan,	@ before	G_V that	G_PRP library	G_N lo	PSP wifi	G_N unda	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK2
+SYS		Yes,	G_N library	G_N lo	PSP wifi	G_N undi	G_N		ASSERT		ANSWER_POS		TASK2
+SYS		Inka	G_N emaina	G_N adagalanukuntunnara?	G_N		INFO_REQUEST_YN		NULL		TASK0
+USER		Ok,	@		NULL		ACK		CM
+USER		inka	G_X library	G_N timmings	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		Library	@ Morning	G_N 9	$ to	PSP Evening	G_V 5	G_N ,	G_X and	CC Sundays	G_N holiday	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		Inka	G_N emaina	G_N doubts	G_N unte	G_X adagachu	G_X		OFFER		NULL		TASK0
+USER		Ok,	@		NULL		ACK		TASK0
+USER		books	@ overdue	G_V ayithe	G_N fine	G_N entha	G_N ?	G_X		INFO_REQUEST_WH		ACCEPT		TASK5
+SYS		per	G_N day	G_N 10rs	G_N fine	G_N kattali	G_N		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka	G_N emaina	G_X info	G_N kavala	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu,	@		ASSERT		ANSWER_NEG		TASK0
+USER		thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye	@		GREETING_EOC		NULL		CM
+SYS		Bye	G_N ,	G_X Have	G_N a	DT nice	G_J day	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	@ am	G_V Harsha,	G_J your	G_R library	G_N assistant,	G_X		GREETING		NULL		CM
+SYS		Meeku	@ ela	G_X help	G_V cheyagalanu	G_N ?	G_X		OFFER		NULL		TASK0
+USER		Naaku	G_N konni	G_N books	G_N kaavali	G_V		ASSERT		ACCEPT		TASK1
+SYS		Em	@ books	G_N kavali	G_V meeku	G_N ?	G_X		INFO_REQUEST_WH		ACK		TASK1
+USER		Harry	G_N Potter	G_N and	CC the	DT half	G_N blood	G_N prince	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		aa	G_N book	G_N library	G_N lo	PSP undi.	G_N		ASSERT		ACK		TASK1
+SYS		Issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		Issue	G_N cheyoddu!	G_N		ASSERT		ANSWER_NEG		TASK3
+USER		aa	G_N book	G_N library	G_N lo	PSP ekkada	G_N undi	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK1
+SYS		Okay,	@ A	DT book	G_N section	G_N 3-2	G_N lo	PSP undi	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Naaku	G_N "Speech	G_N and	CC Language	G_N Processing	G_N by	PSP Jurafsky	G_N Martin"	G_N 7th	G_V edition	G_N kavali	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Sorry,	G_N library	G_N lo	PSP only	G_R 5th	G_N edition	G_V a	DT undi	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	@ adhi	G_N kavala	G_X ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+USER		Parledhu	G_N kaavali.	G_N		ASSERT		ANSWER_POS		TASK1
+USER		Only	@ reference	G_J copies	G_V ye	G_PRP unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK1
+USER		Ledhante	@ intiki	G_N kooda	G_N theeskellacha	G_N		INFO_REQUEST_YN		NULL		TASK1
+SYS		A	G_N book	G_N vi	PSP total	G_J 5	null copies	G_N unnayi,	G_N 2	$ reference	G_N copies	G_N and	CC methavi	G_N meeru	G_N intiki	G_X kuda	G_X teesukoni	G_N velachu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	@ aa	G_X book	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+USER		Aa	G_PRT 3	$ copies	G_N ippudu	G_X available	G_V ye	G_PRP na?	G_N		INFO_REQUEST_YN		HOLD		TASK1
+SYS		Only	@ 1	$ copy	G_N available	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+USER		Kaavali	@		ASSERT		ANSWER_POS		TASK1
+SYS		aithe	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		Cheseyandi	@		ACTION_DIR		ANSWER_POS		TASK3
+SYS		Mee	G_PRP library	G_N ID	G_N number	G_N cheputara	G_N ?	G_X		INFO_REQUEST_YN		HOLD		TASK3
+USER		201401027	@		ASSERT		ANSWER_DESC		TASK3
+SYS		Okay,	G_N book	G_N mee	G_PRP ID	G_N ki	G_N issue	G_N ayindi	G_N		ASSERT		ACK		TASK3
+SYS		Meeru	@ velli	G_N teeskovachu	G_N		OO		NULL		TASK3
+SYS		Inka	G_N emaina	G_X queries	G_V unnaaya	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Yenni	@ rojullo	G_N return	G_V cheyyali?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK5
+SYS		1	$ week	G_N lo	PSP return	G_N cheyali	G_V		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu,	@		ASSERT		ANSWER_NEG		TASK0
+USER		thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Okay,	G_N bye	G_N		GREETING_EOC		ACK		CM
+SYS		Hi,	@ I	G_PRP am	G_V Akshhay,	G_J your	G_R library	G_N assistant	G_X		GREETING		NULL		CM
+SYS		Meeku	@ ela	G_X help	G_V cheyagalanu	G_N		OFFER		NULL		TASK0
+USER		Top	G_N 5	$ books	G_N starting	G_V with	PSP H	G_N chubinchu	G_N		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		His	@ Banner	G_N Over	G_N Me	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku	@ ee	G_X books	G_N lo	PSP emaina	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+USER		Nalugo	G_N book	G_N kavali	G_V		ASSERT		ANSWER_DESC		TASK1
+SYS		Okay,	@		NULL		ACK		TASK1
+SYS		Hiding	@ Out	G_N issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		yes	G_PRT		ASSERT		ANSWER_POS		TASK3
+SYS		mee	G_PRP ID	G_N number	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK3
+USER		201402029	@		ASSERT		ANSWER_DESC		TASK3
+SYS		Meeku	@ "Hiding	G_N Out"	G_N issue	G_N ayipoyindi.	G_N		ASSERT		ACK		TASK3
+SYS		inka	G_X emaina	G_N questions	G_N unte	G_V adagandi.	G_N		OFFER		NULL		TASK0
+USER		Ok,	@		NULL		ACK		CM
+USER		Prasthutaniki	G_N levu	G_N		ASSERT		REJECT		TASK0
+SYS		okay,	G_N Bye	G_N		GREETING_EOC		ACK		CM
+USER		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V your	G_J library	G_N assistant	G_X		GREETING		NULL		CM
+SYS		Meeku	@ emaina	G_X help	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Avunu,	@		ASSERT		ANSWER_POS		TASK0
+USER		konni	@ pusthakalu	G_N unnayi	G_X naa	G_PRT deggara.	G_N		ASSERT		NULL		TASK8
+USER		Donate	@ cheddam	G_N anukuntunna.	G_N		COMMIT		NULL		TASK8
+USER		Ela	G_N cheyyali?	G_N		INFO_REQUEST_WH		NULL		TASK8
+SYS		Meeru	G_N oka	G_PRT form	G_N fill	G_V chesi,	G_PRP books	G_N vadeliachu	G_V		OO		ANSWER_DESC		TASK8
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Okay,	@		NULL		ACK		CM
+USER		aa	G_N form	G_N evari	G_V deggara	G_N teesukovali?	G_N		INFO_REQUEST_WH		ANSWER_DESC		TASK8
+SYS		It	G_PRP is	G_V an	DT online	G_N form	G_N		ASSERT		ANSWER_DESC		TASK8
+SYS		Meeku	@ link	G_N pamapala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK8
+USER		Haan	G_N pampeeyandi.	G_N		ACTION_DIR		ANSWER_POS		TASK8
+SYS		Okay	@		NULL		ACK		CM
+SYS		Mee	G_PRP email	G_N ID	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		HOLD		TASK8
+USER		ac_df123@gmail.com	@		ASSERT		ANSWER_DESC		TASK8
+SYS		Okay	@		NULL		ACK		CM
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Meeru	@ book	G_N rentals	G_N chestara?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK3
+SYS		Chestam	@		ASSERT		ANSWER_POS		TASK3
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Avunu.	@		ASSERT		ANSWER_POS		TASK0
+USER		Home	@ delivery	G_N chestara?	G_N		INFO_REQUEST_YN		NULL		TASK8
+SYS		Sorry	G_N cheyamu	G_N		ASSERT		ANSWER_NEG		TASK8
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Mee	G_PRP deggara	G_N private	G_R reading	G_X rooms	G_N unnaya?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Yes,	G_N library	G_N lo	PSP cubicles	G_N unnayi	G_X		ASSERT		ANSWER_POS		TASK2
+SYS		Inka	G_N emaina	G_X information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Levu.	@		ASSERT		ANSWER_NEG		TASK0
+USER		bye	@		GREETING_EOC		NULL		CM
+SYS		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V your	G_J library	G_N assistant	G_X		GREETING		NULL		CM
+SYS		Meeku	@ ela	G_X help	G_V cheyagalanu	G_N ?	G_X		OFFER		NULL		TASK0
+USER		Nenu	G_N konni	G_N books	G_N borrow	G_V cheddam	G_N ankuntunna	G_N		ASSERT		ACCEPT		TASK3
+USER		Steps	G_V em	G_PRP em	G_PRP cheyali	G_V		INFO_REQUEST_WH		NULL		TASK3
+SYS		Okay,	@		NULL		ACK		CM
+SYS		meeru	G_N first	G_J membership	G_N teeskovali	G_X		ASSERT		ANSWER_DESC		TASK3
+SYS		Inka	G_N emaina	G_X doubts	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Ok.	@		NULL		ACK		CM
+USER		Library	G_N lo	PSP edaina	G_N tinacha??	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan,	@ tinadaniki	G_N area	G_N reserve	G_V chesemu	G_N		ASSERT		ANSWER_DESC		TASK2
+SYS		Inka	G_N emaina	G_X queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Books	@ donate	G_N cheyacha	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK8
+SYS		cheyachu	@		OO		ANSWER_POS		TASK8
+SYS		Inkemaina	@ queries	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Mi	@ dantlo	G_N kids	G_N section	G_N unda?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan,	G_N Undi	G_N		ASSERT		ANSWER_POS		TASK2
+SYS		Inka	G_N emaina	G_N queries	$ unte	G_V adagachu	G_N		OFFER		NULL		TASK0
+USER		nenu	G_PRP ekkada	G_N politics,	G_X economic	G_N sastram,medical,violence,	G_N dhyanam	G_V gurinchi	G_N chadavachu	G_V		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Ee	G_N categories	G_N ki	G_N sambandinchina	G_N books	G_N sections	G_N 3-6	G_N lo	PSP untayi	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka	G_N emaina	G_X doubts	G_N unnaya	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Mi	G_N library	G_N lo	PSP video,	G_V gani	G_N audio	G_N library	G_N unda?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan	G_N unnayi	G_X		ASSERT		ANSWER_POS		TASK2
+SYS		Inka	G_N emaina	G_X information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		No	@		ASSERT		ANSWER_NEG		TASK0
+USER		thank	G_V you	G_PRP		GREETING_EOC		ACK		CM
+SYS		Okay,	@ bye,	G_V have	G_V a	DT good	G_J day	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	@ nenu	G_PRP Asklib	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hello	@		GREETING		ACK		CM
+USER		Distributed	@ systems	G_N book	G_N by	PSP Ajay	G_N Kshemakalyani	G_N ekkadundo	G_N cheppagalara	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK1
+SYS		naaku	G_X telisinantha	G_N varaku	G_N aa	DT book	G_N library	G_N lo	PSP ledu	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Okay	@		NULL		ACK		CM
+SYS		inkemaina	@ information	G_N kavala?	G_N		INFO_REQUEST_YN		NULL		TASK0
+USER		Can	@ you	G_PRP suggest	G_V another	G_R good	G_J distributed	G_N systems	G_N book?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		distributed	@ algorithm	G_N by	PSP nancy,	G_N lynch	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Ok	@		NULL		ACK		CM
+USER		thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Where	G_N is	G_V it?	G_N		INFO_REQUEST_WH		ACK		TASK1
+SYS		004.36	G_N L89D	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Cool	@		NULL		ACK		CM
+SYS		oka	G_PRT reference	G_N and	CC 3	$ student	G_N copies	G_N unnai	G_N		ASSERT		NULL		TASK1
+USER		Okay	@		NULL		ACK		CM
+SYS		inkemaina	@ information	G_N kavala?	G_N		INFO_REQUEST_YN		NULL		TASK0
+USER		Distributed	G_N systems	G_N by	PSP ksheemakalyani	G_N teppinchagalara	G_N ?	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+USER		It's	G_N a	DT course	G_N prescribed	G_N book	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		ha	G_PRT request	G_N pedathaamu	G_V mee	G_PRP peru	G_N paina	G_N		COMMIT		ANSWER_DESC		TASK1
+USER		Ok	@		NULL		ACK		CM
+USER		Thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala	@		INFO_REQUEST_YN		NULL		TASK0
+USER		No.	@		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		NULL		CM
+SYS		thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli	G_N kaluddaam	G_N		GREETING_EOC		NULL		CM
+USER		Okay	@		NULL		ACK		CM
+USER		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	G_PRT I	G_PRP am	G_V Asklib.	G_N		GREETING		NULL		CM
+SYS		ela	G_X unnavu?	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		hi	@		GREETING		ACK		CM
+USER		bhaaney	G_N unna	G_X		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N telsukovacha	G_N		GREETING		NULL		CM
+USER		nagendra	@		GREETING		ACK		CM
+SYS		naatho	@ matladatam	G_N ide	G_X first	G_J time	G_N aa?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		ha	G_PRT avunu	G_N		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		mee	G_PRP deggara	G_N bhagavadgita	G_N undha	G_X		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		ha	G_PRT undi	G_N		ASSERT		ANSWER_POS		TASK1
+SYS		e	G_N language	G_N lo	PSP kavali	G_N		INFO_REQUEST_WH		ACK		TASK1
+USER		telugu	G_N lo	G_N kavali	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		telugu	G_N lo	G_N kooda	G_N undi	G_N		ASSERT		ACK		TASK1
+SYS		issue	G_N cheyamantara	G_N		INFO_REQUEST_YN		ACK		TASK3
+USER		enni	@ rojulalo	G_N thirigi	G_V icheyali	G_N antaru?	G_N		INFO_REQUEST_YN		HOLD		TASK5
+SYS		15	G_N days	G_N lo	PSP return	G_N cheyali	G_V		ASSERT		ANSWER_DESC		TASK5
+SYS		or	@ reissue	G_N cheyinchukovachu	G_V		OO		ANSWER_DESC		TASK4
+USER		reissue	@ tarvatha	G_PRT inkoka	G_N 15	null days	G_N isthara?	G_X		INFO_REQUEST_YN		ACK		TASK4
+SYS		haa	G_N istamu.	G_N		ASSERT		ANSWER_POS		TASK4
+USER		aithe	G_N bhagvadgita	G_N issue	G_N cheseyandi	G_N		ACTION_DIR		ACK		TASK3
+SYS		Inka	G_N edaina	G_N information	G_V kavala?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		and	CC mee	G_PRP deggara	G_N emayina	G_X kotha	G_X comics	G_N unnaya?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha	G_PRT avi	G_N prathi	G_X month	G_N osthu	G_J untai	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		TINKLE	G_N unte	G_N issue	G_N cheyandi	G_X please	G_V		ACTION_DIR		ACK		TASK3
+SYS		TINKLE	G_N undi	G_N kani	CC issue	G_N cheyadam	G_N kudaradu.	G_X		ASSERT		REJECT		TASK3
+SYS		Library	G_N lone	G_J chadavali	G_N		ASSERT		ACK		TASK3
+USER		oooh..	@		NULL		ACK		CM
+USER		ayithey	G_N aa	G_N okka	G_N book	G_N issue	G_N cheyyandi	G_N chaalu	G_N		ACTION_DIR		ACK		TASK3
+SYS		ok.	@		NULL		ACK		CM
+SYS		Inka	G_N edaina	G_N information	G_V kavala?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		ledhu	@		ASSERT		ANSWER_NEG		TASK0
+SYS		okay	@		NULL		ACK		CM
+SYS		thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli	G_N kaluddaam	G_N		GREETING_EOC		NULL		CM
+USER		ha	G_PRT thappakunda	G_N		COMMIT		ACK		CM
+USER		Thank	@ You	G_N		GREETING_EOC		ACK		CM
+SYS		Hi	@ nenu	G_PRP asklib	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+SYS		mee	G_PRP peru	G_N telsukovacha	G_N		GREETING		NULL		CM
+USER		Hi,	@ Na	G_X peru	G_N ujwala	G_N		GREETING		ACK		CM
+SYS		hi	G_N ujwala	G_N		GREETING		ACK		CM
+SYS		naatho	@ inthaku	G_N mundu	G_N maatladaara	G_N ?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledhu	@		ASSERT		ANSWER_NEG		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu	G_N like	PSP books	G_PRP availability,	G_V issue,	G_N reissue	# information	G_N etc.	G_N		OFFER		NULL		TASK0
+USER		Ok	@ me	G_PRP library	G_N lo	PSP evaina	G_N Kotha	G_N Articles	G_N Vachaya	G_N		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		prathi	@ month	G_N kothavi	G_N osthune	G_N untai	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		deni	G_N gurinchi	G_N kavali	G_V		INFO_REQUEST_WH		ACK		TASK1
+USER		Ok	G_N e	G_X month	G_N vachina	G_N articles	G_N kavali	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		avi	G_N meeru	G_X library	G_N lone	G_J chadavaali.	G_N		ASSERT		ACK		TASK1
+USER		Oh	G_N ok	G_PRT		NULL		ACK		CM
+USER		Me	@ library	G_V a	DT time	G_N ki	G_X Open	G_X untadhi	G_X		INFO_REQUEST_WH		NULL		TASK2
+SYS		morning	G_N 10	G_V to	PSP night	G_N 12	G_N varaku	G_N open	G_V untadi	G_N		ASSERT		ANSWER_DESC		TASK2
+USER		library	G_N open	G_J ga	G_N unnappudu	G_N eppudaina	G_N book	G_N issue	G_N chyinchukovacha	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK3
+SYS		Ledu	G_N		ASSERT		ANSWER_NEG		TASK3
+SYS		issue	G_N timings	G_N 10	null to	PSP 5pm	G_V		ASSERT		ANSWER_DESC		TASK3
+USER		Oh	G_N ok	G_PRT		NULL		ACK		CM
+USER		Enni	G_N books	G_N issue	G_N chestharu	G_X		INFO_REQUEST_YN		NULL		TASK3
+SYS		per	@ student	G_N at	PSP a	DT time	G_N 3	$ books	G_N varaku	G_N issue	G_N cheyinchukovachu	G_N		ASSERT		ANSWER_DESC		TASK3
+USER		Ok	@		NULL		ACK		CM
+USER		Thank	@ you	G_PRP for	PSP the	DT info	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		you	G_PRP are	G_V welcome	G_V		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		No	@		ASSERT		ANSWER_NEG		TASK0
+USER		This	G_N is	G_V enough	G_N for	PSP now	G_R		ASSERT		ANSWER_NEG		TASK0
+USER		Thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		ok	@		NULL		ACK		CM
+SYS		thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Hi	@ nenu	G_PRP asklib	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Hi	@ asklib	G_N		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N thelsukovacha	G_N		GREETING		NULL		CM
+USER		na	G_PRP peru	G_N monish	G_N		GREETING		ACK		CM
+SYS		monish	@ inthaku	G_N mundu	PSP naatho	G_X maatlaadaara	G_N		INFO_REQUEST_YN		NULL		OTHER
+USER		ledu	G_N asklib.	G_N		ASSERT		ANSWER_NEG		OTHER
+USER		ide	@ modati	G_N saari	G_N		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		avunaa,	@ elanti	G_N questions	G_N answer	G_N cheyagalavu	G_N		INFO_REQUEST_YN		ACCEPT		TASK0
+SYS		books	@ availability	G_N gurinchi,	G_X issue,	G_N return	G_N ,	G_X reissue	G_N gurinchi	G_N cheppagalanu	G_V		ASSERT		ANSWER_DESC		TASK0
+USER		avunaa,	@ chala	G_PRT use	G_V ayyela	G_V undi	G_N		ASSERT		ACK		OTHER
+SYS		haa	@ meeku	G_N emaina	G_X information	G_N kaavaala	@		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu.	@		ASSERT		ANSWER_NEG		TASK0
+USER		thanks	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		ok	G_PRT thank	G_V you	G_PRP malli	G_V kaluddaam	G_N		GREETING_EOC		ACK		CM
+USER		thank	G_V you	G_PRP asklib	G_V		GREETING_EOC		ACK		CM
+SYS		Hi	@ nenu	G_PRP asklib	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+USER		Naku	G_N book	G_N availability	G_V status	G_N kavali	G_X		INFO_REQUEST_WH		NULL		TASK1
+SYS		Ye	G_N book	G_N gurinchi	G_N kaavaali	G_N		INFO_REQUEST_WH		HOLD		TASK1
+USER		The	@ discovery	G_N of	PSP India	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		aa	G_N book	G_N available	G_N ga	G_N ledu	G_N		ASSERT		ACK		TASK1
+SYS		inkemaina	@ information	G_N kavala	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Total	G_N Library	G_N lo	PSP enni	G_X books	G_N unnai	G_N ?	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		31,544	@ books	G_N unnai	G_N		ASSERT		ANSWER_DESC		TASK2
+USER		Language	@ wise	G_J distribution	G_N of	PSP books	G_N enti	G_N ?	G_X		INFO_REQUEST_WH		NULL		TASK2
+SYS		aa	DT information	G_N ipudu	G_X ma	DT daggara	G_N ledu	G_X		ASSERT		ANSWER_DESC		TASK2
+SYS		inka	G_X vere	G_N emaina	G_V information	G_N kavala	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu	@		ASSERT		ANSWER_NEG		CM
+SYS		ok	G_PRT thank	G_V you	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli	G_N kaluddaam	G_N		GREETING_EOC		NULL		CM
+USER		Yo	@		GREETING_EOC		ACK		CM
+SYS		hi	@ na	G_PRP peru	G_N Asklib	G_N		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni	G_X		ASSERT		NULL		CM
+USER		Hello	G_N asklib	G_N		GREETING		ACK		CM
+SYS		mee	G_PRP peru	G_N telsukovacha	G_N		GREETING		NULL		CM
+USER		Na	@ peru	G_N lakshmi.	G_N		GREETING		ACK		CM
+SYS		inthaku	@ mundu	G_N epudaina	G_X naatho	G_N maatladaara	G_N ?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledhu.	@		ASSERT		ANSWER_NEG		OTHER
+USER		idhe	G_N first	G_J time	G_N		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		Oh	@ avna,	G_N ok.	G_N		NULL		ACK		CM
+USER		Me	G_N library	G_N lo	PSP elanti	G_N books	G_N untayi?	G_N		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		anni	G_N genres	G_N ki	G_N sambandhinchina	G_N books	G_N unnaayi	G_V like	PSP academic	G_PRP books,	G_V stories,	# comics,	G_X mythology	G_N etc	G_X		ASSERT		ANSWER_DESC		TASK2
+USER		Oh..	G_N great!	G_N		NULL		ACK		CM
+USER		Shiva	G_N trilogy	G_N books	G_PRT unnayo	G_V levo	G_N cheppagalara?	G_N		INFO_REQUEST_YN		NULL		TASK1
+SYS		haa	G_N unnayi	G_X		ASSERT		ANSWER_POS		TASK1
+SYS		meeku	@ andulo	G_N ye	G_PRP book	G_N kavali	G_N ?	G_X		INFO_REQUEST_WH		ACK		TASK1
+USER		3rd	@ book	G_N kavali.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		book	G_N name	G_N naku	G_X idea	G_N ledhu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		Book	@ peru	G_N Oath	G_N of	PSP the	DT Vayuputras	G_N book	G_N 3	$ of	PSP the	DT Shiva	G_N Trilogy	G_N		ASSERT		ACK		TASK1
+SYS		library	G_N lo	PSP available	G_J ga	G_N undi.	G_N		ASSERT		ACK		TASK1
+SYS		Issue	G_N cheyamantara	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK3
+USER		Ok	G_N cool	G_N		NULL		ACK		CM
+USER		cheyandi	@		ACTION_DIR		ANSWER_POS		TASK3
+USER		Autobiography	G_N of	PSP yogi	G_N ane	G_N book	G_N undha?	G_X		INFO_REQUEST_YN		NULL		TASK1
+SYS		aa	G_N book	G_N ledandi	G_N		ASSERT		ANSWER_NEG		TASK1
+USER		Ayyo!	G_N avna.	G_N		NULL		ACK		CM
+USER		availability	G_N lo	PSP ledha?	G_N Or	G_N book	G_N e	G_X ledha?	G_N		INFO_REQUEST_OR		ACK		TASK1
+SYS		book	G_N e	G_N ledu	G_N		ASSERT		ANSWER_NEG		TASK1
+USER		Ayyo	G_N ok	G_PRT		NULL		ACK		CM
+SYS		inka	G_X vere	G_N emaina	G_V information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		God	G_N talks	G_N with	PSP Arjuna	G_N undemo	G_N chepthara?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha	G_PRT undi.	G_N		ASSERT		ANSWER_POS		TASK1
+USER		Yayyyyy!	@ ok	G_PRT cool	G_N tq	G_N		EXPLICIT_PERFORMATIVE		ACK		TASK1
+SYS		Issue	G_N cheyamantara?	G_N		INFO_REQUEST_YN		NULL		TASK3
+USER		Ippudu	G_N vadu.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Thanks.	@		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		you	G_PRP are	G_V welcome	G_V		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Oka	G_N book	G_N maximum	G_PRP nenu	G_PRP enni	G_X rojulu	G_X borrow	G_V cheyyachu?	G_N		INFO_REQUEST_WH		ANSWER_DESC		TASK5
+SYS		issue	G_N cheskunna	G_N book	G_N 15days	G_N lo	PSP Return	G_N		ASSERT		ANSWER_DESC		TASK5
+SYS		or	@ reissue	G_N cheyinchukovali	G_V		ASSERT		ANSWER_DESC		TASK4
+USER		Oh	@ avna	G_PRT ok	G_PRT ok.	G_N		NULL		ACK		CM
+USER		Me	G_N library	G_N lo	PSP avg	G_N ga	G_N enni	G_X books	G_X untayi?	G_V		INFO_REQUEST_WH		NULL		TASK2
+SYS		31544	@ books	G_N unnayi	G_X magazines	G_N avi	G_N kaakunda	G_N		ASSERT		ANSWER_DESC		TASK2
+USER		Wowww	@ nyc	G_N !!	G_X		NULL		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala	G_N ?	G_X		INFO_REQUEST_YN		NULL		TASK0
+USER		Elanti	G_N magazines	G_N untayi	G_V me	G_PRP dhanlo?	G_X		INFO_REQUEST_WH		ANSWER_DESC		TASK1
+SYS		comics,	@ education,	G_N technology,	G_N literature	G_N ki	PSP sambandhinchina	G_N magazines	G_N untaayi.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Ok.	@ Malayalam	G_N vi	PSP kuuda	G_N untaya?	#		INFO_REQUEST_YN		ACK		TASK1
+SYS		telugu	G_N hindi	G_N english	G_N lo	PSP untai.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Oh	G_N avna.	G_N		NULL		ACK		CM
+USER		Telugu	G_N lo	G_N ekkuva	G_N refer	G_V chese	G_V magazine	G_N edhi?	G_N		INFO_REQUEST_WH		ACK		TASK1
+SYS		telugu	G_N lo	G_N ante	G_N comic	G_N books	G_N and	CC literature	G_N vi	G_N okati	G_N rendu	G_N untaai	G_N like	PSP chandamama,	G_PRP baala	G_V bhaaratam	G_N etc.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Oh.	@ Chandamama	G_N book	G_N naku	G_X chala	G_X istam     G_V		ASSERT		ACK		OTHER
+SYS		oh	@ nice	G_N		NULL		ACK		OTHER
+SYS		inka	G_X emaina	G_X information	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		Newspapers	G_N kuda	G_N untaya?	G_X		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha	G_PRT untai.	G_N		ASSERT		ANSWER_POS		TASK1
+SYS		hindi,telugu	@ english	G_N lo.	G_N		ASSERT		ANSWER_DESC		TASK1
+USER		Great!	@		NULL		ACK		CM
+USER		Sare	@ asklib,	@ thanks	G_N for	PSP helping	G_V me	G_PRP		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye	@		GREETING_EOC		NULL		CM
+SYS		thank	@ you	G_PRP malli	G_V kaluddaam	G_N		GREETING_EOC		ACK		CM
+SYS		bye	@		GREETING_EOC		ACK		CM
+SYS		Hi	@ nenu	G_PRP asklib	G_X		GREETING		NULL		CM
+SYS		nenu	G_PRP mee	G_PRP library	G_N assistant	G_N ni.	G_N		ASSERT		NULL		CM
+SYS		mee	G_PRP peru	G_N telsukovacha	G_N		INFO_REQUEST_YN		NULL		CM
+USER    		Okk	@		NULL		ACK		CM
+USER		I	G_PRP am	G_V uma	G_N chowdary.	G_X		ASSERT		ANSWER_DESC		CM
+SYS		naatho	@ inthaku	G_N mundu	G_N maatladaara	G_N ?	G_X		INFO_REQUEST_YN		NULL		OTHER
+USER		Ledu.	@		ASSERT		ANSWER_NEG		OTHER
+USER		May	@ I	G_PRP know	G_V your	G_N name?	G_N		INFO_REQUEST_YN		NULL		OTHER
+SYS		naa	G_PRT peru	G_N asklib.	G_N		ASSERT		ANSWER_DESC		OTHER
+SYS		Meeku	@ library	G_N related	$ questions	G_N evaina	$ unte	G_V nannu	G_X adagochu.	G_N		OFFER		NULL		TASK0
+USER		Okk.	@		NULL		ACK		CM
+USER		May	@ I	G_PRP know	G_V which	G_N type	G_N of	PSP books	DT are	G_V available,	G_V ante	G_N type	G_N of	PSP journals,comics,	DT novels	G_N etc?	G_N		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		almost	G_N anni	G_N genres	G_V available	G_N unnaayi,	G_X academic	G_N books,	# stories,	# novels,	# comics,	# magazines	G_N etc.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		meeku	@ elaanti	G_N books	G_N kavali?	G_V		INFO_REQUEST_WH		ACK		TASK1
+USER		I	G_PRP like	G_V mythology	G_PRP books	G_V ,technology	G_V journals	G_N and	CC comics	G_N too.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		oh,	G_N avi	G_N kooda	G_N unnai.	G_N		ASSERT		ACK		TASK1
+USER		Okk.	@ How	G_N can	G_V I	G_PRP get	G_V them?	E		INFO_REQUEST_WH		ACK		TASK1
+SYS		library	G_N lo	PSP book	G_N theeskoni	G_N issue	G_N cheskovachu.	G_N		OO		ANSWER_DESC		TASK1
+USER		Edaina	@ card	G_N tesukovala	G_N ?	G_X		INFO_REQUEST_YN		ACK		TASK1
+USER		Daniki	@ evaina	G_N requirments	G_N untaya.	G_N		INFO_REQUEST_YN		ACK		TASK1
+SYS		meeeu	G_N student	G_N kani	CC faculty	G_N kani	G_N aithe	G_N id	G_N card	G_V saripotundi	G_N separate	G_J ga	G_N card	G_V em	G_PRP avasaram	G_V ledu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		prathi	@ student	G_N at	PSP a	DT time	G_N maximum	G_N three	G_N books	G_N issue	G_N cheyinchukovachu.	G_N		ASSERT		ANSWER_DESC		TASK1
+SYS		inka	G_X vere	G_N requirements	G_V em	G_PRP levu.	G_V		ASSERT		ANSWER_NEG		TASK1
+USER		Ohh	G_N okk.	G_N		NULL		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		issue	G_N chesaka	G_N oka	G_PRT book	G_N ni	PSP enni	G_X days	G_N lo	PSP return	G_N cheyali?	G_N		INFO_REQUEST_YN		ANSWER_DESC		TASK5
+SYS		15days	@ lopu	G_N return	G_V cheseyali.	G_N		ASSERT		ANSWER_DESC		TASK5
+USER		Ohh	@ okk	G_PRT got	G_V it	G_PRP		ASSERT		ACCEPT		TASK5
+SYS		ok.	@		NULL		ACK		CM
+SYS		inka	G_X emaina	G_X information	G_N kavala?	@		INFO_REQUEST_YN		NULL		TASK0
+USER		No	@ that's	G_N it.	G_N		ASSERT		ANSWER_NEG		TASK0
+SYS		ok.	@		NULL		ACK		CM
+SYS		thank	@ you.	G_N		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		see	G_V you	G_PRP soon.	G_V		GREETING_EOC		ACK		CM

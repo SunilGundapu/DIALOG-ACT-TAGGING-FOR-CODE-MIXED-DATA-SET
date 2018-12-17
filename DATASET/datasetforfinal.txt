@@ -1,0 +1,696 @@
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hello\en nenu\te ramz.\univ 	GREETING:ACK:CM
+USER:	Nenu\te good.\univ 	GREETING:ACK:CM
+USER:	Glad\en to\en meet\en u.\univ 	GREETING:ACK:CM
+SYS:	naatho\te matladatam\te ide\te first\en time\en aa?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	Yaa\univ first\en time.\univ 	ASSERT:ANSWER_POS:OTHER
+SYS:	Meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagochu.\univ 	OFFER:NULL:TASK0
+USER:	Meeru\te intha\te pedha\te library\en ela\te maintain\en chestunnaru.\univ 	INFO_REQUEST_WH:ACCEPT:TASK2
+SYS:	Inka\te chala\te mandi\te help\en chestaru.\univ 	ASSERT:ANSWER_DESC:TASK2
+SYS:	Meeku\te ikkada\te available\te books\en gurinchi\te edaina\te information\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Author\en wise\en books\univ ela\te search\en cheyachu.\univ 	INFO_REQUEST_WH:ANSWER_DESC:TASK1
+SYS:	Daniki\te inka\te portal\en set\en up\en cheyaledu.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te ye\te author\en ki\te sambandinchina\te books\en kavali?\univ 	INFO_REQUEST_WH:NULL:TASK1
+USER:	Oliver\en twist.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Oliver\en Twist\univ library\en lo\te undi.\univ 	ASSERT:ACK:TASK1
+SYS:	Issue\en cheyamantara?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	Cheyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	mee\univ roll\en number\en cheptara\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK3
+USER:	201225012\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Oliver\en Twist\univ meeku\te issue\en ayipoyindi.\univ 	ASSERT:NULL:TASK3
+SYS:	Inka\te edaina\te information\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ledu\te andi.\univ 	ASSERT:ANSWER_NEG:TASK0
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	Thanks.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	malli\te kaluddam.\univ 	GREETING_EOC:NULL:CM
+USER:	Ok\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hi\univ sir\en 	GREETING:ACK:CM
+SYS:	mee\te peru\te telusukovacha.\univ 	GREETING:NULL:CM
+USER:	Na\te peru\te saujanya\te reddy.\univ 	GREETING:ACK:CM
+SYS:	Meeru\te library\en lo\te unna\te books\univ kani,\univ library\en timings\en kani,\univ library\en ki\te sambandinchi\te evaina\te questions\en unte\te nanu\te adagandi.\univ 	OFFER:NULL:TASK0
+USER:	Me\en library\en lo\te Karumanchi\univ book\en unda?\univ 	INFO_REQUEST_YN:ACCEPT:TASK1
+SYS:	yes\en undi.\univ 	ASSERT:ANSWER_POS:TASK1
+USER:	Nenu\te a\univ book\en issue\en cheskovacha?\univ 	INFO_REQUEST_YN:ACK:TASK3
+SYS:	Student\en copies\en aithe\te prastutaniki\te available\te ga\te unnayi.\univ 	ASSERT:HOLD:TASK3
+SYS:	check\en chesi\te cheptanu.\univ 	COMMIT:HOLD:TASK3
+SYS:	Mee\te roll\en number\en cheptara.\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201325221\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	meeru\te last\en time\en teesukunna\te books\en inka\te return\en cheyaledu.\univ 	ASSERT:HOLD:TASK3
+SYS:	aa\univ books\univ return\en chesake\te inko\te book\en issue\en cheskovacu.\univ 	ASSERT:HOLD:TASK3
+USER:	Oh\univ avuna\te 	NULL:ACK:CM
+USER:	mari\te naku\te rendu\te books\en avasaram\te unte?\univ 	INFO_REQUEST_WH:ACK:TASK3
+SYS:	request\en pettali.\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	meeru\te maximum\en 3\univ books\univ ee\univ teeskovachu.\univ 	ASSERT:ANSWER_DESC:TASK3
+USER:	ohh\univ ok.\univ 	NULL:ACK:CM
+USER:	ekada\te petali\te request?\univ 	INFO_REQUEST_WH:ACK:TASK3
+USER:	evariki\te petali?\univ 	INFO_REQUEST_WH:ACK:TASK3
+SYS:	library\en portal\en loki\te velli\te isuue\en requests\en section\en lo\te pettali.\univ 	ASSERT:ANSWER_DESC:TASK3
+USER:	okay.\univ 	NULL:ACK:CM
+USER:	petanu.\univ 	ASSERT:ACCEPT:TASK3
+SYS:	sare\te mee\univ request\en accept\en avvagane\te naku\te notification\en vastundi.\univ 	ASSERT:ACK:TASK3
+USER:	eppudu\te issue\en chestaru?\univ 	INFO_REQUEST_WH:NULL:TASK3
+SYS:	notification\en raagane\te meeku\te book\en issue\en chesestanu.\univ 	COMMIT:ANSWER_POS:TASK3
+USER:	nenu\te book\univ eppudu\te collect\en cheskovachu\te ?\univ 	INFO_REQUEST_WH:ACK:TASK3
+SYS:	meeru\te inko\te 15\univ mins\en lo\te mee\te book\univ collect\en cheskodaniki\te ravachu.\univ 	OO:ANSWER_DESC:TASK3
+USER:	tappakunda.\univ 	COMMIT:ACK:TASK3
+USER:	chala\te thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inkedina\te information\en kavalante\te adagandi\te 	OFFER:NULL:TASK0
+USER:	oka\te vela\te late\en ga\te submit\univ cheste\te penality\en entha\te untundi\te ?\univ 	INFO_REQUEST_WH:ACCEPT:TASK5
+SYS:	day\en ki\te 5rs\univ charge\en chestam.\univ 	ASSERT:ANSWER_DESC:TASK5
+USER:	oh\en okay.\univ 	NULL:ACK:TASK5
+USER:	issue\en ni\univ renew\en cheskovacha\te ?\univ 	INFO_REQUEST_YN:NULL:TASK4
+USER:	ante\te reissue\en cheskovacha\te oka\te vela\te maku\te issue\en date\univ ipoyaka\te kuda\te use\en cheyalsi\te avasaram\te unte?\univ 	INFO_REQUEST_YN:NULL:TASK4
+SYS:	yes\en cheskovachu.\univ 	ASSERT:ANSWER_POS:TASK4
+SYS:	Return\en date\univ ki\te mundu\te cheskunte\te fine\en padadu.\univ 	ASSERT:ANSWER_DESC:TASK4
+USER:	okay\en sure.\univ 	NULL:ACK:TASK4
+USER:	eni\te sarlu\te varaku\te resissue\en cheskovachu?\univ 	INFO_REQUEST_WH:NULL:TASK4
+USER:	edana\te limit\en unda?\univ 	INFO_REQUEST_YN:NULL:TASK4
+SYS:	ledu\te 	ASSERT:ANSWER_NEG:TASK4
+USER:	Okay\en 	NULL:ACK:TASK4
+USER:	thank\univ you.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	ipudu\te a\en book\en teskovadaniki\te ravocha?\univ 	INFO_REQUEST_YN:NULL:TASK3
+SYS:	ravachu\te 	OO:ANSWER_POS:TASK3
+USER:	okay\univ thank\univ you\en 🙂\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inkedaina\te adagala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ahaa\te Ledu\te 	ASSERT:ANSWER_NEG:TASK0
+SYS:	Sare\en aithe\te malli\te kaluddam.\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	hi\univ asklib.\univ 	GREETING:ACK:CM
+USER:	bavunna.\univ 	GREETING:ACK:CM
+USER:	nuv\univ ela\te unnav.\univ 	GREETING:ACK:CM
+SYS:	nenu\te bagunna.\univ 	GREETING:ACK:CM
+SYS:	mee\te peru\te ?\univ 	GREETING:NULL:CM
+USER:	Monika\te 	GREETING:ACK:CM
+SYS:	nenu\te meeku\te ela\te help\en cheyagalanu?\univ 	OFFER:NULL:TASK0
+USER:	Naku\te Dsp\univ textbook\en kavali.\univ 	ASSERT:ACCEPT:TASK3
+USER:	I\univ need\en some\en manchi\te books\en andi.\univ 	ASSERT:NULL:TASK3
+SYS:	DSP\univ ante\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK3
+USER:	Digital\en Signal\en Processing.\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Okay.\univ 	NULL:ACK:CM
+SYS:	Author\en preference\en edaina\te unda?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	andlo\te best\en books\univ emunna\te naku\te kavali.\univ 	ASSERT:ANSWER_DESC:TASK3
+USER:	can\univ u\univ help\en me?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	Oppenham\te unda\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+SYS:	yes\en sure.\univ 	ASSERT:ANSWER_POS:TASK3
+SYS:	yes\en undi.\univ 	ASSERT:ANSWER_POS:TASK3
+SYS:	Oppenhamm\en chala\te manchi\te book.\univ 	ASSERT:NULL:TASK3
+SYS:	Chalaa\te mandi\te refer\en chestaru.\univ 	ASSERT:NULL:TASK3
+SYS:	Issue\en cheyamantara?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	cheyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK3
+USER:	inko\univ 2\univ books\univ kuda\te suggest\en cheyandi\te 	INFO_REQUEST_WH:NULL:TASK3
+SYS:	DIGITAL\univ SIGNAL\univ PROCESSING:\univ Principles,\univ Algorithms\en and\en Applications\en by\en Proakis\en and\en Manolakis.\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	idi\univ kuda\te most\en referred.\univ 	ASSERT:NULL:TASK3
+SYS:	idi\univ kuda\te issue\en cheyamantara?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	cheyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK3
+USER:	na\univ friend\univ ki\univ novel\en book\en kavalandi.\univ 	ASSERT:NULL:TASK1
+USER:	manchi\te love\en story\en okati\te suggest\en cheyandi.\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	Author\en preference\en edaina\te unda?\univ 	INFO_REQUEST_YN:HOLD:TASK1
+USER:	emo\te naku\te tanu\te emi\te cheppaledu.\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	prastutaniki\te Openhamm\en and\en DSP\univ by\en proakis\en ivvandi.\univ 	ACTION_DIR:NULL:TASK3
+SYS:	mee\univ roll\en num\univ cheppandi.\univ 	INFO_REQUEST_WH:HOLD:TASK3
+SYS:	meeru\te enni\te issue\en cheskovalo\te chusi\univ cheptanu\te 	COMMIT:HOLD:TASK3
+USER:	201225167\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	meeru\te already\en oka\te book\en teeskunnaru.\univ 	ASSERT:HOLD:TASK3
+SYS:	adi\te inka\te return\en cheyaledu.\univ 	ASSERT:HOLD:TASK3
+SYS:	So\univ only\en 2\univ books\en issue\en cheyagalatanu.\univ 	OFFER:HOLD:TASK3
+USER:	okay.\univ 	NULL:ACK:CM
+USER:	aite\te naku\te oka\te oppenham,oka\te love\en story\en book\en ichesyandi\te 	ACTION_DIR:ACCEPT:TASK3
+SYS:	love\en story\en ante\te chala\te unnayi.\univ 	ASSERT:HOLD:TASK3
+SYS:	nenu\te recommendation\en lo\te koncham\te weak.\univ 	ASSERT:HOLD:TASK3
+SYS:	fault\en in\en the\en stars\en issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	vadu.\univ 	ASSERT:ANSWER_NEG:TASK3
+USER:	naKu\univ can\en love\en happen\en twice\en issue\en cheyagaltara\te 	INFO_REQUEST_YN:NULL:TASK3
+SYS:	yes\en sure\en 	COMMIT:ANSWER_POS:TASK3
+SYS:	mee\univ roll\en number\en ki\te ee\te books\univ issue\en chesesanu.\univ 	ASSERT:NULL:TASK3
+USER:	thanks\en andi.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	welcome.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inkedaina?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	ledu.\univ anthe.\univ 	ASSERT:ANSWER_NEG:TASK0
+SYS:	bye!\univ malli\te kaluddam.\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hello\en assistant,\univ am\univ fine\en 	GREETING:ACK:CM
+SYS:	naatho\te matladatam\te ide\te first\en time\en aa?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	Avunu.\univ 	ASSERT:ANSWER_POS:OTHER
+SYS:	mee\te peru\te telusukovacha\te ?\univ 	GREETING:NULL:CM
+USER:	Yes.\univ 	ASSERT:ANSWER_POS:CM
+USER:	Naa\te peru\te chetan.\univ 	GREETING:ACK:CM
+SYS:	okay\en chetan.\univ 	NULL:ACK:CM
+SYS:	Meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagochu.\univ 	OFFER:NULL:TASK0
+USER:	Wat\en are\en the\en latest\en books\univ ?\univ 	INFO_REQUEST_WH:ACCEPT:TASK1
+SYS:	ee\univ topic\en meeda\te kavali\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK1
+USER:	Preferably\en sports,\univ Lekapothe\te space\en related\en 	ASSERT:ANSWER_DESC:TASK1
+SYS:	sports\en meeda\te ante\te magazines\en unnayi.\univ 	ASSERT:ACK:TASK1
+SYS:	Space\en meeda\te ante\te science\en journals\en unnayi.\univ 	ASSERT:ACK:TASK1
+USER:	What\en is\en the\en latest\en magazine\te ?\univ 	INFO_REQUEST_WH:NULL:TASK1
+USER:	Niku\te magazine\en lo\te emundo\te telsa\univ ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	sportstart\en ani\te kothaga\te okati\te vachindi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Magazine\en lo\te emundo\te aa\univ details\en naku\te telidu.\univ 	ASSERT:ANSWER_NEG:TASK1
+SYS:	I\en am\univ sorry.\univ 	EXPLICIT_PERFORMATIVE:NULL:CM
+USER:	Where\en in\en the\en library\en ,\univ is\en it\en located\en ?\univ 	INFO_REQUEST_WH:ACK:TASK1
+USER:	Naaku\te cheppava\te plz.\univ 	INFO_REQUEST_WH:NULL:CM
+SYS:	library\en loki\te enter\en avvagane\te first\en shelf\en lo\te top\en row\en lo\te untundi\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	Ohh\univ thankss\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inkedaina\te adagalanukuntunnara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Nuvvu\univ inka\te emi\te cheyagaluthavu?\univ 	INFO_REQUEST_WH:ACCEPT:TASK0
+SYS:	meekedaina\te book\en kavalante\te issue\en cheyinchi\te ready\en ga\te pettgalugutanu\te 	OFFER:ANSWER_DESC:TASK0
+USER:	Ohh\univ ok.\univ 	NULL:ACK:CM
+USER:	Can\en u\univ check\te if\en a\univ book\en is\en available\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	thappakunda\te 	COMMIT:ANSWER_POS:TASK1
+SYS:	book\en peru\te ?\univ 	INFO_REQUEST_WH:NULL:TASK1
+USER:	The\en monk\en who\en sold\en his\en ferrari.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	"The\univ monk\en who\en sold\en his\en ferrari"\univ availability\en lo\te undi.\univ 	ASSERT:ACK:TASK1
+SYS:	Issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	Yes\en 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	mee\univ roll\en number\en please\en 	INFO_REQUEST_WH:HOLD:TASK3
+USER:	201201124\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	Meeru\te inko\univ 5\univ mins\en lo\univ vachi\te tesskelochu.\univ 	OO:NULL:TASK3
+USER:	Thanks.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	Bye\univ 	GREETING_EOC:NULL:CM
+SYS:	bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	nenu\te bagunnanu.\univ 	GREETING:ACK:CM
+USER:	nuvu\te ?\univ 	GREETING:ACK:CM
+SYS:	nenu\te kuda\te bagunnanu.\univ 	GREETING:ACK:CM
+SYS:	mee\te peru\te ?\univ 	GREETING:ACK:CM
+USER:	akhil\univ 	GREETING:ACK:CM
+SYS:	naatho\te matladatam\te ide\te first\en time\en aa?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	avunu\te first\en time\en eh.\univ 	ASSERT:ANSWER_POS:OTHER
+SYS:	Meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagochu\te 	OFFER:NULL:TASK0
+USER:	library\en related\en questions\en ante\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK0
+SYS:	ante\te edaina\te book\en gurinchi\te kanukovalanna,\univ leda\te issue\univ cheyinchukovalanna\te 	ASSERT:ANSWER_DESC:TASK0
+USER:	me\en dagara\te anni\univ languages\en books\en untaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	technical\en vi\te kavalante\te english\en lo\te ekkuva\te unnayi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Literature\en lo\te telugu\univ inka\te hindi\te kuda\te unnayi\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	naku\te philosophy\en pusthakaalu\te kavali\te .\univ 	ASSERT:NULL:TASK1
+SYS:	ye\univ language\univ lo\univ kavali.\univ 	INFO_REQUEST_WH:HOLD:TASK1
+USER:	telugu\univ lo\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	author\en preference\en edaina\te unda\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK1
+USER:	yendamuri\te verendranath\ne !\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	"mimalni\univ meeru\te gelavagalaru"\univ ane\te book\en undi\te .\univ 	ASSERT:ACK:TASK1
+SYS:	Issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	adhi\te okkate\te undha\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	vijayaniki\te aidhu\te metlu\te ane\te pusthakam\te ledha\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK1
+SYS:	adi\te okate\en copy\en undi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	already\en okaru\te teeskunnaru.\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	sare.\univ 	NULL:ACK:CM
+USER:	mimalni\te meeru\te gelavagalaru\te ane\te pusthakanni\te naku\te issue\en cheyandi\te 	ACTION_DIR:ACCEPT:TASK3
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	mee\univ roll\en number\en cheptara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201325148\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	book\en issue\en chesesanu.\univ 	ASSERT:NULL:TASK3
+SYS:	Inko\univ 5\univ mins\en lo\univ vachi\te meeru\te mee\te id\univ card\en chupinchi\te book\en teesukelachu.\univ 	OO:NULL:TASK3
+SYS:	inka\te edaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	yepati\te lopu\te return\en cheyali\te ee\te book\en ni\te ?\univ 	INFO_REQUEST_WH:NULL:TASK5
+SYS:	ee\te roju\univ date\en 26th\univ November.\univ 	ASSERT:NULL:TASK5
+SYS:	Time\en 6:45PM\univ ayindi.\univ 	ASSERT:NULL:TASK5
+SYS:	10th\univ December\en 7PM\univ kalla\te return\en cheyali.\univ 	ASSERT:ANSWER_DESC:TASK5
+USER:	sare\te .\univ 	COMMIT:ACCEPT:TASK5
+USER:	thank\univ you.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	okay\en bye.\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hi\univ I\en am\univ Divya.\univ 	GREETING:ACK:CM
+USER:	I\en am\univ doing\en great.\univ 	GREETING:ACK:CM
+SYS:	natho\te intaka\te mundu\te matladara\te leda\te ide\univ first\en time\en aa\univ ?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	idi\univ second\en time.\univ 	ASSERT:ANSWER_DESC:OTHER
+SYS:	evaina\te questions\en unte\te adagandi.\univ 	OFFER:NULL:TASK0
+USER:	So\en I\en want\en Books\univ that\en are\en fictional\en Or\en detective\en novels\en are\en also\en fine.\univ 	ASSERT:ACCEPT:TASK1
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	meeku\te ye\te language\univ lo\univ books\univ kavali\te ?\univ Hindi,\univ English\univ or\univ Telugu?\univ 	INFO_REQUEST_WH:HOLD:TASK1
+USER:	Naku\te English\univ books\univ Kaavali.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	Author\en preference\en edaina\te unda\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK1
+USER:	Ahaa\te ledu\te 	ASSERT:ANSWER_NEG:TASK1
+SYS:	To\en kill\en a\univ mocking\en bird\en ane\te book\en most\en read\en lo\univ undi\te .\univ 	ASSERT:ACK:TASK1
+SYS:	library.iiit.ac.in\univ lo\te dani\te reviews\en chudochu\te 	OO:NULL:TASK1
+SYS:	adi\te issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	Oka\te 5\univ books\en Chepthe\te Daantlo\te nundi\te nen\te choose\en cheskunta\te 	INFO_REQUEST_WH:HOLD:TASK3
+SYS:	oka\te second\en 	NULL:ACK:CM
+USER:	Ipoindi\te oka\te second\en 	ASSERT:ACK:OTHER
+SYS:	The\en Case\en of\en the\en Family\en Jewels\en by\en Evadne\te Mount\en 	CONTD
+SYS:	Death\en Be\en My\univ Deadline\en by\en Evadne\te Mount\en 	CONTD
+SYS:	The\en Mystery\en of\en the\en Green\en Penguin\en by\en Evadne\te Mount\en 	CONTD
+SYS:	No\univ Murder\en in\en the\en Title\en by\en Evadne\te Mount\en 	CONTD
+SYS:	Oedipus\en vs.\univ Rex\en by\en Evadne\te Mount\en 	ASSERT:ANSWER_DESC:TASK3
+USER:	Last\en book\en Issue\en cheyandi\te 	ACTION_DIR:ACK:TASK3
+SYS:	Okay.\univ 	NULL:ACK:CM
+SYS:	ippudu\te time\en 7:15\univ pm\univ aindi.\univ 	ASSERT:NULL:TASK5
+SYS:	Meeru\te ee\te book\en december\en 15th\univ 8PM\univ lopu\te return\en cheseyali.\univ 	ASSERT:NULL:TASK5
+USER:	cool\en 	COMMIT:ACCEPT:TASK5
+USER:	thank\univ you.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inkedaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ahaa\te Ledu\te 	ASSERT:ANSWER_NEG:TASK0
+SYS:	Thank\en you.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	See\en you\en again.\univ 	GREETING_EOC:ACK:CM
+SYS:	Bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	Ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hi\univ My\univ day\en is\en good.\univ 	GREETING:ACK:CM
+USER:	where\en can\en i\univ get\en some\en thriller\en novels?\univ 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	Literature\en section\en lo\te last\en 2\univ rows\en anni\te thriller\en novels\en ee\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	naaku\te murder\en mysteries\en ante\te ishtam.\univ 	ASSERT:NULL:TASK1
+USER:	ee\univ author\en ayithe\te better\en ?\univ 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	James\en petterson\en rasina\te books\univ ee\univ madya\te students\univ baga\te issue\en cheyinchukuntunnaru\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	ooh\univ avunaa..\univ 	NULL:ACK:CM
+USER:	i\univ havent\en heard\en about\en him..\univ 	ASSERT:ACK:OTHER
+USER:	Could\en you\en suggest\en me\en a\en book\en of\en him\en too\univ ?\univ 	INFO_REQUEST_YN:ACK:TASK1
+SYS:	Cradle\en and\en All\en 	CONTD
+SYS:	Wizard\en and\en witch.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	meeku\univ inka\te information\en kavalante\te library\en portal\univ lo\te dorukutadi.\univ 	ASSERT:NULL:TASK1
+USER:	ooh\univ thanks..\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	i\univ will\en take\en these\en 2\univ books\univ if\en available\te 	COMMIT:ACK:TASK3
+SYS:	They\en are\en available,\univ 	ASSERT:ANSWER_POS:TASK3
+SYS:	issue\en cheyana\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	cheseyandi\te 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	Mee\te roll\en number\en cheptara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	naa\te roll\en nubmer\en 201201151.\univ 	ASSERT:ANSWER_DESC:TASK3
+USER:	i\en like\en dan\en brown\en books\en too...\univ 	ASSERT:NULL:TASK1
+USER:	i\en have\en read\en all\en of\en his\en books..\univ 	ASSERT:NULL:TASK1
+USER:	similar\univ type\en of\univ books\en telusaa?..like\univ fiction\en on\en history\en ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	sorry.\univ 	EXPLICIT_PERFORMATIVE:ACK:TASK1
+SYS:	Nenu\te books\univ recommend\en cheyadaniki\te kavalsina\te information\en na\univ daggara\te ledu.\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	ok\univ no\en problem.\univ 	ASSERT:ACK:CM
+SYS:	mari\te ee\te rendu\te books\en issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	yeah\univ ee\te rendu\te books\en issue\en cheyyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK3
+USER:	enni\univ days\en lopala\te return\en cheyyali\te ?\univ 	INFO_REQUEST_WH:NULL:TASK5
+SYS:	iroju\univ date\en 27th\univ november\en ,\univ time\en 10\univ ayindi.\univ 	ASSERT:HOLD:TASK5
+SYS:	December\en 15th\univ kalla\te return\en cheyali.\univ 	ASSERT:ANSWER_DESC:TASK5
+USER:	hope\en i\univ will\en return\univ before\en that\en period.\univ 	COMMIT:ACCEPT:TASK5
+USER:	penalty\en entha\te ?\univ 	INFO_REQUEST_WH:NULL:TASK5
+SYS:	return\en date\univ nundi\te roju\univ ki\univ 5\univ rupees.\univ 	ASSERT:ANSWER_DESC:TASK5
+USER:	ok\univ 	NULL:ACK:CM
+SYS:	inkedaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	nothing\en more.\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	welcome.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	Bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hello\en ,\univ i\univ m\univ gud\univ 	GREETING:ACK:CM
+SYS:	naatho\te matladatam\te ide\te first\en time\en aa?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	avnu\te 	ASSERT:ANSWER_POS:OTHER
+SYS:	mee\te peru\te ?\univ 	GREETING:NULL:CM
+USER:	deepya\te 	GREETING:ACK:CM
+SYS:	Deepya\te meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagochu.\univ 	OFFER:ACK:TASK0
+USER:	lib\en timings\en enti?\univ 	INFO_REQUEST_WH:ACCEPT:TASK2
+SYS:	podunna\te 9\univ ki\te open\en chestaru.\univ 	ASSERT:ANSWER_DESC:TASK2
+SYS:	raatri\te 12\univ ki\te close\en chestaru.\univ 	ASSERT:ANSWER_DESC:TASK2
+USER:	sundays\en kuda\te open\en ayye\te untada?\univ 	INFO_REQUEST_YN:NULL:TASK2
+SYS:	Sunday\en evening\en 5\univ kalla\te close\en chestaru.\univ 	ASSERT:ANSWER_DESC:TASK2
+USER:	ohk.\univ 	NULL:ACK:CM
+USER:	okasari\te maximum\en enni\univ books\en issue\en chestaru\te 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	okesari\te 3\univ books\univ varaku\te issue\en cheskovachu\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	okk\univ 	NULL:ACK:CM
+SYS:	edaina\te book\en issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	Data\te structures\en ki\te oka\te manchi\te book\en suggest\en chesthara\te 	INFO_REQUEST_WH:HOLD:TASK1
+SYS:	Library\en portal\univ lo\te anni\te books\en list\en untundi.\univ 	ASSERT:HOLD:TASK1
+SYS:	prathi\te book\en ki\te rating\en kuda\te untundi.\univ 	ASSERT:HOLD:TASK1
+SYS:	Meeru\te portal\en loki\te velli\te chudocu.\univ 	OO:HOLD:TASK1
+SYS:	meeku\te recommend\en cheyadaniki\te aa\univ information\en naku\te telidu\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	oh\en ok.\univ 	NULL:ACK:CM
+USER:	nen\te chusi\univ cheptha.\univ 	COMMIT:ACCEPT:TASK1
+USER:	Data\te structures\en by\en Karumanchi\te issue\en cheyandi.\univ 	ACTION_DIR:NULL:TASK3
+SYS:	sare.\univ 	NULL:ACK:CM
+SYS:	Mee\te roll\en number\en chepthara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201225167\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	meeku\te book\en issue\en chesesanu.\univ 	ASSERT:NULL:TASK3
+SYS:	15th\univ December\en lopu\te ee\te book\univ return\en cheseyali.\univ 	ASSERT:NULL:TASK5
+SYS:	sare\te na\univ ?\univ 	INFO_REQUEST_YN:NULL:TASK5
+USER:	okay\univ 	COMMIT:ACK:TASK5
+SYS:	enkedaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	aa\univ oka\te book\en chalu\te 	ASSERT:ANSWER_NEG:TASK0
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	see\en you\en soon.\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hello.\univ 	GREETING:ACK:CM
+USER:	I\en am\univ samyukta.\univ 	GREETING:ACK:CM
+USER:	I\en am\univ fine\en 	GREETING:ACK:CM
+SYS:	meeru\te natho\te first\en time\en matladutunnara\te ?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	Haa.\univ 	ASSERT:ANSWER_POS:OTHER
+USER:	Nenu\te ee\univ lib\en ki\te raavadam\te first\en time.\univ 	ASSERT:ANSWER_DESC:OTHER
+SYS:	sare.\univ 	NULL:ACK:CM
+SYS:	meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagandi.\univ 	OFFER:NULL:TASK0
+USER:	Data\te structures\en and\en algorithms\en book\en copies\en dorkaatledu..\univ kani\te website\en says\en there\en r\univ 4\univ copies\en available.\univ 	ASSERT:ACCEPT:TASK1
+USER:	Could\en u\univ please\en check\en and\en let\en me\en know.\univ 	INFO_REQUEST_YN:ACCEPT:TASK1
+SYS:	yes\en 4\univ copies\en unnayi\te kaani\te anni\te reference\en copies.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	refrence\en copies\en ni\univ generally\en issue\en cheyamu.\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	Ohh\univ Alana.\univ 	NULL:ACK:CM
+USER:	can\univ u\univ please\en check\en and\en let\en me\en know\en when\en is\en the\en most\en nearest\en date\en where\en the\en book\en is\en due\univ to\univ return\en by\univ someone\en who\en has\en that\en book\en 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	2nd\univ December\en kalla\te one\en copy\univ will\en be\en available\en 	ASSERT:ANSWER_DESC:TASK1
+USER:	Okay\univ thank\univ u.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	reserve\en chesi\te unchamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK6
+USER:	Yes\en yes.\univ 	ACTION_DIR:ANSWER_POS:TASK6
+USER:	thank\univ u\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	mee\univ roll\en number\en ?\univ 	INFO_REQUEST_WH:HOLD:TASK6
+USER:	201401897\univ 	ASSERT:ANSWER_DESC:TASK6
+SYS:	okay\en nenu\te reserve\en chesanu.\univ 	ASSERT:ACK:TASK6
+SYS:	teeskunna\te vallu\te return\en cheyagane\te meeku\te oka\te email\en vastaundi.\univ 	ASSERT:NULL:TASK6
+SYS:	mee\univ email\en id\univ cheptara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK6
+USER:	naa\te email\en id\univ abc.xyz@gmail.com\univ 	ASSERT:ANSWER_DESC:TASK6
+SYS:	okay.\univ 	NULL:ACK:CM
+SYS:	inkedaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ahaa\te Ledu\te 	ASSERT:ANSWER_NEG:TASK0
+USER:	Thank\en u\univ asklib\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	Okay\en bye.\univ 	GREETING_EOC:ACK:CM
+SYS:	See\en you\en soon.\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi,\univ na\te peru\te Asklib.\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni\univ 	ASSERT:NULL:CM
+USER:	Lol,\univ what\en can\univ u\univ do?\univ 	INFO_REQUEST_WH:ACCEPT:TASK0
+SYS:	meeku\te library\en related\en evaina\te questions\en unte\te nannu\te adagochu,Book\univ Issue,\univ reissue,\univ ilantivi\te 	OFFER:ANSWER_DESC:TASK0
+USER:	Book\univ renewal\en timings\en enti?\univ 	INFO_REQUEST_WH:NULL:TASK4
+SYS:	meeru\te epudaina\te renew\en cheskovachu.\univ 	OO:ANSWER_DESC:TASK4
+SYS:	Library\en ki\te ravalsina\te avasram\te ledu.\univ 	ASSERT:ANSWER_DESC:TASK4
+SYS:	naku\te chepthe\te nenu\te automatic\en ga\te system\univ lo\te update\en chestanu.\univ 	OFFER:ANSWER_DESC:TASK4
+SYS:	Evaraina\te aa\te book\en already\en reserve\en cheskunte\te ,\univ renewal\en option\en undadu,\univ appudu\te meeru\te library\en ki\te ravalsuntundi.\univ 	ASSERT:ANSWER_DESC:TASK4
+USER:	oh\en cool.\univ 	NULL:ACK:CM
+SYS:	inkedaina\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Can\en you\en tell\en me\en the\en status\en of\en this\en book\en :\univ Introduction\en to\en Humanoid\en Robotics.\univ Authors:\univ Kajita,\univ S.,\univ Hirukawa,\univ H.,\univ Harada,\univ K.,\univ Yokoi,\univ K.\univ 	INFO_REQUEST_YN:ANSWER_POS:TASK1
+SYS:	ee\univ book\en availability\en lo\te undi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	ikkada\te issue\en cheste\te mari\te nenu\te eppudu\te collect\en chesukovali?\univ 	INFO_REQUEST_WH:HOLD:TASK3
+SYS:	issue\en chesina\te 15\univ mins\en ki\te vachi\te collect\en cheskovachu\te 	ASSERT:ANSWER_DESC:TASK3
+USER:	okay\univ 	NULL:ACK:CM
+SYS:	issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:NULL:TASK3
+USER:	ledu.\univ 	ASSERT:ANSWER_NEG:TASK3
+USER:	thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	okay\univ 	NULL:ACK:CM
+SYS:	inkedaina\te adagala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	ledu.\univ 	ASSERT:ANSWER_NEG:TASK0
+SYS:	okay\en bye.\univ 	GREETING_EOC:ACK:CM
+SYS:	see\en you\en again.\univ 	GREETING_EOC:ACK:CM
+USER:	ok\en 🙂\univ 	NULL:ACK:CM
+SYS:	Hi,\univ I\en am\univ Li.b.ot,\univ mee\te Library\en Assistant.\univ 	GREETING:NULL:CM
+SYS:	How\en can\en I\en help\en you\en ?\univ 	OFFER:NULL:TASK0
+USER:	Hi\univ I'm\en praneetha\te 	GREETING:ACK:CM
+SYS:	Hi\univ praneetha\te 	GREETING:ACK:CM
+SYS:	How\en can\en I\en help\en you\en ?\univ 	OFFER:NULL:TASK0
+USER:	What\en r\univ the\en different\en textbooks\en on\en computer\en vision\en ?\univ 	INFO_REQUEST_WH:ACCEPT:TASK1
+SYS:	Sorry,\univ Ippudu\te Computer\en Vision\en books\en available\te ga\te levu.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Inka\te emaina\te books\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Linear\en algebra\univ meeda\te kavali.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Linear\en Algebra\univ lo,\univ Introduction\en to\en Linear\en Algebra\univ by\en Gilbert\en Strang\en book\en okate\en undi.\univ 	ASSERT:ACK:TASK1
+SYS:	Aa\univ book\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Oh,\univ No\univ 	ASSERT:REJECT:TASK1
+SYS:	Sorry,\univ Inka\te edaina\te book\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Pattern\univ classification\en meeda\te unnaya\te 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	3\univ books\univ unnayi,\univ Pattern\univ Recognition\en by\en Springer,\univ Classification\en made\te easy\univ by\en John\univ Machintosh\ne and\en Classifiers\en of\en Today\en by\en Li\univ Nung\univ unnayi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Vitilo\te emaina\te kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	I\en want\en Classifiers\en of\en Today\en 	ASSERT:ANSWER_DESC:TASK1
+SYS:	okay\univ 	NULL:ACK:CM
+SYS:	aa\univ book\en issue\en cheyana\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	Cheyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	mee\univ Library\en ID\univ number\en enti\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201401187\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	mee\univ ID\univ ki\te book\en issue\en chesenu\te 	ASSERT:NULL:TASK3
+SYS:	meeru\te velli\te teeskovachu\te 	OO:NULL:TASK3
+SYS:	inka\te emaina\te kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	Eppati\te ki\univ return\en cheyali\te 	INFO_REQUEST_WH:ANSWER_DESC:TASK5
+SYS:	Oka\te 7\univ days\en lo\univ return\en cheyali\te 	ASSERT:ANSWER_DESC:TASK5
+SYS:	Inka\te emaina\te information\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	No,\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	See\en you\en again.\univ 	GREETING_EOC:ACK:CM
+USER:	Bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Li.b.ot,\univ your\en Library\en Assistant\en 	GREETING:NULL:CM
+SYS:	meeku\te ela\te help\en cheya\te galanu\te ?\univ 	OFFER:NULL:TASK0
+USER:	Hello\en 	GREETING:ACK:CM
+USER:	linear\en algebra\univ books\en section\en ekada\te undi?\univ 	INFO_REQUEST_WH:ACCEPT:TASK1
+SYS:	Linear\en Algebra\univ books\univ meeku\te section\en 3.2\univ lo\te dorukutundi\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te aa\univ book\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Naaku\te linear\en algebra\univ by\en Russel\en norvig\en third\en edition\en kavali.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Sorry,\univ aa\univ book\en ledhu.\univ 	ASSERT:ACK:TASK1
+SYS:	Vere\te book\en emaina\te kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	It's\en okay\en 	ASSERT:ACK:TASK1
+USER:	Introduction\en to\en Linear\en Algebra\univ by\en Gilbert\en Strang\en Dorukutada?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	yes,\univ that\en book\en is\en available.\univ 	ASSERT:ANSWER_POS:TASK1
+SYS:	mee\univ ID\univ ki\te issue\en cheyala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	Yes\en please\en 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	mee\univ ID\univ number\en istara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201501138\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	mee\univ ID\univ ki\te book\en issue\en chesenu\te 	ASSERT:NULL:TASK3
+SYS:	meeru\te velli\te tesukovachu.\univ 	OO:NULL:TASK3
+SYS:	Can\en I\en assist\en you\en with\en something\en else\en ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Prastuthaniki\te inkem\te voddu\te 	ASSERT:ANSWER_NEG:TASK0
+USER:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	okay,\univ Bye\univ 	GREETING_EOC:ACK:CM
+USER:	Bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hey,\univ Myself\univ Libot.\univ 	GREETING:NULL:CM
+SYS:	How\en may\en I\en help\en you?\univ 	OFFER:NULL:TASK0
+USER:	Hi,\univ I\en am\univ madhur.\univ 	GREETING:ACK:CM
+USER:	Naaku\te library\en related\en konni\te questions\en unnayi\te 	ASSERT:ACCEPT:TASK2
+SYS:	sare.\univ 	NULL:ACK:CM
+SYS:	Mee\te questions\en enti\te ?\univ 	INFO_REQUEST_WH:ACK:TASK2
+USER:	Library\en timings\en enti\te ?\univ 	INFO_REQUEST_WH:ANSWER_DESC:TASK2
+SYS:	Monday\en to\en Saturday:\univ 10:00\univ AM\univ to\en 12:00\univ AM\univ 	ASSERT:ANSWER_DESC:TASK2
+SYS:	Sunday:\univ 10:00AM\univ to\en 5:00\univ PM\univ 	ASSERT:ANSWER_DESC:TASK2
+SYS:	inka\te emaina\te doubts\en unnaya?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Library\en lo\te computers\en unnaya\te ?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK2
+SYS:	4\univ computers\en unnayi.\univ 	ASSERT:ANSWER_DESC:TASK2
+SYS:	inka\te emaina\te doubts\en unte\te adagandi.\univ 	OFFER:NULL:TASK0
+USER:	Oka\te computer\en ni\univ munde\te reserve\en chesukovacha\te ?\univ 	INFO_REQUEST_YN:ACCEPT:TASK6
+SYS:	Reserve\en cheskovatam\te kudaradu.\univ 	ASSERT:ANSWER_NEG:TASK6
+SYS:	Personal\en system\univ vadachu.\univ 	ASSERT:ANSWER_DESC:TASK6
+USER:	Ok.\univ 	NULL:ACK:CM
+USER:	Library\en lo\te wifi\te facility\en unda\te ?\univ 	INFO_REQUEST_YN:NULL:TASK2
+SYS:	Library\en lo\te Wi-Fi\univ facility\en undi.\univ 	ASSERT:ANSWER_POS:TASK2
+SYS:	inka\te emaina\te questions\en unnaya?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Psycology\en related\en books\en unaya\te ?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	unnayi.\univ 	ASSERT:ANSWER_POS:TASK1
+SYS:	meeku\te ye\te book\en kavali?\univ 	INFO_REQUEST_WH:ACK:TASK1
+USER:	Psycology\univ books\en tarvata\te tesskuntanu\te 	ASSERT:MAYBE:TASK1
+SYS:	sare.\univ 	NULL:ACK:CM
+SYS:	inka\te emaina\te help\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Novels\en untaya\te ?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	novels\en unnayi.\univ 	ASSERT:ANSWER_POS:TASK1
+SYS:	meeku\te A\univ novel\en kavali?\univ 	INFO_REQUEST_WH:ACK:TASK1
+USER:	Not\univ a\univ penny\univ more,\univ Not\univ a\univ penny\univ less\en 	ASSERT:ANSWER_DESC:TASK1
+USER:	Telugu\univ translation\en unda\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	undi.\univ 	ASSERT:ANSWER_POS:TASK1
+USER:	Ekkada\te undi?\univ 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	Rack\en number\en 5-2\univ lo\te untundi.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	inka\te emaina\te help\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ledu,\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	Bye,\univ Have\en a\univ good\en day.\univ 	GREETING_EOC:ACK:CM
+USER:	bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi,\univ nenu\te library\en assistant\en ni\univ 	GREETING:NULL:CM
+SYS:	miku\te emaina\univ help\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Hi\univ 	GREETING:ACK:CM
+USER:	library\en membership\en gurinchi\te details\en emaina\te cheputara\te 	INFO_REQUEST_YN:ANSWER_DESC:TASK7
+SYS:	Library\en Membership\en kosam\univ two\en passport\en size\en photographs\en kavali,\univ Registration\en fee\en 200,\univ every\en year\univ renewal\en kosam\univ 100\univ pay\en cheyali\te 	ASSERT:ANSWER_DESC:TASK7
+SYS:	Meeru\te membership\univ teeskundam\te anukuntunnara\te ?\univ 	INFO_REQUEST_YN:ACK:TASK7
+USER:	Avunu,\univ kaani\te membership\en benefits\en emiti\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK7
+SYS:	Meeru\te Member\en avvakapothe\te library\en lone\univ books\univ chadavali\te 	ASSERT:ANSWER_DESC:TASK7
+SYS:	Okavela\te member\en aithe\te meeru\te books\univ ni\univ intiki\te teesukuvellochu\te 	ASSERT:ANSWER_DESC:TASK7
+SYS:	meeku\te membership\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK7
+USER:	Haan,\univ before\en that\en library\en lo\te wifi\univ unda\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK2
+SYS:	Yes,\univ library\en lo\te wifi\te undi\te 	ASSERT:ANSWER_POS:TASK2
+SYS:	Inka\te emaina\te adagalanukuntunnara?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ok,\univ 	NULL:ACK:CM
+USER:	inka\te library\en timmings\en enti\te ?\univ 	INFO_REQUEST_WH:ANSWER_DESC:TASK2
+SYS:	Library\en Morning\en 9\univ to\en Evening\en 5\univ ,\univ and\en Sundays\en holiday\en 	ASSERT:ANSWER_DESC:TASK2
+SYS:	Inka\te emaina\te doubts\en unte\te adagachu\te 	OFFER:NULL:TASK0
+USER:	Ok,\univ 	NULL:ACK:TASK0
+USER:	books\en overdue\en ayithe\te fine\en entha\te ?\univ 	INFO_REQUEST_WH:ACCEPT:TASK5
+SYS:	per\en day\en 10rs\univ fine\en kattali\te 	ASSERT:ANSWER_DESC:TASK5
+SYS:	Inka\te emaina\te info\en kavala\te 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ledhu,\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	thank\univ you.\univ 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	Bye\univ 	GREETING_EOC:NULL:CM
+SYS:	Bye\univ ,\univ Have\en a\univ nice\en day\en 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ am\univ Harsha,\univ your\en library\en assistant,\univ 	GREETING:NULL:CM
+SYS:	Meeku\te ela\te help\en cheyagalanu\te ?\univ 	OFFER:NULL:TASK0
+USER:	Naaku\te konni\te books\en kaavali\te 	ASSERT:ACCEPT:TASK1
+SYS:	Em\te books\univ kavali\te meeku\te ?\univ 	INFO_REQUEST_WH:ACK:TASK1
+USER:	Harry\en Potter\en and\en the\en half\en blood\en prince\en 	ASSERT:ANSWER_DESC:TASK1
+SYS:	aa\univ book\en library\en lo\te undi.\univ 	ASSERT:ACK:TASK1
+SYS:	Issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	Issue\en cheyoddu!\univ 	ASSERT:ANSWER_NEG:TASK3
+USER:	aa\univ book\en library\en lo\te ekkada\te undi\te ?\univ 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	Okay,\univ A\univ book\en section\en 3-2\univ lo\univ undi\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Naaku\te "Speech\univ and\en Language\en Processing\en by\en Jurafsky\en Martin"\univ 7th\univ edition\en kavali\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Sorry,\univ library\en lo\univ only\en 5th\univ edition\en a\en undi\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te adhi\te kavala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK1
+USER:	Parledhu\univ kaavali.\univ 	ASSERT:ANSWER_POS:TASK1
+USER:	Only\en reference\en copies\en ye\univ unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK1
+USER:	Ledhante\te intiki\te kooda\te theeskellacha\te 	INFO_REQUEST_YN:NULL:TASK1
+SYS:	A\univ book\en vi\te total\en 5\univ copies\en unnayi,\univ 2\univ reference\en copies\en and\en methavi\univ meeru\te intiki\te kuda\te teesukoni\te velachu.\univ 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te aa\univ book\en kavala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK1
+USER:	Aa\univ 3\univ copies\en ippudu\te available\te ye\univ na?\univ 	INFO_REQUEST_YN:HOLD:TASK1
+SYS:	Only\en 1\univ copy\en available\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te kavala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK1
+USER:	Kaavali\te 	ASSERT:ANSWER_POS:TASK1
+SYS:	aithe\te issue\univ cheyamantara\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	Cheseyandi\te 	ACTION_DIR:ANSWER_POS:TASK3
+SYS:	Mee\te library\en ID\univ number\en cheputara\te ?\univ 	INFO_REQUEST_YN:HOLD:TASK3
+USER:	201401027\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Okay,\univ book\en mee\te ID\univ ki\te issue\en ayindi\te 	ASSERT:ACK:TASK3
+SYS:	Meeru\te velli\te teeskovachu\te 	OO:NULL:TASK3
+SYS:	Inka\te emaina\te queries\en unnaaya\te 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Yenni\univ rojullo\te return\en cheyyali?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK5
+SYS:	1\univ week\en lo\te return\en cheyali\te 	ASSERT:ANSWER_DESC:TASK5
+SYS:	Inka\te emaina\te queries\en unnaya\te 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ledhu,\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	Okay,\univ bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi,\univ I\en am\univ Akshhay,\univ your\en library\en assistant\en 	GREETING:NULL:CM
+SYS:	Meeku\te ela\te help\en cheyagalanu\te 	OFFER:NULL:TASK0
+USER:	Top\en 5\univ books\en starting\en with\en H\univ chubinchu\te 	INFO_REQUEST_WH:ACCEPT:TASK1
+SYS:	Here\en Lies\en Arthur\en 	CONTD
+SYS:	Heroes\en of\en Olympus\en 	CONTD
+SYS:	Hatter's\en Castle\en 	CONTD
+SYS:	Hiding\en Out\en 	CONTD
+SYS:	His\univ Banner\en Over\en Me\en 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Meeku\te ee\te books\univ lo\te emaina\te kavala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK1
+USER:	Nalugo\univ book\en kavali\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Okay,\univ 	NULL:ACK:TASK1
+SYS:	Hiding\en Out\en issue\en cheyamantara\te ?\univ 	INFO_REQUEST_YN:ACK:TASK3
+USER:	yes\en 	ASSERT:ANSWER_POS:TASK3
+SYS:	mee\univ ID\univ number\en enti\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK3
+USER:	201402029\univ 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Meeku\te "Hiding\univ Out"\univ issue\en ayipoyindi.\univ 	ASSERT:ACK:TASK3
+SYS:	inka\te emaina\te questions\en unte\te adagandi.\univ 	OFFER:NULL:TASK0
+USER:	Ok,\univ 	NULL:ACK:CM
+USER:	Prasthutaniki\te levu\te 	ASSERT:REJECT:TASK0
+SYS:	okay,\univ Bye\univ 	GREETING_EOC:ACK:CM
+USER:	bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ your\en library\en assistant\en 	GREETING:NULL:CM
+SYS:	Meeku\te emaina\te help\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Avunu,\univ 	ASSERT:ANSWER_POS:TASK0
+USER:	konni\te pusthakalu\te unnayi\te naa\te deggara.\univ 	ASSERT:NULL:TASK8
+USER:	Donate\en cheddam\te anukuntunna.\univ 	COMMIT:NULL:TASK8
+USER:	Ela\te cheyyali?\univ 	INFO_REQUEST_WH:NULL:TASK8
+SYS:	Meeru\te oka\te form\en fill\en chesi,\univ books\en vadeliachu\te 	OO:ANSWER_DESC:TASK8
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Okay,\univ 	NULL:ACK:CM
+USER:	aa\univ form\en evari\te deggara\te teesukovali?\univ 	INFO_REQUEST_WH:ANSWER_DESC:TASK8
+SYS:	It\en is\en an\en online\en form\en 	ASSERT:ANSWER_DESC:TASK8
+SYS:	Meeku\te link\en pamapala\te ?\univ 	INFO_REQUEST_YN:ACK:TASK8
+USER:	Haan\en pampeeyandi.\univ 	ACTION_DIR:ANSWER_POS:TASK8
+SYS:	Okay\en 	NULL:ACK:CM
+SYS:	Mee\te email\en ID\univ enti\te ?\univ 	INFO_REQUEST_WH:HOLD:TASK8
+USER:	ac_df123@gmail.com\univ 	ASSERT:ANSWER_DESC:TASK8
+SYS:	Okay\en 	NULL:ACK:CM
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Meeru\te book\en rentals\en chestara?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK3
+SYS:	Chestam\te 	ASSERT:ANSWER_POS:TASK3
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Avunu.\univ 	ASSERT:ANSWER_POS:TASK0
+USER:	Home\en delivery\en chestara?\univ 	INFO_REQUEST_YN:NULL:TASK8
+SYS:	Sorry\en cheyamu\te 	ASSERT:ANSWER_NEG:TASK8
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Mee\te deggara\te private\en reading\en rooms\en unnaya?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK2
+SYS:	Yes,\univ library\en lo\te cubicles\en unnayi\te 	ASSERT:ANSWER_POS:TASK2
+SYS:	Inka\te emaina\te information\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Levu.\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	bye\univ 	GREETING_EOC:NULL:CM
+SYS:	bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ your\en library\en assistant\en 	GREETING:NULL:CM
+SYS:	Meeku\te ela\te help\en cheyagalanu\te ?\univ 	OFFER:NULL:TASK0
+USER:	Nenu\te konni\te books\en borrow\en cheddam\te ankuntunna\te 	ASSERT:ACCEPT:TASK3
+USER:	Steps\en em\univ em\te cheyali\te 	INFO_REQUEST_WH:NULL:TASK3
+SYS:	Okay,\univ 	NULL:ACK:CM
+SYS:	meeru\te first\en membership\en teeskovali\te 	ASSERT:ANSWER_DESC:TASK3
+SYS:	Inka\te emaina\te doubts\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Ok.\univ 	NULL:ACK:CM
+USER:	Library\en lo\te edaina\te tinacha??\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK2
+SYS:	Haan,\univ tinadaniki\te area\en reserve\en chesemu\te 	ASSERT:ANSWER_DESC:TASK2
+SYS:	Inka\te emaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Books\univ donate\en cheyacha\te 	INFO_REQUEST_YN:ANSWER_DESC:TASK8
+SYS:	cheyachu\te 	OO:ANSWER_POS:TASK8
+SYS:	Inkemaina\te queries\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Mi\univ dantlo\te kids\en section\en unda?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK2
+SYS:	Haan,\univ Undi\te 	ASSERT:ANSWER_POS:TASK2
+SYS:	Inka\te emaina\te queries\en unte\te adagachu\te 	OFFER:NULL:TASK0
+USER:	nenu\te ekkada\te politics,\univ economic\en sastram,medical,violence,\univ dhyanam\te gurinchi\te chadavachu\te 	INFO_REQUEST_WH:ACCEPT:TASK1
+SYS:	Ee\univ categories\en ki\te sambandinchina\te books\en sections\en 3-6\univ lo\te untayi\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	Inka\te emaina\te doubts\en unnaya\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Mi\univ library\en lo\te video,\univ gani\te audio\en library\en unda?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK2
+SYS:	Haan\en unnayi\te 	ASSERT:ANSWER_POS:TASK2
+SYS:	Inka\te emaina\te information\en kavala\te ?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	No\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	thank\univ you\en 	GREETING_EOC:ACK:CM
+SYS:	Okay,\univ bye,\univ have\en a\univ good\univ day\en 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ nenu\te Asklib\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	Hello\en 	GREETING:ACK:CM
+USER:	Distributed\en systems\en book\en by\en Ajay\univ Kshemakalyani\te ekkadundo\te cheppagalara\te ?\univ 	INFO_REQUEST_WH:NULL:TASK1
+SYS:	naaku\te telisinantha\te varaku\te aa\univ book\en library\en lo\te ledu\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	Okay\en 	NULL:ACK:CM
+SYS:	inkemaina\te information\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Can\en you\en suggest\en another\en good\en distributed\en systems\en book?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	distributed\en algorithm\en by\en nancy,\univ lynch\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	Ok\univ 	NULL:ACK:CM
+USER:	thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+USER:	Where\univ is\en it?\univ 	INFO_REQUEST_WH:ACK:TASK1
+SYS:	004.36\univ L89D\univ 	ASSERT:ANSWER_DESC:TASK1
+USER:	Cool\univ 	NULL:ACK:CM
+SYS:	oka\te reference\en and\en 3\univ student\en copies\en unnai\te 	ASSERT:NULL:TASK1
+USER:	Okay\en 	NULL:ACK:CM
+SYS:	inkemaina\te information\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	Distributed\en systems\en by\en ksheemakalyani\te teppinchagalara\te ?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+USER:	It's\en a\en course\en prescribed\en book\en 	ASSERT:ANSWER_DESC:TASK1
+SYS:	ha\univ request\en pedathaamu\te mee\te peru\te paina\te 	COMMIT:ANSWER_DESC:TASK1
+USER:	Ok\univ 	NULL:ACK:CM
+USER:	Thanks\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	inka\te emaina\te information\en kavala\te 	INFO_REQUEST_YN:NULL:TASK0
+USER:	No.\univ 	ASSERT:ANSWER_NEG:TASK0
+USER:	Thank\en you\en 	EXPLICIT_PERFORMATIVE:NULL:CM
+SYS:	thank\univ you\en 	EXPLICIT_PERFORMATIVE:ACK:CM
+SYS:	malli\te kaluddaam\te 	GREETING_EOC:NULL:CM
+USER:	Okay\en 	NULL:ACK:CM
+USER:	bye\univ 	GREETING_EOC:ACK:CM
+SYS:	Hi\univ I\en am\univ Asklib.\univ 	GREETING:NULL:CM
+SYS:	ela\te unnavu?\univ 	GREETING:NULL:CM
+SYS:	nenu\te mee\univ library\en assistant\en ni.\univ 	ASSERT:NULL:CM
+USER:	hi\univ 	GREETING:ACK:CM
+USER:	bhaaney\te unna\te 	GREETING:ACK:CM
+SYS:	mee\te peru\te telsukovacha\te 	GREETING:NULL:CM
+USER:	nagendra\univ 	GREETING:ACK:CM
+SYS:	naatho\te matladatam\te ide\te first\en time\en aa?\univ 	INFO_REQUEST_YN:NULL:OTHER
+USER:	ha\univ avunu\te 	ASSERT:ANSWER_POS:OTHER
+SYS:	Meeku\te library\en related\en questions\en evaina\te unte\te nannu\te adagochu.\univ 	OFFER:NULL:TASK0
+USER:	mee\univ deggara\te bhagavadgita\te undha\te 	INFO_REQUEST_YN:ACCEPT:TASK1
+SYS:	ha\univ undi\te 	ASSERT:ANSWER_POS:TASK1
+SYS:	e\univ language\univ lo\univ kavali\te 	INFO_REQUEST_WH:ACK:TASK1
+USER:	telugu\univ lo\univ kavali\te 	ASSERT:ANSWER_DESC:TASK1
+SYS:	telugu\univ lo\univ kooda\te undi\te 	ASSERT:ACK:TASK1
+SYS:	issue\en cheyamantara\te 	INFO_REQUEST_YN:ACK:TASK3
+USER:	enni\te rojulalo\te thirigi\te icheyali\te antaru?\univ 	INFO_REQUEST_YN:HOLD:TASK5
+SYS:	15\univ days\en lo\univ return\en cheyali\te 	ASSERT:ANSWER_DESC:TASK5
+SYS:	or\en reissue\univ cheyinchukovachu\te 	OO:ANSWER_DESC:TASK4
+USER:	reissue\en tarvatha\te inkoka\te 15\univ days\en isthara?\univ 	INFO_REQUEST_YN:ACK:TASK4
+SYS:	haa\univ istamu.\univ 	ASSERT:ANSWER_POS:TASK4
+USER:	aithe\te bhagvadgita\te issue\en cheseyandi\te 	ACTION_DIR:ACK:TASK3
+SYS:	Inka\te edaina\te information\en kavala?\univ 	INFO_REQUEST_YN:NULL:TASK0
+USER:	and\en mee\univ deggara\te emayina\te kotha\te comics\univ unnaya?\univ 	INFO_REQUEST_YN:ANSWER_DESC:TASK1
+SYS:	ha\univ avi\univ prathi\te month\en osthu\te untai\te 	ASSERT:ANSWER_DESC:TASK1
+USER:	TINKLE\univ unte\te issue\en cheyandi\te please\en 	ACTION_DIR:ACK:TASK3
+SYS:	TINKLE\en undi\te kani\te issue\en cheyadam\te kudaradu.\univ 	ASSERT:REJECT:TASK3
+SYS:	Library\en lone\te chadavali\te 	ASSERT:ACK:TASK3
+USER:	oooh..\univ 	NULL:ACK:CM
+USER:	ayithey\te aa\univ okka\te book\en issue\en cheyyandi\te chaalu\te 	ACTION_DIR:ACK:TASK3
+SYS:	ok.\univ 	NULL:ACK:CM

@@ -1,0 +1,103 @@
+B:	I need to return these books.	nenu ee books return cheyaali.	STATEMENT
+A:	Give them here.	ikkada ivvandi.	LISTNER_INF
+B:	Here they are.	idigondi.	UNDERSTANDING
+A:	It appears these books are two weeks late.	ee books rendu vaaraalu late unnaayi.	STATEMENT
+B:	I forgot they were due.	nenu due undani marchipoyaanu.	STATEMENT
+A:	You do realize you are going to have to pay late fees, right?	meeru late fees pay cheyaalsi untundani meeku telsu kada?	INFO_REQ
+B:	How much is the late fee?	late fee entha untundi?	INFO_REQ
+A:	The late fee is 25 cents a day.	rojuki 25 cents late fee.	STATEMENT
+B:	So I have to pay 25 cents for each day the books are late?	aithe nenu book late aina prathi rojuki 25 cents pay cheyaala?	SPEAKER_INF
+A:	It's 25 cents for each book.	adi 25 cents prathi book ki.	STATEMENT
+B:	That's a lot of money.	idi chaala ekkuva money.	STATEMENT
+A:	What can I do for you?	 nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I'm returning these books.	nenu ee books return chesthunnaanu.	STATEMENT
+A:	Let me have them.	vaatini naaku ivvandi.	LISTNER_INF
+B:	Here are all of them.	anni books ivi.	STATEMENT
+A:	These books are two weeks late.	ee books rendu vaaraalu late.	STATEMENT
+B:	I didn't have time to return them.	naaku return cheyadaaniki time lekunde.	STATEMENT
+A:	You're going to have to pay late fees.	meeru late fees pay cheyaalsi untundi.	STATEMENT
+B:	How much?	 entha?	INFO_REQ
+A:	25 cents a day.	rojuki 25 cents.	STATEMENT
+B:	25 cents a day?	  rojuki 25 cents aah?	INFO_REQ
+A:	That means 25 cents for each late book.	ante prathi late book ki 25 cents.	STATEMENT
+A:	May I help you with something?	nenu meeku denikaina sahaayapadagalanaa?	SPEAKER_INF
+A:	I'll take them.	nenu vaatini theeskuntaanu.	SPEAKER_INF
+A:	These books were due two weeks ago.	ee books rendu vaala kritham due unde.	STATEMENT
+B:	Yeah. I totally forgot they were due.	yeah. nenu marchipoyaanu due unnaayani.	UNDERSTANDING
+A:	You will need to pay late fees on these books.	meeru ee books paina late fee pay cheyaalsi untundi.	STATEMENT
+B:	How much are the late fees?	late fees entha?	INFO_REQ
+A:	The fee is 25 cents every day.	25 cents prathi roji ki.	STATEMENT
+B:	I have to pay 25 cents a day?	nenu oka rojuki 25 cents pay cheyaala?	SPEAKER_INF
+A:	And that's for each book that is late.	and late aina prathi book ki.	STATEMENT
+B:	That shouldn't be a problem.	adi em problem avvadu.	STATEMENT
+A:	What can I do for you today?	eeroju meekosam em cheyagalanu?	SPEAKER_INF
+B:	I would like to use a computer.	nenu computer upayoginchaalanukuntunnaanu.	STATEMENT
+A:	Do you have your library card?	mee daggara library card unda?	INFO_REQ
+B:	I sure do.	yeah, undi.	STATEMENT
+A:	There is a wait for the computers.	computers gurinchi wait cheyaalsi untundi.	STATEMENT
+B:	That's all right.	parledu.	UNDERSTANDING
+A:	You need to print your name on this list.	 mee peru ni ee list paina print cheyaali.	STATEMENT
+B:	Okay. Now what?	okay. ippudenti?	INFO_REQ
+A:	Once a computer is available, I will let you know.	Computer available avvagaane meeku theliyachesthaanu.	SPEAKER_INF
+B:	How am I supposed to log on to the computer?	computer lo ela log in avvaali?	INFO_REQ
+A:	All you do is type in the number on the back of your card.	mee card venakaala unna number ni type chesthe saripotundi.	STATEMENT
+B:	That's it? Thank you very much.	anthena? thank you very much.	GREETING_EOC
+A:	How may I help you?	nenu meeku ela sahayapadagalanu?	SPEAKER_INF
+B:	I need to get on the Internet.	nenu internet upayoginchaali.	STATEMENT
+A:	Do you have your library card with you?	mee daggara mee library card unda?	INFO_REQ
+B:	Yes, I have it.	yes, undi.	STATEMENT
+A:	You're going to have to wait for a computer.	meeru computer kosam wait cheyaalsi untundi.	STATEMENT
+B:	That's okay.	parledu.	UNDERSTANDING
+A:	Please put your name on this list.	dayachesi mee peru list lo raayandi.	LISTNER_INF
+B:	Then what do I need to do?	tarvata em cheyaali?	INFO_REQ
+A:	When there is a computer available, I will call you.	computer avalaible unnapudu nenu meeku call chesthaanu.	SPEAKER_INF
+B:	What do I do to log on to the computer?	computerloki login avvadaaniki naaku em avasaram?	INFO_REQ
+A:	Just type in the number on the back of your library card.	just mee library card venaakala unna number type cheyandi.	LISTNER_INF
+B:	Okay. Thanks for your help.	okay, thank you.	UNDERSTANDING
+A:	What do you need?	meeku em kaavaali?	INFO_REQ
+B:	I need to use the Internet.	nenu internet use cheyaali.	STATEMENT
+A:	You have your library card, right?	mee daggara library card undi kada?	INFO_REQ
+B:	Yes, I do.	yes, undi.	STATEMENT
+A:	There is a wait right now to use the computers.	computer use cheyadaaniki wait cheyaali.	STATEMENT
+B:	That's fine.	parledu.	UNDERSTANDING
+A:	Would you please write your name on this list?	ee list lo mee peru raasthaara?	LISTNER_INF
+B:	Then what?	tarvata em cheyaali?	INFO_REQ
+A:	I will call you when a computer is free.	computer free unnapudu meeku call chesthaanu.	SPEAKER_INF
+B:	How do I log on to the computer?	computer loki ela login avvaali?	INFO_REQ
+A:	Use the number on the back of your library card.	mee library card venakaala unna number ni use cheyandi.	LISTNER_INF
+B:	Thanks. I'll be sitting over there.	thank you. nenu akkada koorchoni untaanu.	EXP_PERF
+A:	How may I help you today?	nenu eeroju meeku ala sahaayapadagalanu?	SPEAKER_INF
+B:	I need to make some copies.	nenu deenivi konni copies cheyaali.	STATEMENT
+A:	The copier is right over there.	copier akkada undi.	STATEMENT
+B:	Does it cost to use it?	daanini use cheyadaaniki kharchu avtada?	INFO_REQ
+A:	We do charge to use the machine.	machine use cheyadaaniki charge chesthaamu.	SPEAKER_INF
+B:	How much does it cost?	entha cost avtundi?	INFO_REQ
+A:	We charge ten cents a copy.	ten cents oka copy ki.	STATEMENT
+B:	How many copies am I allowed to make?	enni copies cheyochu?	INFO_REQ
+A:	There is no limit to how many copies you can make.	enni copies cheyaali anna daanipaina em limit ledu.	STATEMENT
+B:	Would you mind showing me how to use it?	ela use cheyaalo choopisthaara?	LISTNER_INF
+A:	Please read the instructions on the copier.	copier paina unna instructions chadavandi.	LISTNER_INF
+B:	Oh, okay. Thanks.	oh ok. Thank you.	EXP_PERF
+A:	What can I do for you?	nenu meekosam em cheyagalanu?	SPEAKER_INF
+B:	I would like to use the copy machine.	nenu copy machine use cheyaalanukuntunna.	STATEMENT
+A:	The machine is over there.	machine akkada undi.	STATEMENT
+B:	Do I have to pay to use the machine?	machine use cheyadaasniki emaina pay cheyaala?	INFO_REQ
+A:	Yes, you will have to pay to use it.	yes, daanini use cheyaalante meeru pay cheyaalsi untundi.	STATEMENT
+B:	How much?	entha?	INFO_REQ
+A:	It costs ten cents a copy.	oka copy ki ten cents.	STATEMENT
+B:	Am I limited to a certain number of copies?	nenu konni copies e theeskovaala?	INFO_REQ
+A:	You can copy as much as you'd like.	meeku kavalsinanni copy cheyochu.	STATEMENT
+B:	Could you show me how to use the copier?	copier ela use cheyaalo meeru choopinchagalaraa?	LISTNER_INF
+A:	The instructions for the copier are posted on it.	 copier kosam instructions daani paina post chesi unnaayi.	STATEMENT
+B:	That's fabulous. Thank you.	that's fabulous. thank you.	EXP_PERF
+A:	May I help you?	nenu meeku sahaayam cheyocha?	SPEAKER_INF
+B:	I need to copy some pages in my book.	nenu na booklo nunchi konni pages copy cheyaali.	STATEMENT
+A:	The copier is right over there, in the corner.	copier corner lo undi.	STATEMENT
+A:	You have to pay to use the copier.	meeru copier use cheyaali ante pay cheyaali.	STATEMENT
+B:	How much do you charge?	entha charge chesthaaru?	INFO_REQ
+A:	You need to pay ten cents for every copy.	parthi copy ki ten cents pay cheyaali.	STATEMENT
+B:	Is there a maximum number of copies I can make?	inninti kanna ekkuva copies cheyoddu ani emaina unda?	INFO_REQ
+A:	You can make as many copies as you want.	meeku kaavaalsinanni copies cheskovachu.	STATEMENT
+B:	I'm going to need you to show me how to use the machine.	naaku meeru machine ela use cheyaalo cheppaali.	LISTNER_INF
+A:	There are instructions posted on the copier.	copier paina instructions post chesi unnaayi.	STATEMENT
+B:	Thank you for your help.	help kosam thanks.	EXP_PERF

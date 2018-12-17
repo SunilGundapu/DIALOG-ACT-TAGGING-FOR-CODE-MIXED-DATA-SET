@@ -1,0 +1,18 @@
+def hmm():
+    file1 = open("train_data.txt","r")
+    f_data =file1.readlines()
+    tags = []
+    utterences = []
+    #print(len(f_data))
+    for i in range(0,len(f_data)):
+        n = f_data[i].strip().split("\t")
+        utterences.append(n[1])
+        tags.append(n[3])
+    print(utterences)
+    print(tags)    
+    print(len(utterences))
+    print(len(tags))
+
+hmm()
+
+

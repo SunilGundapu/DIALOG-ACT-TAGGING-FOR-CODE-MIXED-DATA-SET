@@ -1,0 +1,703 @@
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hello nenu ramz.		GREETING		ACK		CM
+USER		Nenu good.		GREETING		ACK		CM
+USER		Glad to meet u.		GREETING		ACK		CM
+SYS		naatho matladatam ide first time aa?		INFO_REQUEST_YN		NULL		OTHER
+USER		Yaa first time.		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		Meeru intha pedha library ela maintain chestunnaru.		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		Inka chala mandi help chestaru.		ASSERT		ANSWER_DESC		TASK2
+SYS		Meeku ikkada available books gurinchi edaina information kavala?		INFO_REQUEST_YN		NULL		TASK1
+USER		Author wise books ela search cheyachu.		INFO_REQUEST_WH		ANSWER_DESC		TASK1
+SYS		Daniki inka portal set up cheyaledu.		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku ye author ki sambandinchina books kavali?		INFO_REQUEST_WH		NULL		TASK1
+USER		Oliver twist.		ASSERT		ANSWER_DESC		TASK1
+SYS		Oliver Twist library lo undi.		ASSERT		ACK		TASK1
+SYS		Issue cheyamantara?		INFO_REQUEST_YN		NULL		TASK3
+USER		Cheyandi.		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee roll number cheptara ?		INFO_REQUEST_WH		HOLD		TASK3
+USER		201225012		ASSERT		ANSWER_DESC		TASK3
+SYS		Oliver Twist meeku issue ayipoyindi.		ASSERT		NULL		TASK3
+SYS		Inka edaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledu andi.		ASSERT		ANSWER_NEG		TASK0
+SYS		okay.		NULL		ACK		CM
+SYS		Thanks.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli kaluddam.		GREETING_EOC		NULL		CM
+USER		Ok		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hi sir		GREETING		ACK		CM
+SYS		mee peru telusukovacha.		GREETING		NULL		CM
+USER		Na peru saujanya reddy.		GREETING		ACK		CM
+SYS		Meeru library lo unna books kani, library timings kani, library ki sambandinchi evaina questions unte nanu adagandi.		OFFER		NULL		TASK0
+USER		Me library lo Karumanchi book unda?		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		yes undi.		ASSERT		ANSWER_POS		TASK1
+USER		Nenu a book issue cheskovacha?		INFO_REQUEST_YN		ACK		TASK3
+SYS		Student copies aithe prastutaniki available ga unnayi.		ASSERT		HOLD		TASK3
+SYS		check chesi cheptanu.		COMMIT		HOLD		TASK3
+SYS		Mee roll number cheptara.		INFO_REQUEST_YN		HOLD		TASK3
+USER		201325221		ASSERT		ANSWER_DESC		TASK3
+SYS		meeru last time teesukunna books inka return cheyaledu.		ASSERT		HOLD		TASK3
+SYS		aa books return chesake inko book issue cheskovacu.		ASSERT		HOLD		TASK3
+USER		Oh avuna		NULL		ACK		CM
+USER		mari naku rendu books avasaram unte?		INFO_REQUEST_WH		ACK		TASK3
+SYS		request pettali.		ASSERT		ANSWER_DESC		TASK3
+SYS		meeru maximum 3 books ee teeskovachu.		ASSERT		ANSWER_DESC		TASK3
+USER		ohh ok.		NULL		ACK		CM
+USER		ekada petali request?		INFO_REQUEST_WH		ACK		TASK3
+USER		evariki petali?		INFO_REQUEST_WH		ACK		TASK3
+SYS		library portal loki velli isuue requests section lo pettali.		ASSERT		ANSWER_DESC		TASK3
+USER		okay.		NULL		ACK		CM
+USER		petanu.		ASSERT		ACCEPT		TASK3
+SYS		sare mee request accept avvagane naku notification vastundi.		ASSERT		ACK		TASK3
+USER		eppudu  issue chestaru?		INFO_REQUEST_WH		NULL		TASK3
+SYS		notification raagane meeku book issue chesestanu.		COMMIT		ANSWER_POS		TASK3
+USER		nenu book eppudu collect cheskovachu ?		INFO_REQUEST_WH		ACK		TASK3
+SYS		meeru inko 15 mins lo mee book collect cheskodaniki ravachu.		OO		ANSWER_DESC		TASK3
+USER		tappakunda.		COMMIT		ACK		TASK3
+USER		chala thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedina information kavalante adagandi		OFFER		NULL		TASK0
+USER		oka vela late ga submit cheste penality entha untundi ?		INFO_REQUEST_WH		ACCEPT		TASK5
+SYS		day ki 5rs charge chestam.		ASSERT		ANSWER_DESC		TASK5
+USER		oh okay.		NULL		ACK		TASK5
+USER		issue ni renew cheskovacha ?		INFO_REQUEST_YN		NULL		TASK4
+USER		ante reissue cheskovacha oka vela maku issue date ipoyaka kuda use cheyalsi avasaram unte?		INFO_REQUEST_YN		NULL		TASK4
+SYS		yes cheskovachu.		ASSERT		ANSWER_POS		TASK4
+SYS		Return date ki mundu cheskunte fine padadu.		ASSERT		ANSWER_DESC		TASK4
+USER		okay sure.		NULL		ACK		TASK4
+USER		eni sarlu varaku resissue cheskovachu?		INFO_REQUEST_WH		NULL		TASK4
+USER		edana limit unda?		INFO_REQUEST_YN		NULL		TASK4
+SYS		ledu		ASSERT		ANSWER_NEG		TASK4
+USER		Okay		NULL		ACK		TASK4
+USER		thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		ipudu a book teskovadaniki ravocha?		INFO_REQUEST_YN		NULL		TASK3
+SYS		ravachu		OO		ANSWER_POS		TASK3
+USER		okay thank you 🙂		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina adagala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa Ledu		ASSERT		ANSWER_NEG		TASK0
+SYS		Sare aithe malli kaluddam.		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		hi asklib.		GREETING		ACK		CM
+USER		bavunna.		GREETING		ACK		CM
+USER		nuv ela unnav.		GREETING		ACK		CM
+SYS		nenu bagunna.		GREETING		ACK		CM
+SYS		mee peru ?		GREETING		NULL		CM
+USER		Monika		GREETING		ACK		CM
+SYS		nenu meeku ela help cheyagalanu?		OFFER		NULL		TASK0
+USER		Naku Dsp textbook kavali.		ASSERT		ACCEPT		TASK3
+USER		I need some manchi books andi.		ASSERT		NULL		TASK3
+SYS		DSP ante ?		INFO_REQUEST_WH		HOLD		TASK3
+USER		Digital Signal Processing.		ASSERT		ANSWER_DESC		TASK3
+SYS		Okay.		NULL		ACK		CM
+SYS		Author preference edaina unda?		INFO_REQUEST_YN		HOLD		TASK3
+USER		andlo best books emunna naku kavali.		ASSERT		ANSWER_DESC		TASK3
+USER		can u help me?		INFO_REQUEST_YN		NULL		TASK3
+USER		Oppenham unda ?		INFO_REQUEST_YN		NULL		TASK3
+SYS		yes sure.		ASSERT		ANSWER_POS		TASK3
+SYS		yes undi.		ASSERT		ANSWER_POS		TASK3
+SYS		Oppenhamm chala manchi book.		ASSERT		NULL		TASK3
+SYS		Chalaa mandi refer chestaru.		ASSERT		NULL		TASK3
+SYS		Issue cheyamantara?		INFO_REQUEST_YN		NULL		TASK3
+USER		cheyandi.		ACTION_DIR		ANSWER_POS		TASK3
+USER		inko 2 books kuda suggest cheyandi		INFO_REQUEST_WH		NULL		TASK3
+SYS		DIGITAL SIGNAL PROCESSING		 Principles, Algorithms and Applications by Proakis and Manolakis.		ASSERT		ANSWER_DESC		TASK3
+SYS		idi kuda most referred.		ASSERT		NULL		TASK3
+SYS		idi kuda issue cheyamantara?		INFO_REQUEST_YN		NULL		TASK3
+USER		cheyandi.		ACTION_DIR		ANSWER_POS		TASK3
+USER		na friend ki novel book kavalandi.		ASSERT		NULL		TASK1
+USER		manchi love story okati suggest cheyandi.		INFO_REQUEST_YN		NULL		TASK1
+SYS		Author preference edaina unda?		INFO_REQUEST_YN		HOLD		TASK1
+USER		emo naku tanu emi cheppaledu.		ASSERT		ANSWER_DESC		TASK1
+USER		prastutaniki Openhamm and DSP by proakis ivvandi.		ACTION_DIR		NULL		TASK3
+SYS		mee roll num cheppandi.		INFO_REQUEST_WH		HOLD		TASK3
+SYS		meeru enni issue cheskovalo chusi cheptanu		COMMIT		HOLD		TASK3
+USER		201225167		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.		NULL		ACK		CM
+SYS		meeru already oka book teeskunnaru.		ASSERT		HOLD		TASK3
+SYS		adi inka return cheyaledu.		ASSERT		HOLD		TASK3
+SYS		So only 2 books issue cheyagalatanu.		OFFER		HOLD		TASK3
+USER		okay.		NULL		ACK		CM
+USER		aite naku oka oppenham,oka love story book ichesyandi		ACTION_DIR		ACCEPT		TASK3
+SYS		love story ante chala unnayi.		ASSERT		HOLD		TASK3
+SYS		nenu recommendation lo koncham weak.		ASSERT		HOLD		TASK3
+SYS		fault in the stars issue cheyamantara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		vadu.		ASSERT		ANSWER_NEG		TASK3
+USER		naKu can love happen twice issue cheyagaltara		INFO_REQUEST_YN		NULL		TASK3
+SYS		yes sure		COMMIT		ANSWER_POS		TASK3
+SYS		mee roll number ki ee books issue chesesanu.		ASSERT		NULL		TASK3
+USER		thanks andi.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		welcome.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina?		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu. anthe.		 ASSERT		ANSWER_NEG		TASK0
+SYS		bye! malli kaluddam.		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hello assistant, am fine		GREETING		ACK		CM
+SYS		naatho matladatam ide first time aa?		INFO_REQUEST_YN		NULL		OTHER
+USER		Avunu.		ASSERT		ANSWER_POS		OTHER
+SYS		mee peru telusukovacha ?		GREETING		NULL		CM
+USER		Yes.		ASSERT		ANSWER_POS		CM
+USER		Naa peru chetan.		GREETING		ACK		CM
+SYS		okay chetan.		NULL		ACK		CM
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		Wat are the latest books ?		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		ee topic meeda kavali ?		INFO_REQUEST_WH		HOLD		TASK1
+USER		Preferably sports, Lekapothe space related		ASSERT		ANSWER_DESC		TASK1
+SYS		sports meeda ante magazines unnayi.		ASSERT		ACK		TASK1
+SYS		Space meeda ante science journals unnayi.		ASSERT		ACK		TASK1
+USER		What is the latest magazine ?		INFO_REQUEST_WH		NULL		TASK1
+USER		Niku magazine lo emundo telsa ?		INFO_REQUEST_YN		NULL		TASK1
+SYS		sportstart ani kothaga okati vachindi.		ASSERT		ANSWER_DESC		TASK1
+SYS		Magazine lo emundo aa details naku telidu.		ASSERT		ANSWER_NEG		TASK1
+SYS		I am sorry.		EXPLICIT_PERFORMATIVE		NULL		CM
+USER		Where in the library , is it located ?		INFO_REQUEST_WH		ACK		TASK1
+USER		Naaku cheppava plz.		INFO_REQUEST_WH		NULL		CM
+SYS		library loki enter avvagane first shelf lo top row lo untundi		ASSERT		ANSWER_DESC		TASK1
+USER		Ohh thankss		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina adagalanukuntunnara ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Nuvvu inka emi cheyagaluthavu?		INFO_REQUEST_WH		ACCEPT		TASK0
+SYS		meekedaina book kavalante issue cheyinchi ready ga pettgalugutanu		OFFER		ANSWER_DESC		TASK0
+USER		Ohh ok.		NULL		ACK		CM
+USER		Can u check if a book is available ?		INFO_REQUEST_YN		NULL		TASK1
+SYS		thappakunda		COMMIT		ANSWER_POS		TASK1
+SYS		book peru ?		INFO_REQUEST_WH		NULL		TASK1
+USER		The monk who sold his ferrari.		ASSERT		ANSWER_DESC		TASK1
+SYS		"The monk who sold his ferrari" availability lo undi.		ASSERT		ACK		TASK1
+SYS		Issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		Yes		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee roll number please		INFO_REQUEST_WH		HOLD		TASK3
+USER		201201124		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.		NULL		ACK		CM
+SYS		Meeru inko 5 mins lo vachi tesskelochu.		OO		NULL		TASK3
+USER		Thanks.		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye		GREETING_EOC		NULL		CM
+SYS		bye		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		nenu bagunnanu.		GREETING		ACK		CM
+USER		nuvu ?		GREETING		ACK		CM
+SYS		nenu kuda bagunnanu.		GREETING		ACK		CM
+SYS		mee peru ?		GREETING		ACK		CM
+USER		akhil		GREETING		ACK		CM
+SYS		naatho matladatam ide first time aa?		INFO_REQUEST_YN		NULL		OTHER
+USER		avunu first time eh.		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu		OFFER		NULL		TASK0
+USER		library related questions ante ?		INFO_REQUEST_WH		HOLD		TASK0
+SYS		ante edaina book gurinchi kanukovalanna, leda issue cheyinchukovalanna		ASSERT		ANSWER_DESC		TASK0
+USER		me dagara anni languages books untaya ?		INFO_REQUEST_YN		NULL		TASK1
+SYS		technical vi kavalante english lo ekkuva unnayi.		ASSERT		ANSWER_DESC		TASK1
+SYS		Literature lo telugu inka hindi kuda unnayi		ASSERT		ANSWER_DESC		TASK1
+USER		naku philosophy pusthakaalu kavali .		ASSERT		NULL		TASK1
+SYS		ye language lo kavali.		INFO_REQUEST_WH		HOLD		TASK1
+USER		telugu lo		ASSERT		ANSWER_DESC		TASK1
+SYS		author preference edaina unda ?		INFO_REQUEST_YN		HOLD		TASK1
+USER		yendamuri verendranath !		ASSERT		ANSWER_DESC		TASK1
+SYS		"mimalni meeru gelavagalaru" ane book undi .		ASSERT		ACK		TASK1
+SYS		Issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		adhi okkate undha ? 		INFO_REQUEST_YN		HOLD		TASK3
+USER		vijayaniki aidhu metlu ane pusthakam ledha ?		INFO_REQUEST_YN		HOLD		TASK1
+SYS		adi okate copy undi.		ASSERT		ANSWER_DESC		TASK1
+SYS		already okaru teeskunnaru.		ASSERT		ANSWER_DESC		TASK1
+USER		sare.		NULL		ACK		CM
+USER		mimalni meeru gelavagalaru ane pusthakanni naku issue cheyandi		ACTION_DIR		ACCEPT		TASK3
+SYS		okay.		NULL		ACK		CM
+SYS		mee roll number cheptara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		201325148		ASSERT		ANSWER_DESC		TASK3
+SYS		okay.		NULL		ACK		CM
+SYS		book issue chesesanu.		ASSERT		NULL		TASK3
+SYS		Inko 5 mins lo vachi meeru mee id card chupinchi book teesukelachu.		OO		NULL		TASK3
+SYS		inka edaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		yepati lopu return cheyali ee book ni ?		INFO_REQUEST_WH		NULL		TASK5
+SYS		ee roju date 26th November.		ASSERT		NULL		TASK5
+SYS		Time 6		45PM ayindi.		ASSERT		NULL		TASK5
+SYS		10th December 7PM kalla return cheyali.		ASSERT		ANSWER_DESC		TASK5
+USER		sare .		COMMIT		ACCEPT		TASK5
+USER		thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay bye.		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hi I am Divya.		GREETING		ACK		CM
+USER		I am doing great.		GREETING		ACK		CM
+SYS		natho intaka mundu matladara leda ide first time aa ?		INFO_REQUEST_YN		NULL		OTHER
+USER		idi second time.		ASSERT		ANSWER_DESC		OTHER
+SYS		evaina questions unte adagandi.		OFFER		NULL		TASK0
+USER		So I want Books that are fictional Or detective novels are also fine.		ASSERT		ACCEPT		TASK1
+SYS		okay.		NULL		ACK		CM
+SYS		meeku ye language lo books kavali ? Hindi, English or Telugu?		INFO_REQUEST_WH		HOLD		TASK1
+USER		Naku English books Kaavali.		ASSERT		ANSWER_DESC		TASK1
+SYS		okay.		NULL		ACK		CM
+SYS		Author preference edaina unda ?		INFO_REQUEST_YN		HOLD		TASK1
+USER		Ahaa ledu		ASSERT		ANSWER_NEG		TASK1
+SYS		To kill a mocking bird ane book most read lo undi .		ASSERT		ACK		TASK1
+SYS		library.iiit.ac.in lo dani reviews chudochu		OO		NULL		TASK1
+SYS		adi issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		Oka 5 books Chepthe Daantlo nundi nen choose cheskunta		INFO_REQUEST_WH		HOLD		TASK3
+SYS		oka second		NULL		ACK		CM
+USER		Ipoindi oka second		ASSERT		ACK		OTHER
+SYS		The Case of the Family Jewels by Evadne Mount		ASSERT		ANSWER_DESC		TASK1
+SYS		Death Be My Deadline by Evadne Mount		ASSERT		ANSWER_DESC		TASK1
+SYS		The Mystery of the Green Penguin by Evadne Mount		ASSERT		ANSWER_DESC		TASK1
+SYS		No Murder in the Title by Evadne Mount		ASSERT		ANSWER_DESC		TASK1
+SYS		Oedipus vs. Rex by Evadne Mount		ASSERT		ANSWER_DESC		TASK3
+USER		Last book Issue cheyandi		ACTION_DIR		ACK		TASK3
+SYS		Okay.		NULL		ACK		CM
+SYS		ippudu time 7		15 pm aindi.		ASSERT		NULL		TASK5
+SYS		Meeru ee book december 15th 8PM lopu return cheseyali.		ASSERT		NULL		TASK5
+USER		cool		COMMIT		ACCEPT		TASK5
+USER		thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inkedaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa Ledu		ASSERT		ANSWER_NEG		TASK0
+SYS		Thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		See you again.		GREETING_EOC		ACK		CM
+SYS		Bye		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		Ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hi My day is good.		GREETING		ACK		CM
+USER		where can i get some thriller novels?		INFO_REQUEST_WH		NULL		TASK1
+SYS		Literature section lo last 2 rows anni  thriller novels ee		ASSERT		ANSWER_DESC		TASK1
+USER		naaku murder mysteries ante ishtam.		ASSERT		NULL		TASK1
+USER		ee author ayithe better ?		INFO_REQUEST_WH		NULL		TASK1
+SYS		James petterson rasina books ee madya students baga issue cheyinchukuntunnaru		ASSERT		ANSWER_DESC		TASK1
+USER		ooh avunaa..		NULL		ACK		CM
+USER		i havent heard about him..		ASSERT		ACK		OTHER
+USER		Could you suggest me a book of him too ?		INFO_REQUEST_YN		ACK		TASK1
+SYS		Cradle and All		ASSERT		ANSWER_DESC		TASK1
+SYS		Wizard and witch.		ASSERT		ANSWER_DESC		TASK1
+SYS		meeku inka information kavalante library portal lo dorukutadi.		ASSERT		NULL		TASK1
+USER		ooh thanks..		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		i will take these 2 books if available		COMMIT		ACK		TASK3
+SYS		They are available,		ASSERT		ANSWER_POS		TASK3
+SYS		issue cheyana ?		INFO_REQUEST_YN		NULL		TASK3
+USER		cheseyandi		ACTION_DIR		ANSWER_POS		TASK3
+SYS		Mee roll number cheptara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		naa roll nubmer 201201151.		ASSERT		ANSWER_DESC		TASK3
+USER		i like dan brown books too...		ASSERT		NULL		TASK1
+USER		i have read all of his books..		ASSERT		NULL		TASK1
+USER		similar type of books telusaa?..like fiction on history ?		INFO_REQUEST_YN		NULL		TASK1
+SYS		sorry.		EXPLICIT_PERFORMATIVE		ACK		TASK1
+SYS		Nenu books recommend cheyadaniki kavalsina information na daggara ledu.		ASSERT		ANSWER_DESC		TASK1
+USER		ok no problem.		ASSERT		ACK		CM
+SYS		mari ee rendu books issue cheyamantara ?		INFO_REQUEST_YN		ACK		TASK3
+USER		yeah ee rendu books issue cheyyandi.		ACTION_DIR		ANSWER_POS		TASK3
+USER		enni days lopala return cheyyali ?		INFO_REQUEST_WH		NULL		TASK5
+SYS		iroju date 27th november , time 10 ayindi.		ASSERT		HOLD		TASK5
+SYS		December 15th kalla return cheyali.		ASSERT		ANSWER_DESC		TASK5
+USER		hope i will return before that period.		COMMIT		ACCEPT		TASK5
+USER		penalty entha ?		INFO_REQUEST_WH		NULL		TASK5
+SYS		return date nundi roju ki 5 rupees.		ASSERT		ANSWER_DESC		TASK5
+USER		ok		NULL		ACK		CM
+SYS		inkedaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		nothing more.		ASSERT		ANSWER_NEG		TASK0
+USER		thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		welcome.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Bye		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hello , i m gud		GREETING		ACK		CM
+SYS		naatho matladatam ide first time aa?		INFO_REQUEST_YN		NULL		OTHER
+USER		avnu		ASSERT		ANSWER_POS		OTHER
+SYS		mee peru ?		GREETING		NULL		CM
+USER		deepya		GREETING		ACK		CM
+SYS		Deepya meeku library related questions evaina unte nannu adagochu.		OFFER		ACK		TASK0
+USER		lib timings enti?		INFO_REQUEST_WH		ACCEPT		TASK2
+SYS		podunna 9 ki open chestaru.		ASSERT		ANSWER_DESC		TASK2
+SYS		raatri 12 ki close chestaru.		ASSERT		ANSWER_DESC		TASK2
+USER		sundays kuda open ayye untada?		INFO_REQUEST_YN		NULL		TASK2
+SYS		Sunday evening 5 kalla close chestaru.		ASSERT		ANSWER_DESC		TASK2
+USER		ohk.		NULL		ACK		CM
+USER		okasari maximum enni books issue chestaru		INFO_REQUEST_WH		NULL		TASK1
+SYS		okesari 3 books varaku issue cheskovachu		ASSERT		ANSWER_DESC		TASK1
+USER		okk		NULL		ACK		CM
+SYS		edaina book issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		Data structures ki oka manchi book suggest chesthara		INFO_REQUEST_WH		HOLD		TASK1
+SYS		Library portal lo anni books list untundi.		ASSERT		HOLD		TASK1
+SYS		prathi book ki rating kuda untundi.		ASSERT		HOLD		TASK1
+SYS		Meeru portal loki velli chudocu.		OO		HOLD		TASK1
+SYS		meeku recommend cheyadaniki aa information naku telidu		ASSERT		ANSWER_DESC		TASK1
+USER		oh ok.		NULL		ACK		CM
+USER		nen chusi cheptha.		COMMIT		ACCEPT		TASK1
+USER		Data structures by Karumanchi issue cheyandi.		ACTION_DIR		NULL		TASK3
+SYS		sare.		NULL		ACK		CM
+SYS		Mee roll number chepthara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		201225167		ASSERT		ANSWER_DESC		TASK3
+SYS		meeku book issue chesesanu.		ASSERT		NULL		TASK3
+SYS		15th December lopu ee book return cheseyali.		ASSERT		NULL		TASK5
+SYS		sare na ?		INFO_REQUEST_YN		NULL		TASK5
+USER		okay		COMMIT		ACK		TASK5
+SYS		enkedaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		aa oka book chalu		ASSERT		ANSWER_NEG		TASK0
+SYS		okay.		NULL		ACK		CM
+SYS		see you soon.		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hello.		GREETING		ACK		CM
+USER		I am samyukta.		GREETING		ACK		CM
+USER		I am fine		GREETING		ACK		CM
+SYS		meeru natho first time matladutunnara ?		INFO_REQUEST_YN		NULL		OTHER
+USER		Haa.		ASSERT		ANSWER_POS		OTHER
+USER		Nenu ee lib ki raavadam first time.		ASSERT		ANSWER_DESC		OTHER
+SYS		sare.		NULL		ACK		CM
+SYS		meeku library related questions evaina unte nannu adagandi.		OFFER		NULL		TASK0
+USER		Data structures and algorithms book copies dorkaatledu.. kani website says there r 4 copies available.		ASSERT		ACCEPT		TASK1
+USER		Could u please check and let me know.		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		yes 4 copies unnayi kaani anni reference copies.		ASSERT		ANSWER_DESC		TASK1
+SYS		refrence copies ni generally issue cheyamu.		ASSERT		ANSWER_DESC		TASK1
+USER		Ohh Alana.		NULL		ACK		CM
+USER		can u please check and let me know when is the most nearest date where the book is due to return by someone who has that book		INFO_REQUEST_YN		NULL		TASK1
+SYS		2nd December kalla one copy will be available		ASSERT		ANSWER_DESC		TASK1
+USER		Okay thank u.		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		reserve chesi unchamantara ?		INFO_REQUEST_YN		NULL		TASK6
+USER		Yes yes.		ACTION_DIR		ANSWER_POS		TASK6
+USER		thank u		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee roll number ?		INFO_REQUEST_WH		HOLD		TASK6
+USER		201401897		ASSERT		ANSWER_DESC		TASK6
+SYS		okay nenu reserve chesanu.		ASSERT		ACK		TASK6
+SYS		teeskunna vallu return cheyagane meeku oka email vastaundi.		ASSERT		NULL		TASK6
+SYS		mee email id cheptara ?		INFO_REQUEST_YN		NULL		TASK6
+USER		naa email id abc.xyz@gmail.com		ASSERT		ANSWER_DESC		TASK6
+SYS		okay.		NULL		ACK		CM
+SYS		inkedaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ahaa Ledu		ASSERT		ANSWER_NEG		TASK0
+USER		Thank u asklib		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Okay bye.		GREETING_EOC		ACK		CM
+SYS		See you soon.		GREETING_EOC		ACK		CM
+SYS		Hi, na peru Asklib.		GREETING		NULL		CM
+SYS		nenu mee library assistant ni		ASSERT		NULL		CM
+USER		Lol, what can u do?		INFO_REQUEST_WH		ACCEPT		TASK0
+SYS		meeku library related evaina questions unte nannu adagochu,Book Issue, reissue, ilantivi		OFFER		ANSWER_DESC		TASK0
+USER		Book renewal timings enti?		INFO_REQUEST_WH		NULL		TASK4
+SYS		meeru epudaina renew cheskovachu.		OO		ANSWER_DESC		TASK4
+SYS		Library ki ravalsina avasram ledu. 		ASSERT		ANSWER_DESC		TASK4
+SYS		naku chepthe nenu automatic ga system lo update chestanu.		OFFER		ANSWER_DESC		TASK4
+SYS		Evaraina aa book already reserve cheskunte , renewal option undadu, appudu meeru library ki ravalsuntundi.		ASSERT		ANSWER_DESC		TASK4
+USER		oh cool.		NULL		ACK		CM
+SYS		inkedaina ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Can you tell me the status of this book 		 Introduction to Humanoid Robotics. Authors		 Kajita, S., Hirukawa, H., Harada, K., Yokoi, K.		INFO_REQUEST_YN		ANSWER_POS		TASK1
+SYS		ee book availability lo undi.		ASSERT		ANSWER_DESC		TASK1
+SYS		Issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		ikkada issue cheste mari nenu eppudu collect chesukovali?		INFO_REQUEST_WH		HOLD		TASK3
+SYS		issue chesina 15 mins ki vachi collect cheskovachu		ASSERT		ANSWER_DESC		TASK3
+USER		okay		NULL		ACK		CM
+SYS		issue cheyamantara ?		INFO_REQUEST_YN		NULL		TASK3
+USER		ledu.		ASSERT		ANSWER_NEG		TASK3
+USER		thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay		NULL		ACK		CM
+SYS		inkedaina adagala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		ledu.		ASSERT		ANSWER_NEG		TASK0
+SYS		okay bye.		GREETING_EOC		ACK		CM
+SYS		see you again.		GREETING_EOC		ACK		CM
+USER		ok 🙂		NULL		ACK		CM
+SYS		Hi, I am Li.b.ot, mee Library Assistant.		GREETING		NULL		CM
+SYS		How can I help you ?		OFFER		NULL		TASK0
+USER		Hi I'm praneetha		GREETING		ACK		CM
+SYS		Hi praneetha		GREETING		ACK		CM
+SYS		How can I help you ?		OFFER		NULL		TASK0
+USER		What r the different textbooks on computer vision ?		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Sorry, Ippudu Computer Vision books available ga levu.		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka emaina books kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		Linear algebra meeda kavali.		ASSERT		ANSWER_DESC		TASK1
+SYS		Linear Algebra lo, Introduction to Linear Algebra by Gilbert Strang book okate undi.		ASSERT		ACK		TASK1
+SYS		Aa book kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		Oh, No		ASSERT		REJECT		TASK1
+SYS		Sorry, Inka edaina book kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		Pattern classification meeda unnaya		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		3 books unnayi, Pattern Recognition by Springer, Classification made easy by John Machintosh and Classifiers of Today by Li Nung unnayi.		ASSERT		ANSWER_DESC		TASK1
+SYS		Vitilo emaina kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		I want Classifiers of Today		ASSERT		ANSWER_DESC		TASK1
+SYS		okay		NULL		ACK		CM
+SYS		aa book issue cheyana ?		INFO_REQUEST_YN		ACK		TASK3
+USER		Cheyandi.		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee Library ID number enti ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		201401187		ASSERT		ANSWER_DESC		TASK3
+SYS		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee ID ki book issue chesenu		ASSERT		NULL		TASK3
+SYS		meeru velli teeskovachu		OO		NULL		TASK3
+SYS		inka emaina kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Eppati ki return cheyali		INFO_REQUEST_WH		ANSWER_DESC		TASK5
+SYS		Oka 7 days lo return cheyali		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		No,		ASSERT		ANSWER_NEG		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		See you again.		GREETING_EOC		ACK		CM
+USER		Bye		GREETING_EOC		ACK		CM
+SYS		Hi I am Li.b.ot, your Library Assistant		GREETING		NULL		CM
+SYS		meeku ela help cheya galanu ?		OFFER		NULL		TASK0
+USER		Hello		GREETING		ACK		CM
+USER		linear algebra books section ekada undi?		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Linear Algebra books meeku section 3.2 lo dorukutundi		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku aa book kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		Naaku linear algebra by Russel norvig third edition kavali.		ASSERT		ANSWER_DESC		TASK1
+SYS		Sorry, aa book ledhu.		ASSERT		ACK		TASK1
+SYS		Vere book emaina kavala ?		INFO_REQUEST_YN		NULL		TASK1
+USER		It's okay		ASSERT		ACK		TASK1
+USER		Introduction to Linear Algebra by Gilbert Strang Dorukutada?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		yes, that book is available.		ASSERT		ANSWER_POS		TASK1
+SYS		mee ID ki issue cheyala ?		INFO_REQUEST_YN		ACK		TASK3
+USER		Yes please		ACTION_DIR		ANSWER_POS		TASK3
+SYS		mee ID number istara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		201501138		ASSERT		ANSWER_DESC		TASK3
+SYS		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		mee ID ki book issue chesenu		ASSERT		NULL		TASK3
+SYS		meeru velli tesukovachu.		OO		NULL		TASK3
+SYS		Can I assist you with something else ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Prastuthaniki inkem voddu		ASSERT		ANSWER_NEG		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		okay, Bye		GREETING_EOC		ACK		CM
+USER		Bye		GREETING_EOC		ACK		CM
+SYS		Hey, Myself Libot.		GREETING		NULL		CM
+SYS		How may I help you?		OFFER		NULL		TASK0
+USER		Hi, I am madhur.		GREETING		ACK		CM
+USER		Naaku library related konni questions unnayi		ASSERT		ACCEPT		TASK2
+SYS		sare.		NULL		ACK		CM
+SYS		Mee questions enti ?		INFO_REQUEST_WH		ACK		TASK2
+USER		Library timings enti ?		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		Monday to Saturday		 10		00 AM to 12		00 AM		ASSERT		ANSWER_DESC		TASK2
+SYS		Sunday		 10		00AM to 5		00 PM		ASSERT		ANSWER_DESC		TASK2
+SYS		inka emaina doubts unnaya?		INFO_REQUEST_YN		NULL		TASK0
+USER		Library lo computers unnaya ?		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		4 computers unnayi.		ASSERT		ANSWER_DESC		TASK2
+SYS		inka emaina doubts unte adagandi.		OFFER		NULL		TASK0
+USER		Oka computer ni munde reserve chesukovacha ?		INFO_REQUEST_YN		ACCEPT		TASK6
+SYS		Reserve cheskovatam kudaradu.		ASSERT		ANSWER_NEG		TASK6
+SYS		Personal system vadachu.		ASSERT		ANSWER_DESC		TASK6
+USER		Ok.		NULL		ACK		CM
+USER		Library lo wifi facility unda ?		INFO_REQUEST_YN		NULL		TASK2
+SYS		Library lo Wi-Fi facility undi.		ASSERT		ANSWER_POS		TASK2
+SYS		inka emaina questions unnaya?		INFO_REQUEST_YN		NULL		TASK0
+USER		Psycology related books unaya ?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		unnayi.		ASSERT		ANSWER_POS		TASK1
+SYS		meeku ye book kavali?		INFO_REQUEST_WH		ACK		TASK1
+USER		Psycology books tarvata tesskuntanu		ASSERT		MAYBE		TASK1
+SYS		sare.		NULL		ACK		CM
+SYS		inka emaina help kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Novels untaya ?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		novels unnayi.		ASSERT		ANSWER_POS		TASK1
+SYS		meeku A novel kavali?		INFO_REQUEST_WH		ACK		TASK1
+USER		Not a penny more, Not a penny less		ASSERT		ANSWER_DESC		TASK1
+USER		Telugu translation unda ?		INFO_REQUEST_YN		NULL		TASK1
+SYS		undi.		ASSERT		ANSWER_POS		TASK1
+USER		Ekkada undi?		INFO_REQUEST_WH		NULL		TASK1
+SYS		Rack number 5-2 lo untundi.		ASSERT		ANSWER_DESC		TASK1
+SYS		inka emaina help kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledu,		ASSERT		ANSWER_NEG		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Bye, Have a good day.		GREETING_EOC		ACK		CM
+USER		bye		GREETING_EOC		ACK		CM
+SYS		Hi, nenu library assistant ni		GREETING		NULL		CM
+SYS		miku emaina help kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Hi		GREETING		ACK		CM
+USER		library membership gurinchi details emaina cheputara		INFO_REQUEST_YN		ANSWER_DESC		TASK7
+SYS		Library Membership kosam two passport size photographs kavali, Registration fee 200, every year renewal kosam 100 pay cheyali		ASSERT		ANSWER_DESC		TASK7
+SYS		Meeru membership teeskundam anukuntunnara ?		INFO_REQUEST_YN		ACK		TASK7
+USER		Avunu, kaani membership benefits emiti ?		INFO_REQUEST_WH		HOLD		TASK7
+SYS		Meeru Member avvakapothe library lone books chadavali		ASSERT		ANSWER_DESC		TASK7
+SYS		Okavela member aithe meeru books ni intiki teesukuvellochu		ASSERT		ANSWER_DESC		TASK7
+SYS		meeku membership kavala?		INFO_REQUEST_YN		NULL		TASK7
+USER		Haan, before that library lo wifi unda ?		INFO_REQUEST_YN		HOLD		TASK2
+SYS		Yes, library lo wifi undi		ASSERT		ANSWER_POS		TASK2
+SYS		Inka emaina adagalanukuntunnara?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ok,		NULL		ACK		CM
+USER		inka library timmings enti ?		INFO_REQUEST_WH		ANSWER_DESC		TASK2
+SYS		Library Morning 9 to Evening 5 , and Sundays holiday		ASSERT		ANSWER_DESC		TASK2
+SYS		Inka emaina doubts unte adagachu		OFFER		NULL		TASK0
+USER		Ok,		NULL		ACK		TASK0
+USER		books overdue ayithe fine entha ?		INFO_REQUEST_WH		ACCEPT		TASK5
+SYS		per day 10rs fine kattali		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka emaina info kavala		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu,		ASSERT		ANSWER_NEG		TASK0
+USER		thank you.		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Bye		GREETING_EOC		NULL		CM
+SYS		Bye , Have a nice day		GREETING_EOC		ACK		CM
+SYS		Hi am Harsha, your library assistant,		GREETING		NULL		CM
+SYS		Meeku ela help cheyagalanu ?		OFFER		NULL		TASK0
+USER		Naaku konni books kaavali		ASSERT		ACCEPT		TASK1
+SYS		Em books kavali meeku ?		INFO_REQUEST_WH		ACK		TASK1
+USER		Harry Potter and the half blood prince		ASSERT		ANSWER_DESC		TASK1
+SYS		aa book library lo undi.		ASSERT		ACK		TASK1
+SYS		Issue cheyamantara ?		INFO_REQUEST_YN		ACK		TASK3
+USER		Issue cheyoddu!		ASSERT		ANSWER_NEG		TASK3
+USER		aa book library lo ekkada undi ?		INFO_REQUEST_WH		NULL		TASK1
+SYS		Okay, A book section 3-2 lo undi		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Naaku  "Speech and Language Processing by Jurafsky Martin" 7th edition kavali		ASSERT		ANSWER_DESC		TASK1
+SYS		Sorry, library lo only 5th edition a undi		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku adhi kavala ?		INFO_REQUEST_YN		ACK		TASK1
+USER		Parledhu kaavali.		ASSERT		ANSWER_POS		TASK1
+USER		Only reference copies ye unnaya ?		INFO_REQUEST_YN		NULL		TASK1
+USER		Ledhante intiki kooda theeskellacha		INFO_REQUEST_YN		NULL		TASK1
+SYS		A book vi total 5 copies unnayi, 2 reference copies and methavi meeru intiki kuda teesukoni velachu.		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku aa book kavala ?		INFO_REQUEST_YN		ACK		TASK1
+USER		Aa 3 copies ippudu available ye na?		INFO_REQUEST_YN		HOLD		TASK1
+SYS		Only 1 copy available		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku kavala ?		INFO_REQUEST_YN		ACK		TASK1
+USER		Kaavali		ASSERT		ANSWER_POS		TASK1
+SYS		aithe issue cheyamantara ?		INFO_REQUEST_YN		ACK		TASK3
+USER		Cheseyandi		ACTION_DIR		ANSWER_POS		TASK3
+SYS		Mee library ID number cheputara ?		INFO_REQUEST_YN		HOLD		TASK3
+USER		201401027		ASSERT		ANSWER_DESC		TASK3
+SYS		Okay, book mee ID ki issue ayindi		ASSERT		ACK		TASK3
+SYS		Meeru velli teeskovachu		OO		NULL		TASK3
+SYS		Inka emaina queries unnaaya		INFO_REQUEST_YN		NULL		TASK0
+USER		Yenni rojullo return cheyyali?		INFO_REQUEST_YN		ANSWER_DESC		TASK5
+SYS		1 week lo return cheyali		ASSERT		ANSWER_DESC		TASK5
+SYS		Inka emaina queries unnaya		INFO_REQUEST_YN		NULL		TASK0
+USER		Ledhu,		ASSERT		ANSWER_NEG		TASK0
+USER		thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		Okay, bye		GREETING_EOC		ACK		CM
+SYS		Hi, I am Akshhay, your library assistant		GREETING		NULL		CM
+SYS		Meeku ela help cheyagalanu		OFFER		NULL		TASK0
+USER		Top 5 books starting with H chubinchu		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Here Lies Arthur		ASSERT		ANSWER_DESC		TASK1
+SYS		Heroes of Olympus		ASSERT		ANSWER_DESC		TASK1
+SYS		Hatter's Castle		ASSERT		ANSWER_DESC		TASK1
+SYS		Hiding Out		ASSERT		ANSWER_DESC		TASK1
+SYS		His Banner Over Me		ASSERT		ANSWER_DESC		TASK1
+SYS		Meeku ee books lo emaina kavala ?		INFO_REQUEST_YN		ACK		TASK1
+USER		Nalugo book kavali		ASSERT		ANSWER_DESC		TASK1
+SYS		Okay,		NULL		ACK		TASK1
+SYS		Hiding Out issue cheyamantara ?		INFO_REQUEST_YN		ACK		TASK3
+USER		yes		ASSERT		ANSWER_POS		TASK3
+SYS		mee ID number enti ?		INFO_REQUEST_WH		HOLD		TASK3
+USER		201402029		ASSERT		ANSWER_DESC		TASK3
+SYS		Meeku "Hiding Out" issue ayipoyindi.		ASSERT		ACK		TASK3
+SYS		inka emaina questions unte adagandi.		OFFER		NULL		TASK0
+USER		Ok,		NULL		ACK		CM
+USER		Prasthutaniki levu		ASSERT		REJECT		TASK0
+SYS		okay, Bye		GREETING_EOC		ACK		CM
+USER		bye		GREETING_EOC		ACK		CM
+SYS		Hi I am your library assistant		GREETING		NULL		CM
+SYS		Meeku emaina help kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Avunu,		ASSERT		ANSWER_POS		TASK0
+USER		konni pusthakalu unnayi naa deggara.		ASSERT		NULL		TASK8
+USER		Donate cheddam anukuntunna.		COMMIT		NULL		TASK8
+USER		Ela cheyyali?		INFO_REQUEST_WH		NULL		TASK8
+SYS		Meeru oka form fill chesi, books vadeliachu		OO		ANSWER_DESC		TASK8
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Okay,		NULL		ACK		CM
+USER		aa form evari deggara teesukovali?		INFO_REQUEST_WH		ANSWER_DESC		TASK8
+SYS		It is an online form		ASSERT		ANSWER_DESC		TASK8
+SYS		Meeku link pamapala ?		INFO_REQUEST_YN		ACK		TASK8
+USER		Haan pampeeyandi.		ACTION_DIR		ANSWER_POS		TASK8
+SYS		Okay		NULL		ACK		CM
+SYS		Mee email ID enti ?		INFO_REQUEST_WH		HOLD		TASK8
+USER		ac_df123@gmail.com		ASSERT		ANSWER_DESC		TASK8
+SYS		Okay		NULL		ACK		CM
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Meeru book rentals chestara?		INFO_REQUEST_YN		ANSWER_DESC		TASK3
+SYS		Chestam		ASSERT		ANSWER_POS		TASK3
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Avunu.		ASSERT		ANSWER_POS		TASK0
+USER		Home delivery chestara?		INFO_REQUEST_YN		NULL		TASK8
+SYS		Sorry cheyamu		ASSERT		ANSWER_NEG		TASK8
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Mee deggara private reading rooms unnaya?		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Yes, library lo cubicles unnayi		ASSERT		ANSWER_POS		TASK2
+SYS		Inka emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Levu.		ASSERT		ANSWER_NEG		TASK0
+USER		bye		GREETING_EOC		NULL		CM
+SYS		bye		GREETING_EOC		ACK		CM
+SYS		Hi I am your library assistant		GREETING		NULL		CM
+SYS		Meeku ela help cheyagalanu ?		OFFER		NULL		TASK0
+USER		Nenu konni books borrow cheddam ankuntunna		ASSERT		ACCEPT		TASK3
+USER		Steps em em cheyali		INFO_REQUEST_WH		NULL		TASK3
+SYS		Okay,		NULL		ACK		CM
+SYS		meeru first membership teeskovali		ASSERT		ANSWER_DESC		TASK3
+SYS		Inka emaina doubts unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Ok.		NULL		ACK		CM
+USER		Library lo edaina tinacha??		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan, tinadaniki area reserve chesemu		ASSERT		ANSWER_DESC		TASK2
+SYS		Inka emaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Books donate cheyacha		INFO_REQUEST_YN		ANSWER_DESC		TASK8
+SYS		cheyachu		OO		ANSWER_POS		TASK8
+SYS		Inkemaina queries unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Mi dantlo kids section unda?		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan, Undi		ASSERT		ANSWER_POS		TASK2
+SYS		Inka emaina queries unte adagachu		OFFER		NULL		TASK0
+USER		nenu ekkada politics, economic sastram,medical,violence, dhyanam gurinchi chadavachu		INFO_REQUEST_WH		ACCEPT		TASK1
+SYS		Ee categories ki sambandinchina books sections 3-6 lo untayi		ASSERT		ANSWER_DESC		TASK1
+SYS		Inka emaina doubts unnaya ?		INFO_REQUEST_YN		NULL		TASK0
+USER		Mi library lo video, gani audio library unda?		INFO_REQUEST_YN		ANSWER_DESC		TASK2
+SYS		Haan unnayi		ASSERT		ANSWER_POS		TASK2
+SYS		Inka emaina information kavala ?		INFO_REQUEST_YN		NULL		TASK0
+USER		No		ASSERT		ANSWER_NEG		TASK0
+USER		thank you		GREETING_EOC		ACK		CM
+SYS		Okay, bye, have a good day		GREETING_EOC		ACK		CM
+SYS		Hi nenu Asklib		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		Hello		GREETING		ACK		CM
+USER		Distributed systems book by Ajay Kshemakalyani ekkadundo cheppagalara ?		INFO_REQUEST_WH		NULL		TASK1
+SYS		naaku telisinantha varaku aa book library lo ledu		ASSERT		ANSWER_DESC		TASK1
+USER		Okay		NULL		ACK		CM
+SYS		inkemaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Can you suggest another good distributed systems book?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		distributed algorithm by nancy, lynch		ASSERT		ANSWER_DESC		TASK1
+USER		Ok		NULL		ACK		CM
+USER		thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+USER		Where is it?		INFO_REQUEST_WH		ACK		TASK1
+SYS		004.36 L89D		ASSERT		ANSWER_DESC		TASK1
+USER		Cool		NULL		ACK		CM
+SYS		oka reference and 3 student copies unnai		ASSERT		NULL		TASK1
+USER		Okay		NULL		ACK		CM
+SYS		inkemaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		Distributed systems by ksheemakalyani teppinchagalara ?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+USER		It's a course prescribed book		ASSERT		ANSWER_DESC		TASK1
+SYS		ha request pedathaamu mee peru paina		COMMIT		ANSWER_DESC		TASK1
+USER		Ok		NULL		ACK		CM
+USER		Thanks		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		inka emaina information kavala		INFO_REQUEST_YN		NULL		TASK0
+USER		No.		ASSERT		ANSWER_NEG		TASK0
+USER		Thank you		EXPLICIT_PERFORMATIVE		NULL		CM
+SYS		thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli kaluddaam		GREETING_EOC		NULL		CM
+USER		Okay		NULL		ACK		CM
+USER		bye		GREETING_EOC		ACK		CM
+SYS		Hi I am Asklib.		GREETING		NULL		CM
+SYS		ela unnavu?		GREETING		NULL		CM
+SYS		nenu mee library assistant ni.		ASSERT		NULL		CM
+USER		hi		GREETING		ACK		CM
+USER		bhaaney unna		GREETING		ACK		CM
+SYS		mee peru telsukovacha		GREETING		NULL		CM
+USER		nagendra		GREETING		ACK		CM
+SYS		naatho matladatam ide first time aa?		INFO_REQUEST_YN		NULL		OTHER
+USER		ha avunu		ASSERT		ANSWER_POS		OTHER
+SYS		Meeku library related questions evaina unte nannu adagochu.		OFFER		NULL		TASK0
+USER		mee deggara bhagavadgita undha		INFO_REQUEST_YN		ACCEPT		TASK1
+SYS		ha undi		ASSERT		ANSWER_POS		TASK1
+SYS		e language lo kavali		INFO_REQUEST_WH		ACK		TASK1
+USER		telugu lo kavali		ASSERT		ANSWER_DESC		TASK1
+SYS		telugu lo kooda undi		ASSERT		ACK		TASK1
+SYS		issue cheyamantara		INFO_REQUEST_YN		ACK		TASK3
+USER		enni rojulalo thirigi icheyali antaru?		INFO_REQUEST_YN		HOLD		TASK5
+SYS		15 days lo return cheyali		ASSERT		ANSWER_DESC		TASK5
+SYS		or reissue cheyinchukovachu		OO		ANSWER_DESC		TASK4
+USER		reissue tarvatha inkoka 15 days isthara?		INFO_REQUEST_YN		ACK		TASK4
+SYS		haa istamu.		ASSERT		ANSWER_POS		TASK4
+USER		aithe bhagvadgita issue cheseyandi		ACTION_DIR		ACK		TASK3
+SYS		Inka edaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		and mee deggara emayina kotha comics unnaya?		INFO_REQUEST_YN		ANSWER_DESC		TASK1
+SYS		ha avi prathi month osthu untai		ASSERT		ANSWER_DESC		TASK1
+USER		TINKLE unte issue cheyandi please		ACTION_DIR		ACK		TASK3
+SYS		TINKLE undi kani issue cheyadam kudaradu.		ASSERT		REJECT		TASK3
+SYS		Library lone chadavali		ASSERT		ACK		TASK3
+USER		oooh..		NULL		ACK		CM
+USER		ayithey aa okka book issue cheyyandi chaalu		ACTION_DIR		ACK		TASK3
+SYS		ok.		NULL		ACK		CM
+SYS		Inka edaina information kavala?		INFO_REQUEST_YN		NULL		TASK0
+USER		ledhu		ASSERT		ANSWER_NEG		TASK0
+SYS		okay		NULL		ACK		CM
+SYS		thank you		EXPLICIT_PERFORMATIVE		ACK		CM
+SYS		malli kaluddaam		GREETING_EOC		NULL		CM
+USER		ha thappakunda		COMMIT		ACK		CM
+USER		Thank You		GREETING_EOC		ACK		CM
